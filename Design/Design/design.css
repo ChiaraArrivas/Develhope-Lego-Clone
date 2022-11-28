@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Cera Pro';
+    src: url('https://assets.lego.com/fonts/v3/cera-pro/CeraPro-Bold.woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Cera Pro';
+    src: url('https://assets.lego.com/fonts/v3/cera-pro/CeraPro-Medium.woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Cera Pro';
+    src: url('https://assets.lego.com/fonts/v3/cera-pro/CeraPro-Regular.woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+html, * {
+    font-family: 'cera pro', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(0,0,0);
+    color: white;
+    padding: 1rem;
+}
+
+button {
+    margin: 6px 2px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.typo {
+    margin-bottom: 20px;
+}
+
+.title {
+
+    font-size: 2rem;
+}
+
+.a-bold {
+    opacity: 0.6;
+    font-weight: 500;
+}
+
+.a-light {
+    opacity: 0.6;
+}
+
+.background {
+    margin-top: 20px;
+    color: black;
+    width: 350px;
+    height: 220px;
+    background-color: rgb(168, 168, 168);
+    border-radius: 4px;
+    border: 1px solid white;
+    box-shadow: 5px 8px white;
+    padding: 10px;
+}
+
+img {
+    color: white;
+    padding: 3px;
+}
+
+.btn-area-giochi {
+background-color: #abdaff;
+    border: none;
+    border-radius: 3px;
+    height: 25px;
+    width: 120px;
+    transition: all .15S;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.btn-area-giochi img {
+rotate: 180deg;
+margin-right: 8px;
+}
+
+.btn-area-giochi:hover {
+    background-color: white;
+    box-shadow: 0 0 5px 3px #abdbff88;
+    cursor: pointer;
+}
+
+.f-s-vip {
+    height: 34px;
+    width: 190px;
+    border-radius: 3px;
+    padding: 0;
+    border: none;
+    color: #d01d1d;
+    background-color: white;
+    font-size: 1rem;
+    transition: all 0.15s;
+}
+
+.f-s-vip:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.btn-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.search-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    border: none;
+    min-height: 40px;
+    min-width: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.white-btn {
+    display: flex;
+    align-items: center;
+    padding: 0.65rem 1.3rem;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all .15s;
+}
+
+.white-btn svg {
+    margin-left: 1rem;
+    padding-left: 0;
+}
+
+.white-btn:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.yellow-btn {
+    padding: 4.5px 9.5px;
+    background-color: #ffcf03;
+    border: none;
+    font-size: 0.75rem;
+}
+
+.add-cart-btn {
+    background-color: #fd8123;
+    padding: 1.08rem 0.93rem;
+    border: 2px solid #fd8123;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.15s;
+}
+
+.add-cart-btn:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.position {
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    padding: 7px 0.75rem;
+    background-color: #18152c;
+}
