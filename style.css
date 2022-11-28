@@ -563,5 +563,8 @@ li:hover {
     display: none;
   }
 }
+.card:hover .text-body {
+  text-decoration: underline !important;
+}
 
 /*# sourceMappingURL=style.css.map */
