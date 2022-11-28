@@ -197,3 +197,17 @@ margin-right: 8px;
     padding: 7px 0.75rem;
     background-color: #18152c;
 }
+
+.fullscreen {
+    padding: 1rem;
+    width: 90vw;
+    height: fit-content;
+    margin: 3rem auto;
+}
+
+.fs-7 {
+    font-size: 0.875rem;
+}
+.card {
+    min-width: 275px !important;
+}
