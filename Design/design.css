@@ -22,6 +22,10 @@
     font-display: swap;
   }
 
+  .bg-primary {
+    background-color: #fecf03 !important;
+}
+
 html, * {
     font-family: 'cera pro', sans-serif;
     margin: 0;
@@ -200,7 +204,6 @@ margin-right: 8px;
 
 .fullscreen {
     padding: 1rem;
-    width: 90vw;
     height: fit-content;
     margin: 3rem auto;
 }
