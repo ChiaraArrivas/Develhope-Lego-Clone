@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('https://assets.lego.com/fonts/v3/cera-pro/CeraPro-Bold.woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('https://assets.lego.com/fonts/v3/cera-pro/CeraPro-Medium.woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('https://assets.lego.com/fonts/v3/cera-pro/CeraPro-Regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans SC';
+  src: url('https://assets.lego.com/fonts/v3/noto-sans/NotoSansSC-Bold.woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans SC';
+  src: url('https://assets.lego.com/fonts/v3/noto-sans/NotoSansSC-Medium.woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans SC';
+  src: url('https://assets.lego.com/fonts/v3/noto-sans/NotoSansSC-Regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('https://assets.lego.com/fonts/v3/noto-sans/NotoSansJP-Bold.woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('https://assets.lego.com/fonts/v3/noto-sans/NotoSansJP-Medium.woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans JP';
+  src: url('https://assets.lego.com/fonts/v3/noto-sans/NotoSansJP-Regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('https://assets.lego.com/fonts/v3/noto-sans/NotoSansKR-Bold.woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('https://assets.lego.com/fonts/v3/noto-sans/NotoSansKR-Medium.woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans KR';
+  src: url('https://assets.lego.com/fonts/v3/noto-sans/NotoSansKR-Regular.woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
