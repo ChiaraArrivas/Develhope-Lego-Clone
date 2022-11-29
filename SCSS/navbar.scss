@@ -4,9 +4,11 @@
     margin: auto;
 
     .custom-card {
-        .custom-links {
-            .custom-link {
-                
+        .links:hover {
+            .custom-link:hover {
+                text-decoration: underline !important;
+                text-underline-offset: 0.2rem !important;
+                text-decoration-thickness: 2px !important;
             }  
         }
     }
