@@ -1,0 +1,28 @@
+.set-in-evidenza ::-webkit-scrollbar {
+    width: 0;
+    height: 5px;
+    transition: all 0.2s;
+    display: block;
+    background-color: white;
+        cursor: pointer;
+    
+}
+
+.set-in-evidenza ::-webkit-scrollbar-track {
+    background-color: #d9d9d9;
+    border-radius: 0;
+    margin: 0 10vw;
+}
+
+.set-in-evidenza ::-webkit-scrollbar-thumb {
+    background-color: #717171;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+
+@media (max-width:1200px) {
+    .set-in-evidenza ::-webkit-scrollbar-track {
+        margin: 0 20px;
+    }
+}

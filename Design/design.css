@@ -219,10 +219,39 @@ img {
 }
 
 .custom-position {
-    bottom: 0;
-    left: 5px;
+    bottom: 10px;
+    left: 10px;
 }
 .card {
     min-width: 220px !important;
     height: fit-content !important;
+}
+
+.rotate-180 {
+    rotate: 180deg;
+}
+
+.carousel-btn {
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    border: 1px solid lightgrey;
+    z-index: 1;
+}
+
+@media (max-width:1400px) {
+    .me-xl-n1 {
+        margin-right: -10rem !important;
+    }
+    .ms-xl-n1 {
+        margin-left: -10rem !important;
+    }
+}
+
+.container-xxxl {
+    max-width: 1460px;
+    margin: auto;
+}
+
+.my-ratio {
+    aspect-ratio: 1/1;
 }
