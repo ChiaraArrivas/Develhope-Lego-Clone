@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Cera Pro';
     src: url('https://assets.lego.com/fonts/v3/cera-pro/CeraPro-Bold.woff2');
-    font-weight: bolder;
-    font-display: swap;
+    font-weight: 700;
+    font-display: bolder;
 }
 
 @font-face {
@@ -22,6 +22,7 @@
   .bg-warning {
     background-color: #fecf03 !important;
 }
+
 
 html,
 * {
