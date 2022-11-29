@@ -22,7 +22,7 @@
     font-display: swap;
   }
 
-  .bg-primary {
+  .bg-warning {
     background-color: #fecf03 !important;
 }
 
@@ -210,19 +210,20 @@ margin-right: 8px;
 }
 
 .fs-7 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
 }
 .card {
-    min-width: 275px !important;
+    min-width: 250px !important;
     max-width: 400px !important;
+    height: fit-content !important;
 
 }
 
 .custom-card-1 img {
-    transition: all 0.3s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 .custom-card-1:hover img {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .custom-position {
