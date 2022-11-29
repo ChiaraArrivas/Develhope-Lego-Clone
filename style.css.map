@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["modules.scss","SCSS/navbar.scss","SCSS/spdf.scss"],"names":[],"mappings":"AAAQ;ACAR;EACI;EACA;EACA;;;ACFA;EACI;;;AAGR;EACI;EACA;EACA","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["modules.scss","SCSS/navbar.scss","SCSS/spdf.scss"],"names":[],"mappings":"AAAQ;ACAR;EACI;EACA;EACA;;;ACFA;EACI;;;AAIR;EACI","file":"style.css"}

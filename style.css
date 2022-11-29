@@ -9,10 +9,8 @@
   text-decoration: underline !important;
 }
 
-.card {
-  min-width: 250px !important;
-  max-width: 400px !important;
-  height: fit-content !important;
+.vw-12 {
+  width: 500px !important;
 }
 
 /*# sourceMappingURL=style.css.map */

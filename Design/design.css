@@ -1,24 +1,21 @@
 @font-face {
     font-family: 'Cera Pro';
     src: url('https://assets.lego.com/fonts/v3/cera-pro/CeraPro-Bold.woff2');
-    font-weight: 700;
-    font-style: normal;
+    font-weight: bolder;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Cera Pro';
     src: url('https://assets.lego.com/fonts/v3/cera-pro/CeraPro-Medium.woff2');
-    font-weight: 500;
-    font-style: normal;
+    font-weight: bold;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Cera Pro';
     src: url('https://assets.lego.com/fonts/v3/cera-pro/CeraPro-Regular.woff2');
-    font-weight: 400;
-    font-style: normal;
+    font-weight: normal;
     font-display: swap;
 }
 
@@ -214,7 +211,6 @@ img {
 }
 
 .card {
-    min-width: 250px !important;
-    max-width: 400px !important;
+    min-width: 220px !important;
     height: fit-content !important;
 }
