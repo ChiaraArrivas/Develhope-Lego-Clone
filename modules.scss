@@ -1,5 +1,6 @@
 @import "./Design/design.css";
 @import "./SCSS/navbar.scss";
+@import "./SCSS/spdf.scss";
 
 .customContainer{
     max-width: 100rem !important;
@@ -72,7 +73,5 @@
     gap: 12px;
 }
 
-.robatop{
-    display: flex !important;
-}
+
 
