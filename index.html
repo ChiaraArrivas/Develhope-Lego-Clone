@@ -9,14 +9,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./modules.css">
 
     <title>Lego</title>
 </head>
 
 <body>
-    <div class="container customContainer">
+    <div class="container px-4 customContainer">
         <div class="row">
-            <div class="col py-4 border-bottom d-flex gap-3">
+            <div class="col py-4 border-bottom d-flex gap-3 custom-detail-link">
                 <!--product-detail-links-->
                 <a href="#">Home</a>
                 <span> > </span>
@@ -28,49 +29,263 @@
         <!--fine product-detail-links-->
 
         <div class="row">
-            <div class="col-8 border-end py-3">
+            <div class="col-8 border-end pt-
+            ">
                 <!--product-carousel-and-img-container-->
                 <div class="row">
-                    <div class="col-1">
-                        <ul>
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                            <li>5</li>
-                            <li>6</li>
-                            <li>7</li>
-                            </ol>
+                    <div class="col-1 d-flex flex-column align-items-center">
+                        <button class="btn-arrow btn-arrow-up">
+                            <svg width="13" height="28" viewBox="4 0 18 28" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                            </svg>
+                        </button>
+                        <div class="flex-column d-flex product-detail-page-carousel-img-container">
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk  1.png" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 2.png" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 3.png" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 4.png" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 5.png" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 6.png" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 7.png" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 8.jpeg" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 9.jpeg" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 10.webp" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 11.jpeg" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 12.png" alt="">
+                            </div>
+                            <div class="carousel-img-container">
+                                <img src="./assets/imgs/hulk 13.png" alt="">
+                            </div>
+                        </div>
+                        <button class="btn-arrow btn-arrow-down">
+                            <svg width="13" height="28" viewBox="4 0 18 28" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                            </svg>
+                        </button>
                     </div>
-                    <div class="col-7 mx-auto">
+                    <div class="col-7 mx-auto pb-5 pt-3" >
                         <figure class="figure">
-                            <img class="img-fluid" src="./asset/gallery hulk 1.webp" alt="">
+                            <img width="110%" src="./assets/imgs/hulk  1.png" alt="">
                         </figure>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row ">
                     <!--product-detail-container-->
-                    <div class="col">1</div>
-                    <div class="col">2</div>
-                    <div class="col">3</div>
-                    <div class="col">4</div>
-                    <div class="col">5</div>
-                    <div class="col">6</div>
+                    <div class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="40" viewBox="0 0 34 40"
+                            aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                            <g fill="currentColor" style="mix-blend-mode: darken;">
+                                <path
+                                    d="M32.606 29.532c.319 0 .576.127.576.282v.585c0 .155-.257.281-.576.281H.895c-.32 0-.578-.126-.578-.281v-.585c0-.155.258-.282.578-.282h31.71zM15.737 14.597c.071 0 .129.126.129.281v.585c0 .155-.058.281-.13.281H8.63c-.072 0-.13-.126-.13-.281v-.585c0-.155.058-.281.13-.281h7.107zm9.713 0c.072 0 .13.126.13.281v.585c0 .155-.058.281-.13.281h-7.106c-.072 0-.13-.126-.13-.281v-.585c0-.155.058-.281.13-.281h7.107z" />
+                                <path
+                                    d="M1.821 21.572H32.18v16.606H1.82V21.572zM1.195 20A1.19 1.19 0 000 21.186v17.592a1.19 1.19 0 001.195 1.186h31.54a1.19 1.19 0 001.193-1.186V21.186A1.19 1.19 0 0032.734 20H1.195zM7.856 8.485c-.79.11-1.183.505-1.177 1.186v3.741c.342.047 1.524.09 1.524 1.559V9.885H25.9v3.874c.291-1.068.765-1.132 1.421-.193V9.671c0-.655-.527-1.186-1.177-1.186H7.856z" />
+                                <path
+                                    d="M7.34 18.919c-1.64 0-1.634-.814-1.634-1.042 0-1.052 1.071-3.36 1.614-3.48.593.12 1.665 2.428 1.666 3.48 0 .23-.005 1.042-1.646 1.042M7.3 12.12c-1.028.214-3.05 4.31-3.05 6.18 0 .403-.008 1.847 3.085 1.847 3.097 0 3.106-1.441 3.106-1.847-.004-1.869-2.025-5.968-3.142-6.178m9.66 6.797c-1.64 0-1.635-.814-1.635-1.042 0-1.052 1.072-3.36 1.615-3.48.593.12 1.664 2.428 1.666 3.48 0 .23-.005 1.042-1.646 1.042m-.042-6.798c-1.026.213-3.048 4.309-3.048 6.178 0 .403-.008 1.847 3.085 1.847 3.096 0 3.105-1.441 3.105-1.847-.004-1.869-2.025-5.968-3.142-6.178m9.729 6.798c-1.64 0-1.634-.814-1.634-1.042 0-1.052 1.072-3.36 1.614-3.48.593.12 1.665 2.428 1.667 3.48 0 .23-.005 1.042-1.647 1.042m-.041-6.798c-1.025.213-3.048 4.309-3.048 6.178 0 .403-.009 1.847 3.084 1.847 3.097 0 3.105-1.441 3.105-1.847-.002-1.869-2.024-5.968-3.141-6.178m-9.646-4.596c-1.64 0-1.635-.814-1.635-1.041 0-1.053 1.072-3.36 1.615-3.482.593.12 1.664 2.429 1.666 3.482 0 .228-.005 1.04-1.646 1.04M16.917.728C15.891.94 13.87 5.036 13.87 6.905c0 .404-.008 1.847 3.085 1.847 3.096 0 3.105-1.441 3.105-1.847-.004-1.869-2.025-5.968-3.142-6.178" />
+                            </g>
+                        </svg>
+                        <span>18+</span>
+                        <p>Età</p>
+                    </div>
+                    <div class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="33" height="40" viewBox="0 0 33 40"
+                            aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                            <g fill-rule="nonzero" stroke="currentColor" fill="none" style="mix-blend-mode: darken;">
+                                <path stroke-width="1.727" fill="#FFF"
+                                    d="M1.184 9.433l15.224-7.281 15.59 7.194V30.49L17.418 39 1.184 30.577z" />
+                                <path
+                                    d="M23.23 3.544C22.864 2.141 19.925 1 16.526 1c-3.675 0-6.798 1.228-6.89 2.895 0 0 .184 4.124.184 4.211 0 2.018 3.307 3.422 6.798 3.422 3.582 0 6.797-1.404 6.797-3.422v-3.07s.184-.965-.183-1.492z"
+                                    stroke-width="1.152" fill="#FFF" />
+                                <path
+                                    d="M10.094 4.334c.092-1.58 2.94-2.895 6.43-2.895 3.491 0 6.34 1.316 6.431 2.895.092 1.667-2.756 2.983-6.43 2.983-3.675 0-6.523-1.404-6.43-2.983h0z"
+                                    stroke-width="1.152" />
+                                <path stroke-width="1.727" d="M2 10l15 7.222V39M17 17l14.63-7.122" />
+                            </g>
+                        </svg>
+                        <span>4049</span>
+                        <p>Pezzi</p>
+                    </div>
+                    <div class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="25" viewBox="0 0 37 25"
+                            class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX" aria-label="VIP">
+                            <path
+                                d="M26.333 8.837L20.338 1h-3.669l-5.995 7.837L4.608 3.95H1v18.128L2.877 24l31.25-.03L36 22.048V3.95h-3.627l-6.04 4.888z"
+                                stroke="currentColor" stroke-width="2" fill="none" />
+                        </svg>
+                        <div id="vip-point-info">
+                            <span>4125</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-info-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                            </svg>
+                        </div>
+                        <p>Punti VIP</p>
+                    </div>
+                    <div class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" aria-hidden="true"
+                            viewBox="0 0 36 36" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                            <path
+                                d="M13.81 12.333l-2.833 11.334h11.216l2.834-11.334H13.81zm.945-3.777H25.97l1.53-6.124a1.89 1.89 0 013.668.914l-1.303 5.21h3.245c1.047 0 1.889.846 1.889 1.889a1.887 1.887 0 01-1.889 1.888h-4.19l-2.833 11.334h7.023c1.047 0 1.889.846 1.889 1.888a1.887 1.887 0 01-1.889 1.89h-7.967l-1.534 6.123a1.888 1.888 0 11-3.66-.914l1.299-5.21H10.033l-1.534 6.124a1.888 1.888 0 11-3.66-.914l1.299-5.21h-3.25a1.89 1.89 0 010-3.777h4.194l2.834-11.334H2.889a1.89 1.89 0 010-3.777h7.971l1.534-6.124a1.884 1.884 0 012.285-1.375 1.883 1.883 0 011.375 2.29l-1.3 5.209z"
+                                fill="currentColor" stroke="#FFF" fill-rule="evenodd" />
+                        </svg>
+                        <span>76210</span>
+                        <p>Articolo</p>
+                    </div>
+                    <div class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="42" viewBox="0 0 28 42"
+                            aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                            <g stroke="#6F6F6F" fill="none" fill-rule="evenodd">
+                                <path
+                                    d="M24.568 23.822l-.719-3.617c-.16-.63-.245-1.226-.482-1.681-.862-1.655-3.313-4.703-3.938-4.869a1.687 1.687 0 00-.44-.052l1.91 10.85 3.669-.631z"
+                                    stroke-width="1.2" />
+                                <path
+                                    d="M26.512 27.17c-.085-1.173-1.116-2.075-2.35-2.049-1.285.035-2.341 1.068-2.308 2.338.026.937.634 1.7 1.471 1.997l-.093-.955a1.62 1.62 0 01-.49-1.016c-.06-.805.532-1.47 1.327-1.488.794-.018 1.496.622 1.547 1.436.017.263-.034.517-.144.727l.279.823a2.203 2.203 0 00.76-1.813z"
+                                    fill="#6F6F6F" stroke-width=".5" />
+                                <path
+                                    d="M2.295 23.822l.719-3.617c.16-.63.245-1.226.481-1.681.863-1.655 3.314-4.703 3.94-4.869.126-.035.278-.052.439-.052l-1.919 10.84-3.66-.621z"
+                                    stroke-width="1.2" />
+                                <path
+                                    d="M.42 27.17c.084-1.173 1.116-2.075 2.35-2.049 1.285.035 2.341 1.068 2.307 2.338-.025.937-.634 1.7-1.47 1.997L3.7 28.5a1.62 1.62 0 00.49-1.016c.059-.805-.533-1.47-1.327-1.488-.795-.018-1.496.622-1.556 1.436-.016.263.034.517.144.727l-.279.823A2.222 2.222 0 01.42 27.17z"
+                                    fill="#6F6F6F" stroke-width=".5" />
+                                <path stroke-width="1.436"
+                                    d="M12.047 27.456l-5.088-.014-.527 12.44h5.896V33.04l-.296-.56z" />
+                                <path stroke-width=".513" d="M12.81 37.318H6.04M6.25 32.289h6.265" />
+                                <g>
+                                    <path stroke-width="1.436"
+                                        d="M19.938 27.45l-5.081.014.008 5.024-.296.567v6.843h5.895z" />
+                                    <path stroke-width=".513" d="M14.383 32.298h6.263M20.866 37.36h-6.78" />
+                                </g>
+                                <path
+                                    d="M20.806 25.81l-1.31-7.876-.668-4.221c-.042-.294-.21-.54-.481-.54H8.533c-.262 0-.43.246-.482.54l-.667 4.221-1.31 7.875v1.07h14.724v-1.07h.008z"
+                                    stroke-width="1.436" />
+                                <g>
+                                    <path
+                                        d="M11.103 3.54c-.017 0 0-1.681 0-1.681a.29.29 0 01.287-.298h4.108a.29.29 0 01.288.298V3.54"
+                                        stroke-width=".851" />
+                                    <path
+                                        d="M16.411 11.965c1.057 0 1.91-.885 1.91-1.98V5.529c0-1.094-.853-1.979-1.91-1.979h-5.925c-1.057 0-1.91.885-1.91 1.98v4.457c0 1.094.853 1.979 1.91 1.979h5.925z"
+                                        stroke-width="1.436" />
+                                </g>
+                            </g>
+                        </svg>
+                        <span>1</span>
+                        <p>Minifigure</p>
+                    </div>
+                    <div class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="32" viewBox="0 0 39 32"
+                            aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                            <path
+                                d="M18.766 0l-2.77 2.96 1.106 1.022.91-.972v16.8L2.238 28.949l.387-1.269-1.447-.434L0 31.116 3.969 32l.334-1.463-1.305-.292 15.89-9.206h17.08l-.978.903 1.03 1.099L39 20.288l-2.98-2.752-1.03 1.1.979.902H19.522V3.011l.91.971 1.105-1.022z"
+                                fill="#6F6F6F" fill-rule="evenodd" />
+                        </svg>
+                        <span id="misures">
+                            H: 21" (52cm) <br>
+                            L: 19" (47cm) <br>
+                            P: 10" (24cm) <br>
+                        </span>
+                        <p>Dimensioni</p>
+                    </div>
                 </div>
                 <!--fine product-detail-container-->
 
             </div>
             <!--fine product-carousel-and-img-container-->
 
-            <div class="col-4 px-3 py-3">
+            <div class="col-4 px-3 py-3 d-flex flex-column gap-3">
                 <!--product-detail-page-cart-->
-                <div class="row">1</div>
-                <div class="row">2</div>
-                <div class="row">3</div>
-                <div class="row">4</div>
-                <div class="row">5</div>
-                <div class="row">6</div>
-                <div class="row">7</div>
+                <div class="row">
+                    <div class="col-1 d-flex gap-3">
+                        <span>Novità</span>
+                        <span>Esclusivo</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-between">
+                        <h1>Hulkbuster</h1>
+                        <img class="img-fluid" src="./assets/imgs/marvel_logo_pos_300w.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <span>549,99 €</span>
+                    <span>Disponibile ora</span>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col d-flex">
+                        <button>-</button>
+                        <input type="number">
+                        <button>+</button>
+                    </div>
+                    <div class="col">
+                        <span>limite 3</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-info-circle" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                    <path
+                                        d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                                </svg>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-between align-items-center">
+                        <button>Aggiungi al carrello</button>
+                        <svg width="35" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX"><rect fill="#F8F8F8" width="40" height="40" rx="20"/><path d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"/><path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"/></svg>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-between">
+                        <p>
+                            Avvertenza! <br>
+                            Rischio di soffocamento. <br>
+                            Piccole parti e piccola palle. <br>
+                            questo prodotto contiene una batteria a bottone.
+                          </p>
+                          <img src="./assets/imgs/safety-08ff1b3398344608cf1508144b3c2d0f.svg" alt="" width="15%">
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center border-top border-bottom p-4">
+                    <div class="col d-flex gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="26" viewBox="0 0 35 26" aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 fsHtFa"><g transform="translate(.112 1.705)" fill="none" fill-rule="evenodd"><path stroke="currentColor" stroke-width="1.5" d="M14 4.457L23.317 0l9.542 4.403v12.94l-8.925 5.208L14 17.397z"></path><path stroke="currentColor" stroke-width="1.5" d="M14.5 4.803l9.18 4.42v13.328m0-13.464l8.953-4.359"></path><rect fill="currentColor" x=".388" y="5.295" width="10.5" height="1.5" rx=".75"></rect><rect fill="currentColor" x="3.388" y="14.295" width="7.5" height="1.5" rx=".75"></rect><rect fill="currentColor" x="1.888" y="9.795" width="9" height="1.5" rx=".75"></rect></g></svg>
+                        <span>Consegne e resi</span>
+                    </div>
+                    <div class="col-1">
+                        <svg width="13" height="28" viewBox="4 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path></svg>
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center py-3 px-4">
+                    <div class="col d-flex gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" aria-hidden="true" viewBox="0 0 25 28" class="Icon__StyledSVG-sc-lm07h6-0 yPbCN"><g fill="none"><path d="M2.975 1.14c-.943 0-1.716.777-1.716 1.726v22.44c0 .949.773 1.726 1.716 1.726H22.71c.944 0 1.716-.777 1.716-1.726V2.866c0-.95-.772-1.726-1.716-1.726H2.975z" stroke="#006DB7" stroke-width="2.055" fill="#FFF"/><path d="M18.276 7.904V6.296a.121.121 0 00-.121-.122h-3.39a.121.121 0 00-.122.122v1.608h0H11.4V6.296a.121.121 0 00-.121-.122H7.91a.121.121 0 00-.12.122v1.608h0-1.342a.121.121 0 00-.121.122v7.377c0 .067.054.121.121.121H19.96a.121.121 0 00.121-.121V8.026a.121.121 0 00-.121-.122h-1.684 0z" stroke="#006DB7" stroke-width="1.37" fill="#FFF"/><path fill="#006DB7" d="M6.407 20.09H19.62v-1.363H6.407zM6.407 23.36H19.62v-1.363H6.407z"/></g></svg>
+                        <span>Istruzioni per la costruzione</span>
+                    </div>
+                    <div class="col-1">
+                        <svg width="13" height="28" viewBox="4 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"><path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path></svg>
+                    </div>
+                </div>
             </div>
             <!--fine product-detail-page-cart-->
         </div>
