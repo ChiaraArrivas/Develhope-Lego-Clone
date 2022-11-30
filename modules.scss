@@ -1,5 +1,9 @@
 @import "./Design/design.css";
 @import "./SCSS/navbar.scss";
-@import "./SCSS/spdf.scss";
+@import "./SCSS/main.scss";
+@import "./SCSS/set-preferiti-dai-fan.scss";
 @import "./SCSS/set-in-evidenza.scss";
-@import "./SCSS/main-second-part.scss";
+
+
+/* IMPORTARE GLI ALTRI SCSS PRIMA DI QUESTO */
+@import "./SCSS/utility.scss";

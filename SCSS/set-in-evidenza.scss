@@ -1,26 +1,14 @@
-.rotate-180 {
-    rotate: 180deg;
-}
-
 .carousel-btn {
-    min-height: 2.5rem;
-    min-width: 2.5rem;
+    padding: .5rem;
     border: 1px solid lightgrey;
     z-index: 1;
     transition: all 0.20s;
-}
-.carousel-btn:hover {
-    background-color: #e0e0e0 !important;
-}
-
-.container-xxxl {
-    max-width: 1420px;
-    width: 100vw;
-    margin: auto;
-}
-
-.my-ratio {
-    aspect-ratio: 1/1;
+    img {
+        margin: 0 7px;
+    }
+    &:hover {
+        background-color: #e0e0e0 !important;
+    }
 }
 
 @media (max-width:1400px) {
@@ -35,8 +23,8 @@
     transition: all 0.2s;
     display: block;
     background-color: white;
-        cursor: pointer;
-    
+    cursor: pointer;
+
 }
 
 .set-in-evidenza ::-webkit-scrollbar-track {
@@ -56,8 +44,4 @@
     .set-in-evidenza ::-webkit-scrollbar-track {
         margin: 0 20px;
     }
-}
-
-.z-index-1 {
-    z-index: 1;
 }

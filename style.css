@@ -1,38 +1,82 @@
 @import "./Design/design.css";
-.cont-personal {
+.main-container {
   width: 100vw;
-  max-width: 1500px;
-  margin: auto;
+  min-height: 32vw;
+  height: fit-content;
+  max-height: 60vh;
+}
+.main-container .main-text h1 {
+  font-size: 5rem;
+  height: 5.5rem;
+}
+.main-container .main-text h2 {
+  font-size: 2.5rem;
+}
+.main-container .main-text h3 {
+  font-size: 1.13rem;
+  line-height: 1.8rem;
 }
 
+.sub-main-container .big-icons {
+  width: 5rem;
+}
+.sub-main-container .big-icons span {
+  font-size: 0.8rem;
+  transition: all 0.15s;
+}
+.sub-main-container .big-icons:hover span {
+  text-decoration: underline;
+  color: #016db7 !important;
+}
+.sub-main-container .big-icons:hover img {
+  filter: opacity(0.8);
+}
+
+@media (max-width: 1200px) {
+  .main-container .main-text h2 {
+    font-size: 1.5rem;
+  }
+  .main-container .main-text h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+@media (max-width: 978px) {
+  .main-container .main-text h2 {
+    font-size: 1.2rem;
+  }
+  .main-container .main-text h3 {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  .main-container {
+    background-color: #001531;
+    margin-top: -6rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 568px) {
+  .d-xs-block {
+    display: block !important;
+  }
+}
 .card:hover .text-body {
   text-decoration: underline !important;
 }
 
-.rotate-180 {
-  rotate: 180deg;
-}
-
 .carousel-btn {
-  min-height: 2.5rem;
-  min-width: 2.5rem;
+  padding: 0.5rem;
   border: 1px solid lightgrey;
   z-index: 1;
   transition: all 0.2s;
 }
-
+.carousel-btn img {
+  margin: 0 7px;
+}
 .carousel-btn:hover {
   background-color: #e0e0e0 !important;
-}
-
-.container-xxxl {
-  max-width: 1420px;
-  width: 100vw;
-  margin: auto;
-}
-
-.my-ratio {
-  aspect-ratio: 1/1;
 }
 
 @media (max-width: 1400px) {
@@ -66,137 +110,47 @@
     margin: 0 20px;
   }
 }
+/* IMPORTARE GLI ALTRI SCSS PRIMA DI QUESTO */
+.bg-warning {
+  background-color: #fecf03 !important;
+}
+
+.cont-personal {
+  width: 100vw;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.rotate-180 {
+  rotate: 180deg;
+}
+
+.container-xxxl {
+  max-width: 1420px;
+  width: 100vw;
+  margin: auto;
+}
+
+.my-ratio {
+  aspect-ratio: 1/1;
+}
+
 .z-index-1 {
   z-index: 1;
 }
 
-* {
-  font-family: "cera pro", sans-serif;
-  margin: 0;
+.fs-7 {
+  font-size: 0.75rem;
 }
 
-main {
-  background-image: url(./assets/imgs/1804-REVEAL-Home-202211-Hero1-Standard-Large.webp);
-  background-position: top center;
-  background-size: 100vw auto;
-  background-position: fixed;
-  background-repeat: no-repeat;
+.container-1600 {
+  max-width: 1610px;
   width: 100vw;
-  min-height: 32vw;
-  max-width: 1600px;
   margin: auto;
 }
-main .main-text h1 {
-  font-size: 5rem;
-  height: 5.5rem;
-}
-main .main-text h2 {
-  font-size: 2.5rem;
-  font-weight: 400;
-  margin-bottom: 1rem;
-  padding: 0 1rem;
-}
-main .main-text h3 {
-  font-size: 1.13rem;
-  font-weight: 400;
-  line-height: 1.8rem;
-  padding: 0 1rem;
-}
-main .btn-container {
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1.5rem;
-  padding-bottom: 2rem;
-}
-main .btn-container .white-btn {
-  padding: 0.85rem 1.08rem;
-  border: none;
-  font-size: 1rem;
-  font-weight: 500;
-  transition: all 0.15s;
-}
-main .btn-container .white-btn .white-btn svg {
-  margin-left: 1rem;
-  padding-left: 0;
-}
-main .btn-container .white-btn:hover {
-  color: white !important;
-  background-color: black;
-  cursor: pointer;
-}
 
-.sub-main-container {
-  width: 100vw;
-  gap: 2vw;
-  flex-wrap: wrap;
-}
-.sub-main-container .big-icons img {
-  width: 5rem;
-}
-.sub-main-container .big-icons span {
-  width: 5rem;
-  font-size: 0.8rem;
-  transition: all 0.15s;
-}
-.sub-main-container .big-icons:hover span {
-  text-decoration: underline;
-  color: #016db7 !important;
-}
-.sub-main-container .big-icons:hover img {
-  filter: opacity(0.8);
-}
-
-@media (max-width: 1200px) {
-  main .main-text h2 {
-    font-size: 1.5rem;
-  }
-  main .main-text h3 {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-  main .btn-container {
-    margin-top: 1rem;
-  }
-}
-@media (max-width: 978px) {
-  main .main-text h2 {
-    font-size: 1.2rem;
-  }
-  main .main-text h3 {
-    font-size: 0.9rem;
-    line-height: 1.3rem;
-  }
-  main .btn-container {
-    margin-top: 0.8rem;
-  }
-  main br {
-    display: none;
-  }
-}
-@media (max-width: 978px) {
-  h1 {
-    display: none;
-  }
-  .btn-container {
-    padding-bottom: 0;
-  }
-}
-@media (max-width: 573px) {
-  main {
-    background-color: #001531;
-    padding-bottom: 1rem;
-    margin-bottom: 1rem;
-  }
-  main .main-text {
-    margin-top: -4rem;
-  }
-  main .main-text h1 {
-    display: block;
-  }
-  .sub-main-container .big-icons img {
-    display: block;
-    width: 100%;
-  }
+.z-index-2 {
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */
