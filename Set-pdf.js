@@ -19,12 +19,7 @@ function CarouselNoRestart(previousButton, nextButton, carouselBody) {
     carouselBody.addEventListener("scroll", () => {
         let scrollStep = carouselBody.clientWidth;
         let scrollLength = carouselBody.scrollWidth - scrollStep;
-        if (Math.ceil(carouselBody.scrollLeft) == scrollLength) {
-            nextBtn.style.visibility = "hidden";
-        } else {
-            nextBtn.style.visibility = "visible"
-        }
-        if (Math.floor(carouselBody.scrollLeft) == scrollLength) {
+        if (Math.ceil(carouselBody.scrollLeft) == scrollLength || Math.floor(carouselBody.scrollLeft) == scrollLength) {
             nextBtn.style.visibility = "hidden";
         } else {
             nextBtn.style.visibility = "visible"
@@ -34,7 +29,6 @@ function CarouselNoRestart(previousButton, nextButton, carouselBody) {
         } else {
             prevBtn.style.visibility = "visible"
         }
-        console.log(scrollLength, carouselBody.scrollLeft);
     })
 }
 

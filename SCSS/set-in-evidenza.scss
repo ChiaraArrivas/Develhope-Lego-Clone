@@ -1,3 +1,30 @@
+.rotate-180 {
+    rotate: 180deg;
+}
+
+.carousel-btn {
+    min-height: 2.5rem;
+    min-width: 2.5rem;
+    border: 1px solid lightgrey;
+    z-index: 1;
+}
+
+.container-xxxl {
+    max-width: 1420px;
+    width: 100vw;
+    margin: auto;
+}
+
+.my-ratio {
+    aspect-ratio: 1/1;
+}
+
+@media (max-width:1400px) {
+    .carousel-btn-absolute {
+        position: absolute;
+    }
+}
+
 .set-in-evidenza ::-webkit-scrollbar {
     width: 0;
     height: 5px;
@@ -25,4 +52,8 @@
     .set-in-evidenza ::-webkit-scrollbar-track {
         margin: 0 20px;
     }
+}
+
+.z-index-1 {
+    z-index: 1;
 }
