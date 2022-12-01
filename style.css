@@ -138,6 +138,19 @@ footer .accordion-button:not(.collapsed)::after {
 footer .accordion-button:not(.collapsed) {
   box-shadow: none;
 }
+@media (max-width: 992px) {
+  footer .accordion > * {
+    width: 100vw;
+  }
+  footer .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  footer .accordion-item {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 @media (min-width: 992px) {
   footer .accordion::after,
 footer .accordion-button:after,
@@ -149,9 +162,12 @@ footer .accordion-button:not(.collapsed)::after {
   footer .accordion a {
     font-size: 0.875rem;
   }
-  footer .accordion h2,
-footer .accordion a {
-    border: 1px solid white;
+  footer .accordion h2 {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+  }
+  footer .accordion a {
+    border-bottom: 1px solid white;
   }
 }
 @media (max-width: 576px) {
