@@ -19,10 +19,6 @@
     font-display: swap;
 }
 
-  .bg-warning {
-    background-color: #fecf03 !important;
-}
-
 html,
 * {
     font-family: 'cera pro', sans-serif;
@@ -35,7 +31,7 @@ html,
     padding: 1rem;
 }
 
-button {
+.body button {
     margin: 6px 2px;
 }
 
@@ -57,7 +53,7 @@ button {
 
 .a-bold {
     opacity: 0.6;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .a-light {
@@ -76,7 +72,7 @@ button {
     padding: 10px;
 }
 
-img {
+.body img {
     color: white;
     padding: 3px;
 }
@@ -93,7 +89,7 @@ img {
     justify-content: center;
     padding: 0;
     font-size: 0.75rem;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .btn-area-giochi img {
@@ -148,11 +144,11 @@ img {
     display: flex;
     align-items: center;
     padding: 0.65rem 1.3rem;
-    border: none;
+    border: 1px solid black;
     border-radius: 4px;
     background-color: white;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: bold;
     transition: all .15s;
 }
 
@@ -180,7 +176,7 @@ img {
     border: 2px solid #fd8123;
     border-radius: 4px;
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: bold;
     transition: all 0.15s;
     margin: 0;
 }
@@ -207,10 +203,6 @@ img {
     margin: 3rem auto;
 }
 
-.fs-7 {
-    font-size: 0.75rem;
-}
-
 .custom-card-1 img {
     transition: all 1s ease-in-out;
 }
@@ -218,11 +210,13 @@ img {
     transform: scale(1.2);
 }
 
-.custom-position {
-    bottom: 0;
-    left: 5px;
-}
 .card {
-    min-width: 220px !important;
+    min-width: 280px !important;
     height: fit-content !important;
+}
+
+@media (max-width:368px) {
+    .card {
+        min-width: 240px !important;
+    }
 }

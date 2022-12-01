@@ -1,4 +1,120 @@
 @import "./Design/design.css";
+.main-container {
+  width: 100vw;
+  min-height: 32vw;
+  height: fit-content;
+  max-height: 60vh;
+}
+.main-container .main-text h1 {
+  font-size: 5rem;
+  height: 5.5rem;
+}
+.main-container .main-text h2 {
+  font-size: 2.5rem;
+}
+.main-container .main-text h3 {
+  font-size: 1.13rem;
+  line-height: 1.8rem;
+}
+
+.sub-main-container .big-icons {
+  width: 5rem;
+}
+.sub-main-container .big-icons span {
+  font-size: 0.8rem;
+  transition: all 0.15s;
+}
+.sub-main-container .big-icons:hover span {
+  text-decoration: underline;
+  color: #016db7 !important;
+}
+.sub-main-container .big-icons:hover img {
+  filter: opacity(0.8);
+}
+
+@media (max-width: 1200px) {
+  .main-container .main-text h2 {
+    font-size: 1.5rem;
+  }
+  .main-container .main-text h3 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+@media (max-width: 978px) {
+  .main-container .main-text h2 {
+    font-size: 1.2rem;
+  }
+  .main-container .main-text h3 {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+}
+@media (max-width: 576px) {
+  .main-container {
+    background-color: #001531;
+    margin-top: -6rem;
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 568px) {
+  .d-xs-block {
+    display: block !important;
+  }
+}
+.card:hover .text-body {
+  text-decoration: underline !important;
+}
+
+.carousel-btn {
+  padding: 0.5rem;
+  border: 1px solid lightgrey;
+  z-index: 1;
+  transition: all 0.2s;
+}
+.carousel-btn img {
+  margin: 0 7px;
+}
+.carousel-btn:hover {
+  background-color: #e0e0e0 !important;
+}
+
+@media (max-width: 1400px) {
+  .carousel-btn-absolute {
+    position: absolute;
+  }
+}
+.set-in-evidenza ::-webkit-scrollbar {
+  width: 0;
+  height: 5px;
+  transition: all 0.2s;
+  display: block;
+  background-color: white;
+  cursor: pointer;
+}
+
+.set-in-evidenza ::-webkit-scrollbar-track {
+  background-color: #d9d9d9;
+  border-radius: 0;
+  margin: 0 10vw;
+}
+
+.set-in-evidenza ::-webkit-scrollbar-thumb {
+  background-color: #717171;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .set-in-evidenza ::-webkit-scrollbar-track {
+    margin: 0 20px;
+  }
+}
+/* IMPORTARE GLI ALTRI SCSS PRIMA DI QUESTO */
+.bg-warning {
+  background-color: #fecf03 !important;
+}
+
 .cont-personal {
   width: 100vw;
   max-width: 1500px;
@@ -10,12 +126,36 @@
   text-decoration-thickness: 2px !important;
 }
 
-.card:hover .text-body {
-  text-decoration: underline !important;
+.rotate-180 {
+  rotate: 180deg;
 }
 
-.vw-12 {
-  width: 500px !important;
+.container-xxxl {
+  max-width: 1420px;
+  width: 100vw;
+  margin: auto;
+}
+
+.my-ratio {
+  aspect-ratio: 1/1;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.fs-7 {
+  font-size: 0.75rem;
+}
+
+.container-1600 {
+  max-width: 1610px;
+  width: 100vw;
+  margin: auto;
+}
+
+.z-index-2 {
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */
