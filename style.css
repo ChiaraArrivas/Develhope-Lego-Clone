@@ -110,6 +110,63 @@
     margin: 0 20px;
   }
 }
+footer {
+  background-color: rgb(32, 29, 72);
+  width: 100vw;
+  position: absolute;
+  left: 0%;
+}
+footer a:hover {
+  text-decoration: underline !important;
+}
+footer div.policy-links > a,
+footer div.disclaimer {
+  font-size: 0.75rem;
+}
+footer button.position {
+  background-color: #18152c;
+  width: 85px;
+  height: 38px;
+  font-size: 0.875rem;
+  gap: 0.8rem;
+  padding: 7px 0.75rem;
+}
+footer .accordion::after,
+footer .accordion-button:not(.collapsed)::after {
+  background-image: white;
+}
+footer .accordion-button:not(.collapsed) {
+  box-shadow: none;
+}
+@media (min-width: 992px) {
+  footer .accordion::after,
+footer .accordion-button:after,
+footer .accordion-button:not(.collapsed)::after {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  footer .accordion a {
+    font-size: 0.875rem;
+  }
+  footer .accordion h2,
+footer .accordion a {
+    border: 1px solid white;
+  }
+}
+@media (max-width: 576px) {
+  footer button.position {
+    width: 97px;
+    height: fit-content;
+    font-size: 1.125rem;
+    padding: 0.625rem 0.9375rem 0.625rem 0.625rem;
+  }
+  footer img.lego-logo {
+    width: 4.375rem;
+    height: 4.375rem;
+  }
+}
+
 /* IMPORTARE GLI ALTRI SCSS PRIMA DI QUESTO */
 .bg-warning {
   background-color: #fecf03 !important;

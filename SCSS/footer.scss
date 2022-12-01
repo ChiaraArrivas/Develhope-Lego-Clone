@@ -1,0 +1,65 @@
+footer {
+    background-color: rgb(32, 29, 72);
+    width: 100vw;
+    position: absolute;
+    left: 0%;
+
+    a:hover {
+        text-decoration: underline !important;
+    }
+
+    div.policy-links > a,
+    div.disclaimer {
+        font-size: 0.75rem;
+    }
+
+    button.position {
+        background-color: #18152c;
+        width: 85px;
+        height: 38px;
+        font-size: 0.875rem;
+        gap: .8rem;
+        padding: 7px 0.75rem;
+    }
+
+    .accordion::after,
+    .accordion-button:not(.collapsed)::after {
+        background-image: white;
+    }
+
+    .accordion-button:not(.collapsed) {
+        box-shadow: none;
+    }
+
+    @media (min-width: 992px) {
+        .accordion::after,
+        .accordion-button:after,
+        .accordion-button:not(.collapsed)::after {
+            display: none;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .accordion a {
+            font-size: 0.875rem;
+        }
+
+        .accordion h2, 
+        .accordion a {
+            border: 1px solid white;
+        }
+    }
+
+    @media (max-width: 576px) {
+        button.position {
+            width: 97px;
+            height: fit-content;
+            font-size: 1.125rem;
+            padding: 0.625rem 0.9375rem 0.625rem 0.625rem;
+        }
+        img.lego-logo {
+            width: 4.375rem;
+            height: 4.375rem;
+        }
+    } 
+}
