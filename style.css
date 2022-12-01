@@ -120,6 +120,11 @@
   max-width: 1500px;
   margin: auto;
 }
+.cont-personal .custom-card .links:hover .custom-link:hover {
+  text-decoration: underline !important;
+  text-underline-offset: 0.2rem !important;
+  text-decoration-thickness: 2px !important;
+}
 
 .rotate-180 {
   rotate: 180deg;
