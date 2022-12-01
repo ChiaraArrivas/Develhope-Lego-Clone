@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
 
     <title>Lego</title>
@@ -16,7 +16,8 @@
 <body>
 
     <!--NAVBAR-->
-    <div class="bg-warning navbar container-fluid d-flex align-items-center justify-content-between position-sticky top-0 z-index-2">
+    <div
+        class="bg-warning navbar container-fluid d-flex align-items-center justify-content-between position-sticky top-0 z-index-2">
         <div class="cont-personal d-flex align-items-center justify-content-between">
             <div class="d-flex align-items-center justify-content-between">
                 <div class="icon-container">
@@ -60,86 +61,620 @@
         </div>
     </div>
 
-<!--main-->
-<main class="d-flex flex-column align-items-center justify-content-center text-light position-relative">
-    <img class="container-1600 w-100 p-0 position-absolute top-0 d-none d-sm-block" src="./assets/imgs/1804-REVEAL-Home-202211-Hero1-Standard-Large.webp" alt="">
-    <img class="d-sm-none w-100 p-0" srcset="./assets/imgs/1804-REVEAL-Home-202211-Hero1-Standard-Small.webp">
-    <div class="main-container z-index-1 py-1 pt-md-4 py-sm-5 pb-0 pb-lg-4">
-    <div class="main-text">
-        <h1 class="text-center d-none d-xs-block d-md-block">VIP</h1>
-        <h2 class="text-center fw-normal mb-3 px-3">È arrivato il Fine settimana <br class="d-none d-lg-block"> LEGO® VIP</h2>
-        <h3 class="text-center fw-normal px-3">Festeggia con 2 giorni di punti bonus, nuovi premi, offerte speciali <br class="d-none d-lg-block"> e altro ancora!</h3>
-    </div>
-    <div class="btn-container d-flex justify-content-center flex-wrap gap-3 mt-2 mt-lg-3 pb-4">
-        <button class="white-btn border-1">
-            Scopri di più
-            <svg height="16" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
-                <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-            </svg>
-        </button>
-        <button class="white-btn">
-            Diventa un VIP
-            <svg height="16" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
-                <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-            </svg>
-        </button>
-    </div>
+    <!--main-->
+    <main class="d-flex flex-column align-items-center justify-content-center text-light position-relative">
+        <img class="container-1600 w-100 p-0 position-absolute top-0 d-none d-sm-block"
+            src="./assets/imgs/1804-REVEAL-Home-202211-Hero1-Standard-Large.webp" alt="">
+        <img class="d-sm-none w-100 p-0" srcset="./assets/imgs/1804-REVEAL-Home-202211-Hero1-Standard-Small.webp">
+        <div class="main-container z-index-1 py-1 pt-md-4 py-sm-5 pb-0 pb-lg-4">
+            <div class="main-text">
+                <h1 class="text-center d-none d-xs-block d-md-block">VIP</h1>
+                <h2 class="text-center fw-normal mb-3 px-3">È arrivato il Fine settimana <br class="d-none d-lg-block">
+                    LEGO® VIP</h2>
+                <h3 class="text-center fw-normal px-3">Festeggia con 2 giorni di punti bonus, nuovi premi, offerte
+                    speciali <br class="d-none d-lg-block"> e altro ancora!</h3>
+            </div>
+            <div class="btn-container d-flex justify-content-center flex-wrap gap-3 mt-2 mt-lg-3 pb-4">
+                <button class="white-btn border-1">
+                    Scopri di più
+                    <svg height="16" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
+                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                    </svg>
+                </button>
+                <button class="white-btn">
+                    Diventa un VIP
+                    <svg height="16" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
+                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                    </svg>
+                </button>
+            </div>
         </div>
-</main>
-<div class="sub-main-container vw-100 gap-2 gap-lg-5 d-flex justify-content-center flex-wrap px-2">
-    <div class="big-icons">
-        <a class="text-decoration-none" href="#">
-            <img class="w-100" src="./assets/imgs/novelty-2020-06-Quicklink.webp" alt="">
-            <span class="d-block text-center text-dark">Novità</span>
-        </a>
+    </main>
+    <div class="sub-main-container vw-100 gap-2 gap-lg-5 d-flex justify-content-center flex-wrap px-2">
+        <div class="big-icons">
+            <a class="text-decoration-none" href="#">
+                <img class="w-100" src="./assets/imgs/novelty-2020-06-Quicklink.webp" alt="">
+                <span class="d-block text-center text-dark">Novità</span>
+            </a>
+        </div>
+        <div class="big-icons">
+            <a class="text-decoration-none" href="#">
+                <img class="w-100" src="./assets/imgs/Generic-Site-Wave-1-Exclusive-202208-Quicklink.webp" alt="">
+                <span class="d-block text-center text-dark">Set esclusivi</span>
+            </a>
+        </div>
+        <div class="big-icons">
+            <a class="text-decoration-none" href="#">
+                <img class="w-100" src="./assets/imgs/offers_Promos-Home-2021-Quicklink.webp" alt="">
+                <span class="d-block text-center text-dark">Offerte</span>
+            </a>
+        </div>
+        <div class="big-icons">
+            <a class="text-decoration-none" href="#">
+                <img class="w-100" src="./assets/imgs/1784-TEASER-BF-Home-202211-Quicklink.webp" alt="">
+                <span class="d-block text-center text-dark">Black Friday</span>
+            </a>
+        </div>
+        <div class="big-icons">
+            <a class="text-decoration-none" href="#">
+                <img class="w-100" src="./assets/imgs/Holiday2022-Home-202210-Quicklink-Holiday.webp" alt="">
+                <span class="d-block text-center text-dark">Natale 2022</span>
+            </a>
+        </div>
+        <div class="big-icons">
+            <a class="text-decoration-none" href="#">
+                <img class="w-100" src="./assets/imgs/Holiday-Home-GF-202211-Quicklink.webp" alt="">
+                <span class="d-block text-center text-dark">Trova regali</span>
+            </a>
+        </div>
+        <div class="big-icons">
+            <a class="text-decoration-none" href="#">
+                <img class="w-100" src="./assets/imgs/BestSeller-Home-202010-Quicklink.webp" alt="">
+                <span class="d-block text-center text-dark">I più venduti </span>
+            </a>
+        </div>
+        <div class="big-icons">
+            <a class="text-decoration-none" href="#">
+                <img class="w-100" src="./assets/imgs/VIPSoftLaunch-Quicklink.webp" alt="">
+                <span class="d-block text-center text-dark">VIP</span>
+            </a>
+        </div>
     </div>
-    <div class="big-icons">
-        <a class="text-decoration-none" href="#">
-            <img class="w-100" src="./assets/imgs/Generic-Site-Wave-1-Exclusive-202208-Quicklink.webp" alt="">
-            <span class="d-block text-center text-dark">Set esclusivi</span>
-        </a>
-    </div>
-    <div class="big-icons">
-        <a class="text-decoration-none" href="#">
-            <img class="w-100" src="./assets/imgs/offers_Promos-Home-2021-Quicklink.webp" alt="">
-            <span class="d-block text-center text-dark">Offerte</span>
-        </a>
-    </div>
-    <div class="big-icons">
-        <a class="text-decoration-none" href="#">
-            <img class="w-100" src="./assets/imgs/1784-TEASER-BF-Home-202211-Quicklink.webp" alt="">
-            <span class="d-block text-center text-dark">Black Friday</span>
-        </a>
-    </div>
-    <div class="big-icons">
-        <a class="text-decoration-none" href="#">
-            <img class="w-100" src="./assets/imgs/Holiday2022-Home-202210-Quicklink-Holiday.webp" alt="">
-            <span class="d-block text-center text-dark">Natale 2022</span>
-        </a>
-    </div>
-    <div class="big-icons">
-        <a class="text-decoration-none" href="#">
-            <img class="w-100" src="./assets/imgs/Holiday-Home-GF-202211-Quicklink.webp" alt="">
-            <span class="d-block text-center text-dark">Trova regali</span>
-        </a>
-    </div>
-    <div class="big-icons">
-        <a class="text-decoration-none" href="#">
-            <img class="w-100" src="./assets/imgs/BestSeller-Home-202010-Quicklink.webp" alt="">
-            <span class="d-block text-center text-dark">I più venduti </span>
-        </a>
-    </div>
-    <div class="big-icons">
-        <a class="text-decoration-none" href="#">
-            <img class="w-100" src="./assets/imgs/VIPSoftLaunch-Quicklink.webp" alt="">
-            <span class="d-block text-center text-dark">VIP</span>
-        </a>
-    </div>
-</div>
+        <!-- Consigliati per te -->
+    <div class="container-1600 set-in-evidenza py-5">
+        <h2 class="mb-4 ms-3 ms-xxl-5">Set in evidenza</h2>
+        <div class="d-flex align-items-center position-relative">
+            <button
+                class="carousel-btn prev-btn-cpt rounded-circle bg-white mx-xxl-3 mb-5 carousel-btn-absolute ms-3 ms-xxl-0"><img
+                    class="rotate-180" src="./assets/imgs/arrow-right 18.svg" alt=""></button>
+            <div class="d-flex carousel-body-cpt overflow-scroll row-cols-auto pb-4">
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0" src="./assets/imgs/10294.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Esclusivo
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Titanic LEGO®</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">679,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/10300.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Difficile da trovare
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Macchina Back to the future</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="/assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">99,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/10302.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Difficile da trovare
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Optimus prime</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/emptystar.svg" alt="empty star">
+                        </div>
+                        <h5 class="fw-bolder">199,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/10304.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Difficile da trovare
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Chevrolet Camaro Z28</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">239,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/21337.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Novità
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Calcio balilla</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">249,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/31203.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Difficile da trovare
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Mappa del mondo</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">249,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/71374.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Difficile da trovare
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">NES™</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/halfstar.svg" alt="half star">
+                        </div>
+                        <h5 class="fw-bolder">269,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/40573_Prod.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Esclusivo
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Albero di Natale</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">44,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/75331.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Novità
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Razor Crest™</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">599,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/76209.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Novità
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Martello di Thor</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">119,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/76214.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Novità
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Black Panther: Guerra sull’acqua!</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">89,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/76215.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Novità
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Black Panther</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">349,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/76218.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Esclusivo
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Sanctum Sanctorum</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">249,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
+                        </div>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0 " src="./assets/imgs/71411.webp" alt="">
+                        </div>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Novità
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Il potente Bowser</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/emptystar.svg" alt="empty star">
+                        </div>
+                        <h5 class="fw-bolder">269,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-btn next-btn-cpt rounded-circle bg-white mb-5 mx-xxl-3 carousel-btn-absolute end-0 me-3 me-xxl-0"><img
+                    src="./assets/imgs/arrow-right 18.svg" alt=""></button>
+        </div>
 
-<!--cards-->
+    <!--cards-->
     <div class="container-xxxl px-4 py-5">
         <h2 class="mb-4">Set preferiti dai fan</h2>
         <div class="d-flex overflow-scroll row-cols-auto">
@@ -261,15 +796,27 @@
     </div>
     </div>
     </div>
+         <!-- Set in evidenza -->
     <div class="container-xxxl set-in-evidenza py-5">
         <h2 class="mb-4 ms-3 ms-xxl-5">Set in evidenza</h2>
         <div class="d-flex align-items-center position-relative">
-                <button class="carousel-btn prev-btn rounded-circle bg-white mx-xxl-3 mb-5 carousel-btn-absolute ms-3 ms-xxl-0"><img class="rotate-180" src="./assets/imgs/arrow-right 18.svg" alt=""></button>
-        <div class="d-flex carousel-body overflow-scroll row-cols-auto pb-4">
-            <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+            <button
+                class="carousel-btn prev-btn rounded-circle bg-white mx-xxl-3 mb-5 carousel-btn-absolute ms-3 ms-xxl-0"><img
+                    class="rotate-180" src="./assets/imgs/arrow-right 18.svg" alt=""></button>
+            <div class="d-flex carousel-body overflow-scroll row-cols-auto pb-4">
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX"><rect fill="#F8F8F8" width="40" height="40" rx="20"></rect><path d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="white"></path><path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path></svg>
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
                             <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
                         </div>
                         <div class="w-75 m-auto">
@@ -278,26 +825,35 @@
                         <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
                             Difficile da trovare
                         </button>
-                </div>
-                <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                    <h6 class="lh-2 fw-bold">R2-D2™</h6>
-                    <div class="score pb-1">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
                     </div>
-                    <h5 class="fw-bolder">239,99€</h5>
-                    <button class="add-cart-btn w-100">
-                        Aggiungi al Carrello
-                    </button>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">R2-D2™</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">239,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX"><rect fill="#F8F8F8" width="40" height="40" rx="20"></rect><path d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="white"></path><path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path></svg>
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
                             <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
                         </div>
                         <div class="w-75 m-auto">
@@ -306,26 +862,35 @@
                         <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
                             Novità
                         </button>
-                </div>
-                <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                    <h6 class="lh-2 fw-bold">Nasa Apollo 11 Lunar Lander</h6>
-                    <div class="score pb-1">
-                        <img class="p-0" src="/assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
                     </div>
-                    <h5 class="fw-bolder">99,99€</h5>
-                    <button class="add-cart-btn w-100">
-                        Aggiungi al Carrello
-                    </button>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Nasa Apollo 11 Lunar Lander</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="/assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">99,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX"><rect fill="#F8F8F8" width="40" height="40" rx="20"></rect><path d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="white"></path><path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path></svg>
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
                             <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
                         </div>
                         <div class="w-75 m-auto">
@@ -334,26 +899,35 @@
                         <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
                             Difficile da trovare
                         </button>
-                </div>
-                <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                    <h6 class="lh-2 fw-bold">NASA Space Shuttle Discovery</h6>
-                    <div class="score pb-1">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
                     </div>
-                    <h5 class="fw-bolder">199,99€</h5>
-                    <button class="add-cart-btn w-100">
-                        Aggiungi al Carrello
-                    </button>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">NASA Space Shuttle Discovery</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">199,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX"><rect fill="#F8F8F8" width="40" height="40" rx="20"></rect><path d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="white"></path><path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path></svg>
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
                             <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
                         </div>
                         <div class="w-75 m-auto">
@@ -362,26 +936,35 @@
                         <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
                             Difficile da trovare
                         </button>
-                </div>
-                <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                    <h6 class="lh-2 fw-bold">Atari® 2600</h6>
-                    <div class="score pb-1">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
                     </div>
-                    <h5 class="fw-bolder">239,99€</h5>
-                    <button class="add-cart-btn w-100">
-                        Aggiungi al Carrello
-                    </button>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Atari® 2600</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">239,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX"><rect fill="#F8F8F8" width="40" height="40" rx="20"></rect><path d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="white"></path><path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path></svg>
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
                             <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
                         </div>
                         <div class="w-75 m-auto">
@@ -390,26 +973,35 @@
                         <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
                             Esclusivo
                         </button>
-                </div>
-                <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                    <h6 class="lh-2 fw-bold"> Macchina da scrivere</h6>
-                    <div class="score pb-1">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
                     </div>
-                    <h5 class="fw-bolder">249,99€</h5>
-                    <button class="add-cart-btn w-100">
-                        Aggiungi al Carrello
-                    </button>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold"> Macchina da scrivere</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">249,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX"><rect fill="#F8F8F8" width="40" height="40" rx="20"></rect><path d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="white"></path><path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path></svg>
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
                             <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
                         </div>
                         <div class="w-75 m-auto">
@@ -418,26 +1010,35 @@
                         <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
                             Difficile da trovare
                         </button>
-                </div>
-                <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                    <h6 class="lh-2 fw-bold">Mappa del mondo</h6>
-                    <div class="score pb-1">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
                     </div>
-                    <h5 class="fw-bolder">249,99€</h5>
-                    <button class="add-cart-btn w-100">
-                        Aggiungi al Carrello
-                    </button>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Mappa del mondo</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">249,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX"><rect fill="#F8F8F8" width="40" height="40" rx="20"></rect><path d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="white"></path><path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path></svg>
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
                             <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
                         </div>
                         <div class="w-75 m-auto">
@@ -446,26 +1047,35 @@
                         <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
                             Difficile da trovare
                         </button>
-                </div>
-                <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                    <h6 class="lh-2 fw-bold">Ghirlanda natalizia 2 in 1</h6>
-                    <div class="score pb-1">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
                     </div>
-                    <h5 class="fw-bolder">39,99€</h5>
-                    <button class="add-cart-btn w-100">
-                        Aggiungi al Carrello
-                    </button>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Ghirlanda natalizia 2 in 1</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">39,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                <div class="position-relative border radius-w-100 my-ratio d-flex align-items-center">
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX"><rect fill="#F8F8F8" width="40" height="40" rx="20"></rect><path d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="white"></path><path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path></svg>
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
                             <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
                         </div>
                         <div class="w-75 m-auto">
@@ -474,26 +1084,35 @@
                         <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
                             Esclusivo
                         </button>
-                </div>
-                <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                    <h6 class="lh-2 fw-bold">Albero di Natale</h6>
-                    <div class="score pb-1">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
                     </div>
-                    <h5 class="fw-bolder">44,99€</h5>
-                    <button class="add-cart-btn w-100">
-                        Aggiungi al Carrello
-                    </button>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Albero di Natale</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">44,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX"><rect fill="#F8F8F8" width="40" height="40" rx="20"></rect><path d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="white"></path><path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path></svg>
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
                             <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
                         </div>
                         <div class="w-75 m-auto">
@@ -502,26 +1121,35 @@
                         <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
                             Esclusivo
                         </button>
-                </div>
-                <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                    <h6 class="lh-2 fw-bold">Castello di Hogwarts™</h6>
-                    <div class="score pb-1">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
                     </div>
-                    <h5 class="fw-bolder">469,99€</h5>
-                    <button class="add-cart-btn w-100">
-                        Aggiungi al Carrello
-                    </button>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Castello di Hogwarts™</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">469,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
                 </div>
-            </div>
-            <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt="" class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX"><rect fill="#F8F8F8" width="40" height="40" rx="20"></rect><path d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="white"></path><path d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126" fill="#006DB7"></path></svg>
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
                             <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
                         </div>
                         <div class="w-75 m-auto">
@@ -530,30 +1158,32 @@
                         <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
                             Novità
                         </button>
-                </div>
-                <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                    <h6 class="lh-2 fw-bold">Il potente Bowser</h6>
-                    <div class="score pb-1">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
                     </div>
-                    <h5 class="fw-bolder">269,99€</h5>
-                    <button class="add-cart-btn w-100">
-                        Aggiungi al Carrello
-                    </button>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Il potente Bowser</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/emptystar.svg" alt="empty star">
+                        </div>
+                        <h5 class="fw-bolder">269,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
                 </div>
+
             </div>
-            
+            <button
+                class="carousel-btn next-btn rounded-circle bg-white mb-5 mx-xxl-3 carousel-btn-absolute end-0 me-3 me-xxl-0"><img
+                    src="./assets/imgs/arrow-right 18.svg" alt=""></button>
         </div>
-        <button class="carousel-btn next-btn rounded-circle bg-white mb-5 mx-xxl-3 carousel-btn-absolute end-0 me-3 me-xxl-0"><img src="./assets/imgs/arrow-right 18.svg" alt=""></button>
-    </div>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
         <script src="./JS/set-in-evidenza.mjs" type="module"></script>
 </body>
 
