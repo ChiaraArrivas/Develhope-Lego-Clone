@@ -13,7 +13,10 @@ function disabledAccordions(screen) {
     } else {
         // Bottoni abilitati + NO show
         $accordion_buttons.forEach(button => button.disabled = false);
-        $panels.forEach(panel => panel.classList.toggle("show"));
+        $panels.forEach(panel => {
+            // TODO: sistemare bug di apertura da mobile che non funziona! (e dimensioni di disclaimer/policy links con media query)
+            panel.classList.toggle("show");
+        });
     }
   }
   
