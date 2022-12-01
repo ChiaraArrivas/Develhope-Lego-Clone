@@ -1,4 +1,11 @@
 @import "./Design/design.css";
+.navbar .cont-personal .nav-left .search-btn {
+  border-radius: 3rem;
+  border: none;
+  min-height: 40px;
+  min-width: 40px;
+}
+
 .main-container {
   width: 100vw;
   min-height: 32vw;
