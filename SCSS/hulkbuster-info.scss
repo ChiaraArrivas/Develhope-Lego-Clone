@@ -1,3 +1,4 @@
+/* Bottoni Accordion */
 .circle {
     display: flex;
     justify-content: flex-end;
@@ -30,13 +31,30 @@
     left: 4.5px;
     transition: transform 0.5s;
 }
-
+/* Animazioni */
 .line1-anim {
     transform: rotate(-270deg);
 }
 
 .line2-anim {
     transform: rotate(-180deg);
+}
+/* Bottoni Caroselli dark */
+.desc-carousel-btn {
+    height: fit-content;
+    width: fit-content;
+    background-color: #0000009a;
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.desc-carousel-btn:hover {
+    background-color: white;
+    color: #000000;
 }
 
 .accordion-bg {
@@ -48,161 +66,21 @@ video {
     margin-top: -.45rem;
 }
 
-::-webkit-scrollbar,
-::-webkit-scrollbar-thumb,
-::-webkit-scrollbar-track {
-    display: none;
-}
-
 .custom-position-1 {
     right: 9%;
     top: 12%;
 }
 
-.description-carousel {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    overflow: scroll;
-    margin: -.5rem 0;
-    position: relative;
-    max-height: 507px;
+.custom-position-2 {
+    padding-left: 9%;
+    padding-top: 3%;
+    width: 40%;
 }
 
-.accordion-card-container::-webkit-scrollbar {
-    display: none;
-}
-
-.desc-carousel-item {
-    min-width: 100%;
-    height: 32vw;
-    max-height: 507px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-}
-
-.desc-carousel-item:first-of-type {
-    background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Large-2.webp);
-}
-
-.desc-carousel-item:nth-of-type(2) {
-    background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Large-3.webp);
-}
-
-.desc-carousel-item:nth-of-type(3) {
-    background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Large-4.webp);
-}
-
-.desc-carousel-item img {
-    width: 100%;
-}
-
-.white-btn {
-    display: flex;
-    align-items: center;
-    padding: 0.65rem 1.3rem;
-    border: none;
-    border-radius: 4px;
-    background-color: white;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: all .15s;
-    width: fit-content;
-}
-
-.white-btn svg {
-    margin-left: 1rem;
-    padding-left: 0;
-}
-
-.white-btn:hover {
-    color: white;
-    background-color: black;
-    cursor: pointer;
-}
-
-.desc-text-content {
-    display: none;
-}
-
-.desc-text-content h3 {
-    line-height: 3.15rem;
-    font-weight: 400;
-    font-size: 2.5rem;
-}
-
-.desc-text-content p {
-    line-height: 1.5rem;
-    font-size: 1.1rem;
-
-}
-
-.first-content {
-    padding-left: 9vw;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 33vw;
-}
-
-.second-content {
-    padding-right: 8vw;
-    margin-left: auto;
-    justify-self: flex-end;
-    display: flex;
-    flex-direction: column;
-    text-align: end;
-    gap: 1rem;
-    width: 33vw;
-}
-
-.third-content {
-    padding-left: 9vw;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 33vw;
-}
-
-.desc-carousel-btn {
-    position: sticky;
-    height: fit-content;
-    background-color: #0000009a;
-    color: white;
-    border: none;
-    border-radius: 3rem;
-    display: flex;
-    align-self: center;
-    padding: 0.8rem 1rem;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.desc-carousel-btn:hover {
-    background-color: white;
-    color: #000000;
-}
-
-.desc-prev-btn svg {
-    rotate: 180deg;
-}
-
-.desc-next-btn {
-    right: 1rem;
-    margin-left: -3.7rem;
-}
-
-.desc-prev-btn {
-    z-index: 1;
-    left: 1rem;
-    margin-right: -3.7rem;
-}
-
-.description-carousel-small {
-    display: none;
-    overflow: scroll;
+.custom-position-3 {
+    padding-right: 8%;
+    padding-top: 5%;
+    width: 40%;
 }
 
 .desc-carousel-item-small {
@@ -254,27 +132,19 @@ video {
     display: none;
 }
 
-.desc-btn-small-prev {
-    rotate: 180deg;
-}
-
-.dots {
+.desc-carousel-item {
+    min-width: 100%;
+    height: 20%;
+    max-height: 507px;
+    background-size: 100%;
+    background-repeat: no-repeat;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    position: sticky;
-    bottom: 1.5rem;
-    right: calc(50% - 22.5px);
-    overflow: visible;
-    margin-bottom: -1.15rem;
-    z-index: 1;
-    max-height: 1rem;
+    align-items: center;
 }
-
 .dot,
 .dot-small {
-    height: 10px;
-    width: 10px;
+    min-height: 10px;
+    min-width: 10px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -389,12 +259,6 @@ video {
         cursor: pointer;
     }
 
-    .other-video h2 {
-        font-size: 1.2rem;
-        line-height: 2rem;
-        max-width: 40vw;
-    }
-
     .other-video h2 br:first-of-type {
         display: none;
     }
@@ -412,11 +276,7 @@ video {
     }
 
     .desc-carousel-item {
-        min-height: 39.8vw;
-    }
-
-    .dots {
-        top: 34.8vw;
+        min-height: 39.8%;
     }
 
     .desc-text-content {
@@ -511,19 +371,4 @@ video {
     .details-left {
         font-size: 0.875rem;
     }
-}
-
-.scrollbar {
-    width: 80vw;
-    height: 10px;
-    max-width: 1600px;
-    background-color: rgb(84, 84, 84);
-    margin: 1rem auto;
-    position: relative;
-}
-
-.thumb {
-    background-color: white;
-    position: absolute;
-    height: 10px;
 }
