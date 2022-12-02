@@ -44,6 +44,13 @@
 }
 
     .cont-personal {
+
+        .nav-links:hover {
+            text-decoration: underline !important;
+            text-underline-offset: 5px;
+            text-decoration-thickness: 2px !important;
+        }
+
         .nav-left {
             .search-btn {
                 border-radius: 3rem;
