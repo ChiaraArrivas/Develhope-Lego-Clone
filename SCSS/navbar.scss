@@ -1,4 +1,48 @@
 .navbar {
+    transition: all 0.3s ease-in-out;
+
+    .first-nav-cont {
+        background-color: #f8f8f8;
+
+        .first-nav {
+            height: 55px;
+            padding: 0 35px;
+            width: 100%;
+            max-width: 1500px;
+    
+            .slideshow-container {
+                height: 55px;
+                width: 34.5rem;
+                margin: auto;
+
+                .prev {
+                    rotate: 180deg;
+                }
+            }
+    }
+
+    .mySlides {
+        max-height: 2rem;
+        flex-wrap: nowrap;
+    }
+
+    .mySlides::-webkit-scrollbar {
+        display: none;
+    }
+
+    .first-nav-right {
+        white-space: nowrap;
+        font-size: 0.75rem;
+        font-family: 'cera pro', sans-serif;
+
+        .separatore {
+            margin: 0px 1.25rem;
+            width: 0.0625rem;
+            height: 1.25rem;
+        }
+    }
+}
+
     .cont-personal {
         .nav-left {
             .search-btn {

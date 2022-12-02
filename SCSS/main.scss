@@ -1,8 +1,11 @@
+main {
+    margin-top: -1rem;
 .main-container {
     width: 100vw;
     min-height: 32vw;
     height: fit-content;
     max-height: 60vh;
+
     .main-text {
         h1 {
             font-size: 5rem;
@@ -16,6 +19,7 @@
             line-height: 1.8rem;
         }
     }
+}
 }
 
 .sub-main-container {

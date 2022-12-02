@@ -1,4 +1,41 @@
 @import "./Design/design.css";
+.navbar {
+  transition: all 0.3s ease-in-out;
+}
+.navbar .first-nav-cont {
+  background-color: #f8f8f8;
+}
+.navbar .first-nav-cont .first-nav {
+  height: 55px;
+  padding: 0 35px;
+  width: 100%;
+  max-width: 1500px;
+}
+.navbar .first-nav-cont .first-nav .slideshow-container {
+  height: 55px;
+  width: 34.5rem;
+  margin: auto;
+}
+.navbar .first-nav-cont .first-nav .slideshow-container .prev {
+  rotate: 180deg;
+}
+.navbar .first-nav-cont .mySlides {
+  max-height: 2rem;
+  flex-wrap: nowrap;
+}
+.navbar .first-nav-cont .mySlides::-webkit-scrollbar {
+  display: none;
+}
+.navbar .first-nav-cont .first-nav-right {
+  white-space: nowrap;
+  font-size: 0.75rem;
+  font-family: "cera pro", sans-serif;
+}
+.navbar .first-nav-cont .first-nav-right .separatore {
+  margin: 0px 1.25rem;
+  width: 0.0625rem;
+  height: 1.25rem;
+}
 .navbar .cont-personal .nav-left .search-btn {
   border-radius: 3rem;
   border: none;
@@ -6,20 +43,23 @@
   min-width: 40px;
 }
 
-.main-container {
+main {
+  margin-top: -1rem;
+}
+main .main-container {
   width: 100vw;
   min-height: 32vw;
   height: fit-content;
   max-height: 60vh;
 }
-.main-container .main-text h1 {
+main .main-container .main-text h1 {
   font-size: 5rem;
   height: 5.5rem;
 }
-.main-container .main-text h2 {
+main .main-container .main-text h2 {
   font-size: 2.5rem;
 }
-.main-container .main-text h3 {
+main .main-container .main-text h3 {
   font-size: 1.13rem;
   line-height: 1.8rem;
 }

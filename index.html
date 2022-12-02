@@ -16,9 +16,71 @@
 <body>
 
     <!--NAVBAR-->
-    <div
-        class="bg-warning navbar container-fluid d-flex align-items-center justify-content-between position-sticky top-0 z-index-2">
-        <div class="cont-personal d-flex align-items-center justify-content-between">
+
+    <nav class="navbar position-sticky z-index-2 pt-0">
+        <div class="container-fluid first-nav-cont">
+        <div class="first-nav container-1600 px-2 d-flex align-items-center justify-content-between">
+            <div class="first-nav-left">
+                <button class="btn-area-giochi">
+                    <img src="../assets/imgs/ugly-arrow.svg" alt="long arrow">
+                    AREA GIOCHI
+                </button>
+            </div>
+            <div class="slideshow-container d-flex justify-content-center align-items-center">
+                <a class="prev"><img src="./assets/imgs/arrow-right 18.svg" alt="arrow 18px"></a>
+                <!-- Items -->
+                <div class="mySlides fade d-flex justify-content-start align-items-center overflow-scroll">
+                    <div class="numbertext">Punti VIP duplicati sugli acquisti: 19/11-20/11* <a href="#">Scopri di
+                            più</a>
+                    </div>
+
+                    <div class="numbertext">Omaggio VIP: set Tributo a LEGO® House con un acquisto da 250 €* <a
+                            href="#">Scopri
+                            di più</a></div>
+
+                    <div class="numbertext">Omaggio VIP: set Gli elfi invernali con un acquisto da 170 €* <a
+                            href="#">Scopri
+                            di
+                            più</a></div>
+
+                    <div class="numbertext">Omaggio VIP: Set da forno con gli acquisti che soddisfano i requisiti da 65
+                        €*
+                        <a href="#">Scopri di più</a>
+                    </div>
+
+                    <div class="numbertext">Consegna GRATUITA sugli ordini superiori a 55 €!* <a href="#">Scopri di
+                            più</a>
+                    </div>
+                </div>
+
+                <a class="next"><img src="./assets/imgs/arrow-right 18.svg" alt="arrow 18px"></a>
+            </div>
+
+            <img class="x900px d-none" src="./assets/imgs/x.svg" alt="x">
+
+            <!-- Items end -->
+
+            <div class="first-nav-right d-flex align-items-center px-1 justify-content-between">
+                <div class="head d-flex align-items-center">
+                    <a href="#" class="text-decoration-none text-dark">
+                        <img src="../assets/imgs/testa.svg" alt="head"> <span>Account</span>
+                    </a>
+                </div>
+
+                <span class="separatore bg-black"></span>
+
+                <div class="vip d-flex align-items-center">
+                    <a href="#" class="text-decoration-none text-dark">
+                        <img src="../assets/imgs/vip.png" alt="vip"> <span> VIP</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!--yellow nav-->
+    <div class="bg-warning navbar container-fluid d-flex align-items-center justify-content-between ">
+        <div class="cont-personal container-1600 px-2 d-flex align-items-center justify-content-between">
             <div class="d-flex align-items-center justify-content-between custom-card">
                 <div class="icon-container">
                     <div class="hamburger d-sm-none">
@@ -59,6 +121,7 @@
             </div>
         </div>
     </div>
+    </nav>
 
     <!--main-->
     <main class="d-flex flex-column align-items-center justify-content-center text-light position-relative">
@@ -678,9 +741,9 @@
         <h2 class="mb-4 ms-3 ms-xxl-4 ps-xxl-5 container-xxl">Set preferiti dai fan</h2>
         <div class="d-flex align-items-center position-relative">
             <button
-                class="carousel-btn prev-btn rounded-circle bg-white mx-xxl-3 mb-5 carousel-btn-absolute ms-3 ms-xxl-0"><img
+                class="carousel-btn prev-btn-spdf rounded-circle bg-white mx-xxl-3 mb-5 carousel-btn-absolute ms-3 ms-xxl-0"><img
                     class="rotate-180" src="./assets/imgs/arrow-right 18.svg" alt=""></button>
-            <div class="d-flex carousel-body mx-3 overflow-scroll row-cols-auto pb-4">
+            <div class="d-flex carousel-body-spdf mx-3 overflow-scroll row-cols-auto pb-4">
     
             <div class="card border-0 w-25 bg-transparent rounded-0 px-2">
                 <a class=" text-decoration-none text-black" href="#">
@@ -775,7 +838,7 @@
      </div>
            
             <button
-            class="carousel-btn next-btn rounded-circle bg-white mb-5 mx-xxl-3 carousel-btn-absolute end-0 me-3 me-xxl-0"><img
+            class="carousel-btn next-btn-spdf rounded-circle bg-white mb-5 mx-xxl-3 carousel-btn-absolute end-0 me-3 me-xxl-0"><img
             src="./assets/imgs/arrow-right 18.svg" alt=""></button>
         </div>
     </div>
@@ -1168,7 +1231,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous"></script>
-        <script src="./JS/set-in-evidenza.mjs" type="module"></script>
+        <script src="./JS/navbar.mjs" type="module"></script>
+        <script src="./JS/carousels.mjs" type="module"></script>
 </body>
 
 </html>
