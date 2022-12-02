@@ -61,22 +61,27 @@ main {
 }
 
 @media (max-width:978px) {
-    .main-container {
-        .main-text {
-
-            h2 {
-                font-size: 1.2rem;
-        
-            }        
-
-            h3 {
-                font-size: 0.9rem;
-                line-height: 1.3rem;
+    main {
+        .main-container {
+            .main-text {
+    
+                h2 {
+                    font-size: 1.2rem;
+            
+                }        
+    
+                h3 {
+                    font-size: 0.9rem;
+                    line-height: 1.3rem;
+                }
             }
-        }
+    }
     }
 }
 
+@media (max-width:768px) {
+
+}
 
 @media (max-width:576px) {
     .main-container {

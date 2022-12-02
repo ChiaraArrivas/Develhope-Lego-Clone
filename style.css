@@ -94,10 +94,10 @@ main .main-container .main-text h3 {
   }
 }
 @media (max-width: 978px) {
-  .main-container .main-text h2 {
+  main .main-container .main-text h2 {
     font-size: 1.2rem;
   }
-  .main-container .main-text h3 {
+  main .main-container .main-text h3 {
     font-size: 0.9rem;
     line-height: 1.3rem;
   }
