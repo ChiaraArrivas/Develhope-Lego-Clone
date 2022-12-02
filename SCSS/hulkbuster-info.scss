@@ -1,0 +1,632 @@
+.circle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 3rem;
+    border: 1px solid lightgray;
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    padding: 0.9rem;
+    cursor: pointer;
+}
+
+.line1 {
+    width: 3px;
+    height: 20px;
+    background-color: black;
+    margin-left: 8px;
+    position: absolute;
+    top: 4.5px;
+    left: 5px;
+    transition: transform 0.5s;
+}
+
+.line2 {
+    height: 3px;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+    left: 4.5px;
+    transition: transform 0.5s;
+}
+
+.line1-anim {
+    transform: rotate(-270deg);
+}
+
+.line2-anim {
+    transform: rotate(-180deg);
+}
+
+.background-container {
+    border-top: 1px solid #dbdbdb;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+    padding: 1rem 1.25rem;
+    display: flex;
+}
+
+.accordion-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6rem;
+    padding: 0 1.25rem;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.accordion-title h2 {
+    font-weight: 500;
+}
+
+.accordion {
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    color: white;
+    background-color: #000000;
+    max-width: 1600px;
+    margin: auto;
+}
+
+video {
+    margin-top: -.35rem;
+}
+
+.video-gallery-small {
+    display: none;
+}
+
+.accordion-card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2rem;
+    overflow: scroll;
+}
+
+.accordion-card-gallery {
+    padding: 1.75rem 1.25rem;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.accordion-card-gallery::-webkit-scrollbar,
+.accordion-card-gallery::-webkit-scrollbar-thumb,
+.accordion-card-gallery::-webkit-scrollbar-track {
+    display: none;
+}
+
+.accordion-card-gallery h2 {
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.accordion-card {
+    min-width: 275px;
+    text-align: center;
+    padding-bottom: 1.75rem;
+}
+
+.accordion-card img {
+    width: 100%;
+}
+
+.accordion-card h3 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 1rem 0;
+}
+
+.accordion-card p {
+    font-size: 0.875rem;
+
+}
+
+.other-video {
+    position: relative;
+}
+
+.other-video h2 {
+    position: absolute;
+    display: inline;
+    text-align: end;
+    right: 9vw;
+    top: 7.3vw;
+    line-height: 3.15rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.other-video-small {
+    display: none;
+}
+
+.other-video-small h2 {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.description-carousel {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    overflow: scroll;
+    margin: -.5rem 0;
+    position: relative;
+    max-height: 507px;
+}
+
+.accordion-card-container::-webkit-scrollbar {
+    display: none;
+}
+
+.desc-carousel-item {
+    min-width: 100%;
+    height: 32vw;
+    max-height: 507px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.desc-carousel-item:first-of-type {
+    background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Large-2.webp);
+}
+
+.desc-carousel-item:nth-of-type(2) {
+    background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Large-3.webp);
+}
+
+.desc-carousel-item:nth-of-type(3) {
+    background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Large-4.webp);
+}
+
+.desc-carousel-item img {
+    width: 100%;
+}
+
+.white-btn {
+    display: flex;
+    align-items: center;
+    padding: 0.65rem 1.3rem;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all .15s;
+    width: fit-content;
+}
+
+.white-btn svg {
+    margin-left: 1rem;
+    padding-left: 0;
+}
+
+.white-btn:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.desc-text-content {
+    display: none;
+}
+
+.desc-text-content h3 {
+    line-height: 3.15rem;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.desc-text-content p {
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+
+}
+
+.first-content {
+    padding-left: 9vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 33vw;
+}
+
+.second-content {
+    padding-right: 8vw;
+    margin-left: auto;
+    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    gap: 1rem;
+    width: 33vw;
+}
+
+.third-content {
+    padding-left: 9vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 33vw;
+}
+
+.desc-carousel-btn {
+    position: sticky;
+    height: fit-content;
+    background-color: #0000009a;
+    color: white;
+    border: none;
+    border-radius: 3rem;
+    display: flex;
+    align-self: center;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.desc-carousel-btn:hover {
+    background-color: white;
+    color: #000000;
+}
+
+.desc-prev-btn svg {
+    rotate: 180deg;
+}
+
+.desc-next-btn {
+    right: 1rem;
+    margin-left: -3.7rem;
+}
+
+.desc-prev-btn {
+    z-index: 1;
+    left: 1rem;
+    margin-right: -3.7rem;
+}
+
+.description-carousel-small {
+    display: none;
+    overflow: scroll;
+}
+
+.desc-carousel-item-small {
+    min-width: 100vw;
+}
+
+.desc-carousel-item-small img {
+    width: 100%;
+}
+
+.desc-text-content-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.desc-text-content-small h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.desc-text-content-small p {
+    font-size: 0.875rem;
+}
+
+.desc-text-content-small button {
+    margin: 1rem auto;
+}
+
+.desc-controls-small {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+}
+
+.desc-carousel-btn-small {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.description-carousel-small::-webkit-scrollbar {
+    display: none;
+}
+
+.desc-btn-small-prev {
+    rotate: 180deg;
+}
+
+.dots {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: sticky;
+    bottom: 1.5rem;
+    right: calc(50% - 22.5px);
+    overflow: visible;
+    margin-bottom: -1.15rem;
+    z-index: 1;
+    max-height: 1rem;
+}
+
+.dot,
+.dot-small {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 2.5px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.details-left {
+    width: 60%;
+}
+
+.details-right {
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.details-right img {
+    max-width: 100%;
+}
+
+.details-left p,
+.details-left li {
+    padding-bottom: 1.25rem;
+}
+
+.review {
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.review span {
+    font-size: .9rem;
+}
+
+.review-btn {
+    color: white;
+    background-color: #016db6;
+    border-radius: 4px;
+    padding: 1.075rem;
+    border: none;
+    font-size: 0.86rem;
+    font-weight: 500;
+}
+
+.buttons-hulk-flex {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    min-height: 7.5rem;
+    max-width: 1320px;
+    margin: auto;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 1rem 1.25rem;
+}
+
+.hulk-btn {
+    color: #016db6;
+    border: 1px solid #016db6;
+    background-color: white;
+    padding: .7rem 1.31rem;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.hulk-btn:hover {
+    background-color: #e5f4ff;
+    transform: scale(1.02);
+}
+
+@media (max-width:900px) {
+    .accordion-title h2 {
+        font-size: 1.125rem;
+    }
+
+    .accordion-card-gallery h2 {
+        font-size: 1.5rem;
+    }
+
+    .accordion-card-container::-webkit-scrollbar {
+        width: 0;
+        height: 5px;
+        transition: all 0.2s;
+        display: block;
+    }
+
+    .accordion-card-container::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 20px #272727;
+        border-radius: 0;
+    }
+
+    .accordion-card-container::-webkit-scrollbar-thumb {
+        background: #9d9d9d;
+        border-radius: 0;
+        cursor: pointer;
+    }
+
+    .accordion-card-container::-webkit-scrollbar-thumb:hover,
+    .accordion-card-container::-webkit-scrollbar-thumb:active {
+        background-color: white;
+        cursor: pointer;
+    }
+
+    .other-video h2 {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        max-width: 40vw;
+    }
+
+    .other-video h2 br:first-of-type {
+        display: none;
+    }
+
+    .desc-carousel-item:first-of-type {
+        background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Medium-2.webp);
+    }
+
+    .desc-carousel-item:nth-of-type(2) {
+        background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Medium-3.webp);
+    }
+
+    .desc-carousel-item:nth-of-type(3) {
+        background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Medium-4.webp);
+    }
+
+    .desc-carousel-item {
+        min-height: 39.8vw;
+    }
+
+    .dots {
+        top: 34.8vw;
+    }
+
+    .desc-text-content {
+        width: 40%;
+    }
+
+    .desc-text-content h3 {
+        font-size: 1.2rem;
+        line-height: 1rem;
+    }
+
+    .desc-text-content p {
+        font-size: 0.9rem;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .details-left {
+        padding: 1rem 1.25rem;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .details-right {
+        padding: 1rem 1.25rem;
+        width: 100%;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    .review {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:600px) {
+    .description-carousel {
+        display: none;
+    }
+
+    .dots {
+        display: none;
+    }
+
+    .description-carousel-small {
+        display: flex;
+    }
+
+    .desc-controls-small {
+        display: flex;
+    }
+
+    .accordion-card-gallery h2 {
+        font-size: 1.25rem;
+    }
+
+    .accordion-card h3 {
+        font-size: 1.125rem;
+    }
+
+    .other-video {
+        display: none;
+    }
+
+    .other-video-small {
+        display: block;
+    }
+
+    .video-gallery-small {
+        display: block;
+    }
+
+    .video-gallery-large {
+        display: none;
+    }
+}
+
+@media (max-width:473px) {
+    .buttons-hulk-flex {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:328px) {
+    .accordion-card {
+        min-width: 13rem;
+    }
+
+    .accordion-card h3 {
+        font-size: 1rem;
+    }
+
+    .accordion-card p {
+        font-size: 0.9rem;
+    }
+
+    .details-left {
+        font-size: 0.875rem;
+    }
+}
+
+.scrollbar {
+    width: 80vw;
+    height: 10px;
+    max-width: 1600px;
+    background-color: rgb(84, 84, 84);
+    margin: 1rem auto;
+    position: relative;
+}
+
+.thumb {
+    background-color: white;
+    position: absolute;
+    height: 10px;
+}
