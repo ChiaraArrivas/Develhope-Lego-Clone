@@ -272,118 +272,24 @@
   transform: rotate(-180deg);
 }
 
-.background-container {
+.accordion-bg {
   border-top: 1px solid #dbdbdb;
   background-color: #f9f9f9;
 }
 
-.container {
-  max-width: 1500px;
-  margin: auto;
-  padding: 1rem 1.25rem;
-  display: flex;
-}
-
-.accordion-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 6rem;
-  padding: 0 1.25rem;
-  max-width: 1500px;
-  margin: auto;
-}
-
-.accordion-title h2 {
-  font-weight: 500;
-}
-
-.accordion {
-  overflow: hidden;
-  transition: all 0.5s ease-in-out;
-  color: white;
-  background-color: #000000;
-  max-width: 1600px;
-  margin: auto;
-}
-
 video {
-  margin-top: -0.35rem;
+  margin-top: -0.45rem;
 }
 
-.video-gallery-small {
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
   display: none;
 }
 
-.accordion-card-container {
-  display: flex;
-  justify-content: space-between;
-  gap: 1.2rem;
-  overflow: scroll;
-}
-
-.accordion-card-gallery {
-  padding: 1.75rem 1.25rem;
-  max-width: 1280px;
-  margin: auto;
-}
-
-.accordion-card-gallery::-webkit-scrollbar,
-.accordion-card-gallery::-webkit-scrollbar-thumb,
-.accordion-card-gallery::-webkit-scrollbar-track {
-  display: none;
-}
-
-.accordion-card-gallery h2 {
-  padding-bottom: 1.5rem;
-  font-weight: 400;
-  font-size: 2rem;
-}
-
-.accordion-card {
-  min-width: 275px;
-  text-align: center;
-  padding-bottom: 1.75rem;
-}
-
-.accordion-card img {
-  width: 100%;
-}
-
-.accordion-card h3 {
-  font-weight: 500;
-  font-size: 1.25rem;
-  padding: 1rem 0;
-}
-
-.accordion-card p {
-  font-size: 0.875rem;
-}
-
-.other-video {
-  position: relative;
-}
-
-.other-video h2 {
-  position: absolute;
-  display: inline;
-  text-align: end;
-  right: 9vw;
-  top: 7.3vw;
-  line-height: 3.15rem;
-  font-weight: 400;
-  font-size: 2.5rem;
-}
-
-.other-video-small {
-  display: none;
-}
-
-.other-video-small h2 {
-  font-size: 1.1rem;
-  line-height: 2rem;
-  text-align: center;
-  padding-bottom: 1rem;
+.custom-position-1 {
+  right: 9%;
+  top: 12%;
 }
 
 .description-carousel {
@@ -779,12 +685,6 @@ video {
   }
   .accordion-card h3 {
     font-size: 1.125rem;
-  }
-  .other-video {
-    display: none;
-  }
-  .other-video-small {
-    display: block;
   }
   .video-gallery-small {
     display: block;

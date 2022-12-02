@@ -1,36 +1,13 @@
 const $accordionBtn = document.querySelectorAll(".circle");
 const $verticalLine = document.querySelectorAll(".line1");
 const $horizontalLine = document.querySelectorAll(".line2");
-const $accordion = document.querySelectorAll(".accordion");
-const $preBtnDesc = document.querySelector(".desc-prev-btn");
-const $nextBtnDesc = document.querySelector(".desc-next-btn");
-const $descriptionCarousel = document.querySelector(".description-carousel");
 const $carouselSmallBtnPrev = document.querySelector(".desc-btn-small-prev");
 const $carouselSmallBtnNext = document.querySelector(".desc-btn-small-next");
 const $carouselItems = document.querySelectorAll(".desc-carousel-item");
-const $dots = document.querySelectorAll(".dot");
 const $descriptionCarouselSmall = document.querySelector(".description-carousel-small");
 const $carouselItemsSmall = document.querySelectorAll(".desc-carousel-item-small");
-const $dotsSmall = document.querySelectorAll(".dot-small");
-
-function Accordion(button, accordionBody, addPixels = 0) {
-    accordionBody.style.maxHeight = "0px";
-    button.addEventListener("click", () => {
-        if (accordionBody.style.maxHeight == "0px") {
-            if (accordionBody.scrollHeight > 800) {
-            accordionBody.style.maxHeight = accordionBody.scrollHeight + addPixels + "px";
-        } else {
-            accordionBody.style.maxHeight = accordionBody.scrollHeight + 100 + "px";
-        }
-        } else {
-            accordionBody.style.maxHeight = 0;
-        }
-    }
-    )
-}
 
 for (let i = 0; i < $accordionBtn.length; i++) {
-    Accordion($accordionBtn[i], $accordion[i], 2550);
     $accordionBtn[i].addEventListener("click", () => {
         $verticalLine[i].classList.toggle("line1-anim");
         $horizontalLine[i].classList.toggle("line2-anim");
@@ -60,8 +37,6 @@ function carousel(previousButton, nextButton, carouselBody, value = 0) {
     })
 
 }
-
-carousel($preBtnDesc, $nextBtnDesc, $descriptionCarousel, 19);
 
 carousel($carouselSmallBtnPrev, $carouselSmallBtnNext, $descriptionCarouselSmall);
 
