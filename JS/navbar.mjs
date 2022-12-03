@@ -1,3 +1,9 @@
+const prevBtn = document.querySelector(".prev")
+const nextBtn = document.querySelector(".next")
+const scrollableNav = document.querySelector(".mySlides")
+
+
+
 let lastScrollTop;
 let navbar = document.querySelector('nav');
 window.addEventListener('scroll',function(){
@@ -10,3 +16,4 @@ navbar.style.top='0';
 }
 lastScrollTop = scrollTop;
 });
+

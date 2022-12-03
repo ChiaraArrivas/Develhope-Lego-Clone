@@ -28,7 +28,6 @@ export function CarouselNoRestart(previousButton, nextButton, carouselBody) {
     })
 }
 
-
 export function CarouselInfiniteScoll(previousButton, nextButton, carouselBody, value = 0) {
     carouselBody.style.scrollBehavior = "smooth";
 
