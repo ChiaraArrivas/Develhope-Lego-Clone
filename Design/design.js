@@ -28,3 +28,27 @@ export function CarouselNoRestart(previousButton, nextButton, carouselBody) {
     })
 }
 
+
+export function CarouselInfiniteScroll(previousButton, nextButton, carouselBody) {
+    carouselBody.style.scrollBehavior = "smooth";
+
+previousButton.addEventListener("click", () => {
+    let scrollStep = carouselBody.clientWidth;
+    let scrollLength = carouselBody.scrollWidth - scrollStep;
+    carouselBody.scrollLeft -= scrollStep;
+    if (Math.floor(carouselBody.scrollLeft) == 0) {
+        carouselBody.scrollLeft = scrollLength;
+    }
+})
+
+    nextButton.addEventListener("click", () => {
+        let scrollStep = carouselBody.clientWidth;
+        let scrollLength = carouselBody.scrollWidth - scrollStep;
+        carouselBody.scrollLeft += scrollStep;
+        if (Math.floor(carouselBody.scrollLeft) == scrollLength) {
+            carouselBody.scrollLeft = 0;
+        }
+    })
+    
+}
+
