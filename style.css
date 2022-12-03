@@ -7,13 +7,13 @@ nav .first-nav-cont {
 }
 nav .first-nav-cont .first-nav {
   height: 55px;
-  padding: 0 35px;
   width: 100%;
   max-width: 1500px;
 }
 nav .first-nav-cont .first-nav .slideshow-containerOne {
   height: 55px;
   width: 40%;
+  min-width: 20rem;
   margin: auto !important;
   /*.mySlidesOne ::-webkit-scrollbar {
       display: none;
