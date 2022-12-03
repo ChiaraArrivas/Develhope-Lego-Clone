@@ -1,5 +1,3 @@
-import * as module from "../Design/design"
-
 const prevBtn = document.querySelector(".prev")
 const nextBtn = document.querySelector(".next")
 const scrollableNav = document.querySelector(".mySlides")
