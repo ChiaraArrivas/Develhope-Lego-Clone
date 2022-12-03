@@ -1,374 +1,94 @@
-/* Bottoni Accordion */
-.circle {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    border-radius: 3rem;
-    border: 1px solid lightgray;
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-    padding: 0.9rem;
-    cursor: pointer;
-}
-
-.line1 {
-    width: 3px;
-    height: 20px;
-    background-color: black;
-    margin-left: 8px;
-    position: absolute;
-    top: 4.5px;
-    left: 5px;
-    transition: transform 0.5s;
-}
-
-.line2 {
-    height: 3px;
-    width: 20px;
-    background-color: black;
-    position: absolute;
-    left: 4.5px;
-    transition: transform 0.5s;
-}
-/* Animazioni */
-.line1-anim {
-    transform: rotate(-270deg);
-}
-
-.line2-anim {
-    transform: rotate(-180deg);
-}
-/* Bottoni Caroselli dark */
-.desc-carousel-btn {
-    height: fit-content;
-    width: fit-content;
-    background-color: #0000009a;
-    color: white;
-    border: none;
-    border-radius: 3rem;
-    padding: 0.8rem 1rem;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.desc-carousel-btn:hover {
-    background-color: white;
-    color: #000000;
-}
-
-.accordion-bg {
-    border-top: 1px solid #dbdbdb;
-    background-color: #f9f9f9;
-}
-
-video {
-    margin-top: -.45rem;
-}
-
-.custom-position-1 {
-    right: 9%;
-    top: 12%;
-}
-
-.custom-position-2 {
-    padding-left: 9%;
-    padding-top: 3%;
-    width: 40%;
-}
-
-.custom-position-3 {
-    padding-right: 8%;
-    padding-top: 5%;
-    width: 40%;
-}
-
-.desc-carousel-item-small {
-    min-width: 100vw;
-}
-
-.desc-carousel-item-small img {
-    width: 100%;
-}
-
-.desc-text-content-small {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 1rem;
-}
-
-.desc-text-content-small h3 {
-    text-align: center;
-    padding-bottom: 1rem;
-    font-size: 1rem;
-    font-weight: 500;
-}
-
-.desc-text-content-small p {
-    font-size: 0.875rem;
-}
-
-.desc-text-content-small button {
-    margin: 1rem auto;
-}
-
-.desc-controls-small {
-    display: none;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 1rem;
-}
-
-.desc-carousel-btn-small {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.description-carousel-small::-webkit-scrollbar {
-    display: none;
-}
-
-.desc-carousel-item {
-    min-width: 100%;
-    height: 20%;
-    max-height: 507px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
-}
-.dot,
-.dot-small {
-    min-height: 10px;
-    min-width: 10px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0 2.5px;
-    transition: all 0.3s;
-    cursor: pointer;
-}
-
-.white {
-    background-color: white;
-    color: black;
-}
-
-.details-left {
-    width: 60%;
-}
-
-.details-right {
-    width: 40%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.details-right img {
-    max-width: 100%;
-}
-
-.details-left p,
-.details-left li {
-    padding-bottom: 1.25rem;
-}
-
-.review {
-    justify-content: flex-end;
-    align-items: center;
-    gap: 1rem;
-}
-
-.review span {
-    font-size: .9rem;
-}
-
-.review-btn {
-    color: white;
-    background-color: #016db6;
-    border-radius: 4px;
-    padding: 1.075rem;
-    border: none;
-    font-size: 0.86rem;
-    font-weight: 500;
-}
-
-.buttons-hulk-flex {
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    gap: 1.25rem;
-    min-height: 7.5rem;
-    max-width: 1320px;
-    margin: auto;
-    border-bottom: 1px solid #dbdbdb;
-    padding: 1rem 1.25rem;
-}
-
-.hulk-btn {
-    color: #016db6;
-    border: 1px solid #016db6;
-    background-color: white;
-    padding: .7rem 1.31rem;
-    border-radius: 4px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s;
-}
-
-.hulk-btn:hover {
-    background-color: #e5f4ff;
-    transform: scale(1.02);
-}
-
-@media (max-width:900px) {
-    .accordion-title h2 {
-        font-size: 1.125rem;
+.hulkbuster {
+    video {
+        margin-top: -.45rem;
     }
 
-    .accordion-card-gallery h2 {
-        font-size: 1.5rem;
+    .custom-position-1 {
+        right: 9%;
+        top: 12%;
     }
 
-    .accordion-card-container::-webkit-scrollbar {
-        width: 0;
-        height: 5px;
-        transition: all 0.2s;
-        display: block;
+    .custom-position-2 {
+        padding-left: 9%;
+        padding-top: 6%;
+        width: 44%;
     }
 
-    .accordion-card-container::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 20px #272727;
-        border-radius: 0;
+    .custom-position-3 {
+        padding-right: 8%;
+        padding-top: 5%;
+        width: 42.5%;
     }
 
-    .accordion-card-container::-webkit-scrollbar-thumb {
-        background: #9d9d9d;
-        border-radius: 0;
+    @media (max-width:750px) {
+        .custom-position-2 {
+            padding-top: 2%;
+            width: 54%;
+        }
+
+        .custom-position-3 {
+            width: 47%;
+        }
+    }
+
+    @media (max-width:640px) {
+        .custom-position-2 {
+            padding-top: 0;
+        }
+
+        .custom-position-3 {
+            padding-top: 0;
+        }
+    }
+
+    .desc-carousel-btn-small {
+        background-color: transparent;
+        border: none;
         cursor: pointer;
     }
 
-    .accordion-card-container::-webkit-scrollbar-thumb:hover,
-    .accordion-card-container::-webkit-scrollbar-thumb:active {
-        background-color: white;
+    .description-carousel-small::-webkit-scrollbar {
+        display: none;
+    }
+
+    .dot,
+    .dot-small {
+        min-height: 10px;
+        min-width: 10px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 2.5px;
+        transition: all 0.3s;
         cursor: pointer;
     }
 
-    .other-video h2 br:first-of-type {
-        display: none;
+    /* responsive font sizes */
+    @media (max-width:900px) {
+        h2 {
+            font-size: 1.5rem !important;
+        }
+
+        p {
+            font-size: .95rem !important;
+        }
+
+        h3 {
+            font-size: 1.25rem !important;
+        }
     }
 
-    .desc-carousel-item:first-of-type {
-        background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Medium-2.webp);
-    }
+    @media (max-width:600px) {
+        h2 {
+            font-size: 1.25rem !important;
+        }
 
-    .desc-carousel-item:nth-of-type(2) {
-        background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Medium-3.webp);
-    }
+        h3 {
+            font-size: 1.2rem !important;
+        }
 
-    .desc-carousel-item:nth-of-type(3) {
-        background-image: url(./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Medium-4.webp);
-    }
-
-    .desc-carousel-item {
-        min-height: 39.8%;
-    }
-
-    .desc-text-content {
-        width: 40%;
-    }
-
-    .desc-text-content h3 {
-        font-size: 1.2rem;
-        line-height: 1rem;
-    }
-
-    .desc-text-content p {
-        font-size: 0.9rem;
-    }
-
-    .container {
-        flex-direction: column-reverse;
-    }
-
-    .details-left {
-        padding: 1rem 1.25rem;
-        box-sizing: border-box;
-        width: 100%;
-    }
-
-    .details-right {
-        padding: 1rem 1.25rem;
-        width: 100%;
-        box-sizing: border-box;
-        align-items: center;
-    }
-
-    .review {
-        justify-content: center;
-        flex-direction: column;
-    }
-}
-
-@media (max-width:600px) {
-    .description-carousel {
-        display: none;
-    }
-
-    .dots {
-        display: none;
-    }
-
-    .description-carousel-small {
-        display: flex;
-    }
-
-    .desc-controls-small {
-        display: flex;
-    }
-
-    .accordion-card-gallery h2 {
-        font-size: 1.25rem;
-    }
-
-    .accordion-card h3 {
-        font-size: 1.125rem;
-    }
-
-    .video-gallery-small {
-        display: block;
-    }
-
-    .video-gallery-large {
-        display: none;
-    }
-}
-
-@media (max-width:473px) {
-    .buttons-hulk-flex {
-        flex-direction: column;
-    }
-}
-
-@media (max-width:328px) {
-    .accordion-card {
-        min-width: 13rem;
-    }
-
-    .accordion-card h3 {
-        font-size: 1rem;
-    }
-
-    .accordion-card p {
-        font-size: 0.9rem;
-    }
-
-    .details-left {
-        font-size: 0.875rem;
+        p {
+            font-size: 0.9rem !important;
+        }
     }
 }
