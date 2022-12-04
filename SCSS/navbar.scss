@@ -10,13 +10,11 @@ nav {
             max-width: 1500px;
 
             .slideshow-containerOne {
-                height: 55px;
                 width: 40%;
                 min-width: 20rem;
-                margin: auto !important;
+                margin: auto;
 
                 .prevOne {
-                    rotate: 180deg;
                     width: 2rem;
                 }
 
@@ -25,9 +23,8 @@ nav {
                 }
 
                 .mySlidesOne {
-                    width: 100%;
+                    max-width: 80%;
                     .numbertextOne {
-                        height: 55px;
                         max-height: 5rem;
                         padding: 0 10px;
                         font-size: 0.75rem;
@@ -49,15 +46,38 @@ nav {
             font-size: 0.75rem;
             font-family: 'cera pro', sans-serif;
 
-            .separatore {
-                margin: 0px 1.25rem;
-                width: 0.0625rem;
-                height: 1.25rem;
-            }
+            .head-vip {
+                .img-head {
+                    width: 25px !important;
+                }
+                .img-vip {
+                    width: 25px !important;
+                }
         }
+        .separatore {
+            margin: 0px 1.25rem;
+            width: 0.0625rem;
+            height: 1.25rem;
+        }
+    }
     }
 
     .cont-personal {
+
+        .custom-aa {
+            .icon-container {
+                margin: 15px;
+            
+                span {
+                    font-size: 0.45rem;
+                    display: block;
+                }
+
+                .hamburger {
+                    height: 5px;
+                }
+            }
+        }
 
         .nav-links:hover {
             text-decoration: underline !important;
@@ -73,5 +93,11 @@ nav {
                 min-width: 40px;
             }
         }
+    }
+}
+
+@media (min-width:768px) {
+    .bg-md-warning {
+        background-color: #fecf03 !important;
     }
 }

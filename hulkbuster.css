@@ -1,47 +1,55 @@
 @import "./Design/design.css";
-.navbar {
+nav {
   transition: all 0.3s ease-in-out;
 }
-.navbar .first-nav-cont {
+nav .first-nav-cont {
   background-color: #f8f8f8;
 }
-.navbar .first-nav-cont .first-nav {
+nav .first-nav-cont .first-nav {
   height: 55px;
-  padding: 0 35px;
   width: 100%;
   max-width: 1500px;
 }
-.navbar .first-nav-cont .first-nav .slideshow-container {
-  height: 55px;
-  width: 34.5rem;
+nav .first-nav-cont .first-nav .slideshow-containerOne {
+  width: 40%;
+  min-width: 20rem;
   margin: auto;
+  /*.mySlidesOne ::-webkit-scrollbar {
+      display: none;
+  }*/
 }
-.navbar .first-nav-cont .first-nav .slideshow-container .prev {
-  rotate: 180deg;
+nav .first-nav-cont .first-nav .slideshow-containerOne .prevOne {
+  width: 2rem;
 }
-.navbar .first-nav-cont .mySlides {
-  max-height: 2rem;
-  flex-wrap: nowrap;
+nav .first-nav-cont .first-nav .slideshow-containerOne .nextOne {
+  width: 2rem;
 }
-.navbar .first-nav-cont .mySlides::-webkit-scrollbar {
-  display: none;
+nav .first-nav-cont .first-nav .slideshow-containerOne .mySlidesOne {
+  max-width: 80%;
 }
-.navbar .first-nav-cont .first-nav-right {
+nav .first-nav-cont .first-nav .slideshow-containerOne .mySlidesOne .numbertextOne {
+  max-height: 5rem;
+  padding: 0 10px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.1875rem;
+}
+nav .first-nav-cont .first-nav-right {
   white-space: nowrap;
   font-size: 0.75rem;
   font-family: "cera pro", sans-serif;
 }
-.navbar .first-nav-cont .first-nav-right .separatore {
+nav .first-nav-cont .first-nav-right .separatore {
   margin: 0px 1.25rem;
   width: 0.0625rem;
   height: 1.25rem;
 }
-.navbar .cont-personal .nav-links:hover {
+nav .cont-personal .nav-links:hover {
   text-decoration: underline !important;
   text-underline-offset: 5px;
   text-decoration-thickness: 2px !important;
 }
-.navbar .cont-personal .nav-left .search-btn {
+nav .cont-personal .nav-left .search-btn {
   border-radius: 3rem;
   border: none;
   min-height: 40px;
