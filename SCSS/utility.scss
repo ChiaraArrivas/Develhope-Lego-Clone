@@ -115,3 +115,12 @@
         cursor: pointer;
     }
 }
+
+.w-50-vw {
+    min-width: 50vw;
+    width: fit-content !important;
+}
+
+.max-vh-75 {
+    max-height: 72.5vh;
+}
