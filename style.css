@@ -218,6 +218,14 @@ footer .accordion-button:not(.collapsed) {
   }
 }
 
+@media (max-width: 578px) {
+  .show .modal-dialog .modal-content {
+    margin-top: -0.6rem;
+    margin-left: -0.6rem;
+    min-width: 100vw !important;
+    min-height: 100vh !important;
+  }
+}
 /* IMPORTARE GLI ALTRI SCSS PRIMA DI QUESTO */
 .cont-personal {
   width: 100vw;
