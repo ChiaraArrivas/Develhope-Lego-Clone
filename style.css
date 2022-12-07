@@ -90,6 +90,16 @@ nav .cont-personal ul li {
   cursor: pointer;
   list-style-type: none;
 }
+nav .cont-personal .hamburger-menu {
+  width: 375px;
+}
+nav .cont-personal .hamburger-menu ul li {
+  height: 50px;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 0 1.25rem;
+  display: flex;
+  align-items: center;
+}
 nav .cont-personal .nav-left .search-btn {
   border-radius: 3rem;
   border: none;
@@ -368,6 +378,10 @@ footer .accordion-button:not(.collapsed) {
 
 .max-vh-75 {
   max-height: 72.5vh;
+}
+
+.rotate-0 {
+  rotate: 0deg !important;
 }
 
 /*# sourceMappingURL=style.css.map */

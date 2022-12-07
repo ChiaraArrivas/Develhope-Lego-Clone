@@ -109,6 +109,18 @@ nav {
                 list-style-type: none;
             }
         }
+        .hamburger-menu {
+            width: 375px;
+            ul {
+                li{
+                    height: 50px;
+                    border-bottom: 1px solid #d9d9d9;
+                    padding: 0 1.25rem;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+        }
         .nav-left {
             .search-btn {
                 border-radius: 3rem;

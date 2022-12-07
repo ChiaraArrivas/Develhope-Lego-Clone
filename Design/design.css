@@ -318,3 +318,11 @@ html,
 .my-ratio {
     aspect-ratio: 1/1;
 }
+
+.btn-area-giochi2 {
+    width: 90%;
+    margin: auto;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    box-shadow: 0 1px 10px #9ecaec;
+}

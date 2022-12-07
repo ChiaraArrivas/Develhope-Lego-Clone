@@ -95,10 +95,50 @@
         <div class="yellow-nav custom-nav bg-light bg-md-warning navbar container-fluid d-flex align-items-center justify-content-between">
             <div class="cont-personal container-1600 px-2 d-flex align-items-center justify-content-between">
                 <div class="d-flex align-items-center justify-content-between custom-aa">
-                    <div class="icon-container d-md-none">
+                    <div class="icon-container d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
                         <div class="hamburger border-2 border-bottom border-top border-dark"></div>
                         <span>MENU</span>
-                    </div>
+                    </div> 
+                      <div class="offcanvas offcanvas-start  hamburger-menu" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                        <div class="d-flex align-items-center justify-content-between border-3 border-bottom border-warning">
+                          <h6 class="fw-bold p-0 m-0 ps-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">MENU</h6>
+                          <button type="button" class="btn-close p-3 border-1 border-start border-gray rounded-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body w-100 px-0">
+                            <div class="hamburger-title">
+                            </div>
+                            <button class="btn-area-giochi btn-area-giochi2">
+                                <img class="rotate-0" src="../assets/imgs/ugly-arrow.svg" alt="long arrow">
+                                AREA GIOCHI
+                            </button>
+                            <ul class="ps-0 pt-4 mt-2 gap-0">
+                                <li class="fs-8 fw-bold">BLACK FRIDAY</li>
+                                <li class="fs-8 fw-bold">HOME</li>
+                                <li class="fs-8 fw-bold justify-content-between">ACQUISTA
+                                    <img  class="arrow" height="14px" src="../assets/imgs/arrow-right.svg" alt="arrow 16px">
+                                </li>
+                                <li class="fs-8 fw-bold justify-content-between">SCOPRI
+                                    <img class="arrow" height="14px" src="../assets/imgs/arrow-right.svg" alt="arrow 16px">
+                                </li>
+                                <li class="fs-8 fw-bold justify-content-between">AIUTO
+                                    <img class="arrow" height="14px" src="../assets/imgs/arrow-right.svg" alt="arrow 16px">
+                                </li>
+                                <li class="fs-7 fw-bold gap-3"> 
+                                <img src="../assets/imgs/testa.svg" alt="head">
+                                 Account
+                                </li>
+                                <li class="fs-7 fw-bold gap-3">
+                                    <img width="20px" src="../assets/imgs/vip.png" alt="vip">
+                                    VIP
+                                </li>
+                                <li class="fs-7 fw-bold">La mia lista dei desideri</li>
+                                <li class="fs-7 fw-bold" >Il mio carrello (3)</li>
+                                <li class="fs-7 fw-bold gap-3">
+                                    <img src="./assets/imgs/position-black.svg" alt="position">
+                                    Italia</li>
+                            </ul>
+                        </div>
+                      </div>
                     <div class="container-logo  mx-2">
                         <a href="https://www.lego.com/it-it" class="logo">
                             <img width="53px"
