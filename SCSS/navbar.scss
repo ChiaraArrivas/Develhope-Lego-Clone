@@ -120,6 +120,11 @@ nav {
                     align-items: center;
                 }
             }
+            @media (max-width:568px) {
+                & {
+                    width: 100vw;
+                }
+            }
         }
         .nav-left {
             .search-btn {
