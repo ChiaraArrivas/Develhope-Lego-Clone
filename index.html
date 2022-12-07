@@ -32,7 +32,7 @@
                     <a class="prevOne rotate-180 bg-light ms-1 carousel-control-prev" href="#carouselExampleControls"
                         role="button" data-slide="prev">
                         <img src="./assets/imgs/arrow-right 18.svg" alt="arrow 18px">
-                        <span class="sr-only">Previous</span>
+                        <span class="sr-only d-none" >Previous</span>
 
                     </a>
                     <!-- Items -->
@@ -68,7 +68,7 @@
                     <a class="nextOne bg-light carousel-control-next" href="#carouselExampleControls" role="button"
                         data-slide="next">
                         <img src="./assets/imgs/arrow-right 18.svg" alt="arrow 18px">
-                        <span class="sr-only">Next</span>
+                        <span class="sr-only d-none">Next</span>
                     </a>
                 </div>
 
@@ -98,8 +98,9 @@
         </div>
 
         <!--yellow nav-->
-        <div
-            class="custom-nav bg-light bg-md-warning navbar container-fluid d-flex align-items-center justify-content-between ">
+
+
+        <div class="yellow-nav custom-nav bg-light bg-md-warning navbar container-fluid d-flex align-items-center justify-content-between">
             <div class="cont-personal container-1600 px-2 d-flex align-items-center justify-content-between">
                 <div class="d-flex align-items-center justify-content-between custom-aa">
                     <div class="icon-container d-md-none">
@@ -113,19 +114,255 @@
                                 alt="lego logo">
                     </div>
                     <div class="d-flex align-items-center justify-content-between gap-2 h-100">
-                        <div><a href="#"
-                                class="nav-links  text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2">ACQUISTA</a>
-                        </div>
-                        <div><a href="#"
-                                class="nav-links  text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2">SCOPRI</a>
-                        </div>
-                        <div><a href="#"
-                                class="nav-links  text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2">AIUTO</a>
-                        </div>
+
+
+                        <div><a href="#" class="nav-links btn-acquista text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">ACQUISTA</a></div>
+                        <div><a href="#" class="nav-links btn-scopri text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">SCOPRI</a></div>
+                        <div><a href="#" class="nav-links btn-aiuto text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">AIUTO</a></div>
+
                         <button class="f-s-vip d-none"><a href="https://www.lego.com/it-it/vip-weekend-deals"></a>
                             FINE SETTIMANA VIP
                         </button>
-                    </div>
+                    </div>      
+                      <div class="offcanvas offcanvas-start ps-5 w-50-vw d-none d-md-block" tabindex="-1" id="offcanvas" aria-labelledby="staticBackdropLabel">
+                          <div class="offcanvas-header">
+                              <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="d-flex pt-4 my-1 px-4 mx-3 gap-2">
+                                <div><a href="#" class="nav-links big-collapse-button btn-acquista-2 text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidth1" aria-expanded="false" aria-controls="collapseWidth1">ACQUISTA</a></div>
+                                <div><a href="#" class="nav-links big-collapse-button btn-scopri-2 text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidth2" aria-expanded="false" aria-controls="collapseWidth2">SCOPRI</a></div>
+                                <div><a href="#" class="nav-links big-collapse-button btn-aiuto-2 text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidth3" aria-expanded="false" aria-controls="collapseWidth3">AIUTO</a></div>
+                            </div>
+                            <div class="offcanvas-body">
+                          <div>
+                                <div class="collapse collapse-horizontal" id="collapseWidth1">
+                                    <div class="d-flex" style="min-width: 300px;">
+                                        <ul>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth4" aria-expanded="false" aria-controls="collapseWidth4">Set per tema <img height="12px" src="../assets/imgs/arrow-right.svg" alt="arrow 12px">
+                                            </li>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth5" aria-expanded="false" aria-controls="collapseWidth5">Età <img src="../assets/imgs/arrow-right.svg" height="12px" alt="arrow 12px"></li>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth6" aria-expanded="false" aria-controls="collapseWidth6">Prezzi <img src="../assets/imgs/arrow-right.svg" height="12px" alt="arrow 12px"></li>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth7" aria-expanded="false" aria-controls="collapseWidth7">Merchandising LEGO <img src="../assets/imgs/arrow-right.svg" height="12px"
+                                                    alt="arrow 12px"></li>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth8" aria-expanded="false" aria-controls="collapseWidth8">Interessi <img src="../assets/imgs/arrow-right.svg" height="12px" alt="arrow 12px">
+                                            </li>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth9" aria-expanded="false" aria-controls="collapseWidth9">Pick and Build <img src="../assets/imgs/arrow-right.svg" height="12px"
+                                                    alt="arrow 12px"></li>
+                                            <li>Set Esclusivi</li>
+                                            <li>Novità</li>
+                                            <li>I più venduti</li>
+                                            <li>Home decor</li>
+                                            <li>Sconti e offerte</li>
+                                            <li>Disponibile a breve</li>
+                                            <li>Ultima occasione per <br> acquistarli</li>
+                                        </ul>
+                                          <div style="min-height: 120px;">
+                                            <div class="collapse collapse-horizontal collapse-child" id="collapseWidth4">
+                                                <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                                    <h6>VISUALIZZA TUTTI I TEMI</h6>
+                                                    <div class="d-flex flex-column flex-xl-row max-vh-75 overflow-scroll">
+                                                        <ul>
+                                                            <li>Architecture</li>
+                                                            <li>Batman™</li>
+                                                            <li>BOOST</li>
+                                                            <li>BrickHeadz</li>
+                                                            <li>Brick Sketches™</li>
+                                                            <li>City</li>
+                                                            <li>Classic</li>
+                                                            <li>Creator 3-in-1</li>
+                                                            <li>Creator Expert</li>
+                                                            <li>DC</li>
+                                                            <li>Disney™</li>
+                                                            <li>Topolino e amici Disney</li>
+                                                            <li>Lightyear di Disney e Pixar</li>
+                                                            <li>DOTS</li>
+                                                            <li>DUPLO®</li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Friends</li>
+                                                            <li>Frozen</li>
+                                                            <li>Harry Potter™</li>
+                                                            <li>Ideas</li>
+                                                            <li>Jurassic World™</li>
+                                                            <li>LEGO® Art</li>
+                                                            <li>LEGO® Avatar
+                                                                <button class="yellow-btn">
+                                                                    Novità
+                                                                </button>
+                                                            </li>
+                                                            <li>Novità</li>
+                                                            <li>LEGO® Education</li>
+                                                            <li>LEGO® Icons</li>
+                                                            <li>LEGO® Super Mario™</li>
+                                                            <li>Marvel</li>
+                                                            <li>MINDSTORMS®</li>
+                                                            <li>Minecraft®</li>
+                                                            <li>Minifigure</li>
+                                                            <li>Minions</li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Monkie Kid™</li>
+                                                            <li>NINJAGO®</li>
+                                                            <li>Powered UP</li>
+                                                            <li>SERIOUS PLAY®</li>
+                                                            <li>Speed Champions</li>
+                                                            <li>Spider-Man</li>
+                                                            <li>Star Wars™</li>
+                                                            <li>Stranger Things</li>
+                                                            <li>Technic</li>
+                                                            <li>VIDIYO™</li>
+                                                            <li>Xtra</li>
+                                                        </ul>
+                                                    </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                            <div class="collapse collapse-horizontal collapse-child" id="collapseWidth5">
+                                                <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                                    <h6>VISUALIZZA TUTTE LE ETÀ</h6>
+                                                    <ul>
+                                                        <li>1.5+</li>
+                                                        <li>4+</li>
+                                                        <li>6+</li>
+                                                        <li>9+</li>
+                                                        <li>13+</li>
+                                                        <li>18+</li>
+                                                    </ul>
+                                                </div>
+                                          </div>
+                                            <div class="collapse collapse-horizontal collapse-child" id="collapseWidth6">
+                                                <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                                    <h6>VISUALIZZA TUTTI PREZZI</h6>
+                                                    <ul>
+                                                        <li>Meno di 20 €</li>
+                                                        <li>20 € - 50 €</li>
+                                                        <li>50 € - 100 €</li>
+                                                        <li>100 € - 200 €</li>
+                                                        <li>Più di 200 €</li>
+                                                    </ul>
+                                                </div>
+                                      </div>
+                                        <div class="collapse collapse-horizontal collapse-child" id="collapseWidth7">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                                <h6>VISUALIZZA TUTTO IL MERCHANDISING LEGO</h6>
+                                                <ul>
+                                                    <li>Accessori</li>
+                                                    <li>Zaini e portavivande</li>
+                                                    <li>Libri</li>
+                                                    <li>Portachiavi</li>
+                                                    <li>Giocattoli di peluche
+                                                        <button class="yellow-btn">
+                                                            Novità
+                                                        </button>
+                                                    </li>
+                                                    <li>Bustina</li>
+                                                    <li>Puzzle e giochi da tavolo</li>
+                                                    <li>Gioco di ruolo e costumi</li>
+                                                    <li>Cancelleria</li>
+                                                    <li>Contenitori</li>
+                                                </ul>
+                                    </div>
+                                        </div>
+                                        <div class="collapse collapse-horizontal collapse-child" id="collapseWidth8">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                                <h6>VISUALIZZA TUTTI GLI INTERESSI</h6>
+                                                <ul>
+                                                    <li>Per gli adulti</li>
+                                                    <li>Arts and Crafts</li>
+                                                    <li>Auto</li>
+                                                    <li>Programmazione per i bambini</li>
+                                                    <li>Draghi</li>
+                                                    <li>Fantasy</li>
+                                                    <li>Film</li>
+                                                    <li>Gaming</li>
+                                                    <li>Impara a costruire</li>
+                                                    <li>Musica</li>
+                                                    <li>Ninja</li>
+                                                    <li>Prescolare</li>
+                                                    <li>Principesse</li>
+                                                    <li>Eroi della vita reale</li>
+                                                    <li>Robot per i bambini</li>
+                                                </ul>
+                                      </div>
+                                        </div>
+                                        <div class="collapse collapse-horizontal collapse-child" id="collapseWidth9">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                                <h6>PICK AND BUILD</h6>
+                                                <ul>
+                                                    <li>Pick a Brick</li>
+                                                    <li>Kit e accessori per mattoncini</li>
+                                                    <li>Build a Minifigure</li>
+                                                </ul>
+                                            </div>
+                                      </div>
+                                        </div>
+                                  </div>
+                              </div>
+                          <div>
+                              <div class="collapse collapse-horizontal" id="collapseWidth2">
+                                    <div class="sub-menu-scopri hidden d-flex" style="min-width: 300px;">
+                                        <ul>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth10" aria-expanded="false" aria-controls="collapseWidth10">I nostri valori <img height="12px" src="../assets/imgs/arrow-right.svg"
+                                                    alt="arrow 12px">
+                                            </li>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth11" aria-expanded="false" aria-controls="collapseWidth11">Le nostre app<img height="12px" src="../assets/imgs/arrow-right.svg" alt="arrow 12px">
+                                            </li>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth12" aria-expanded="false" aria-controls="collapseWidth12">Le nostre riviste<img height="12px" src="../assets/imgs/arrow-right.svg"
+                                                    alt="arrow 12px"></li>
+                                            <li>Tutti i temi LEGO</li>
+                                            <li>Tutti gli interessi LEGO</li>
+                                            <li>Per gli adulti</li>
+                                            <li>Programma premi VIP</li>
+                                            <li>Decorator 3D DOTS</li>
+                                            <li>LEGO® Mosaic Maker</li>
+                                        </ul>
+                                        <div class="collapse collapse-horizontal collapse-child" id="collapseWidth10">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                                <ul>
+                                                    <li>Informazioni su LEGO Group</li>
+                                                    <li>Notizie LEGO</li>
+                                                    <li>Sostenibilità</li>
+                                                </ul>
+                                            </div>
+                                      </div>
+                                        <div class="collapse collapse-horizontal collapse-child" id="collapseWidth11">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                                <ul>
+                                                    <li>LEGO Builder</li>
+                                                    <li>App LEGO Life</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="collapse collapse-horizontal collapse-child" id="collapseWidth12">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                                <ul>
+                                                    <li>Cataloghi LEGO</li>
+                                                    <li>LEGO Life Magazine GRATUITO</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div>
+                              <div class="collapse collapse-horizontal" id="collapseWidth3">
+                                <div class="" style="width: 300px;">
+                                    <div class="sub-menu-aiuto hidden">
+                                        <ul>
+                                            <li>Verifica stato ordine</li>
+                                            <li>Consegne e resi</li>
+                                            <li>Trova uno Store</li>
+                                            <li>Istruzioni per la costruzione</li>
+                                            <li>Domande frequenti</li>
+                                            <li>Contattaci</li>
+                                            <li>Pezzi di ricambio</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                              </div>
+                        </div>
+                        </div>
+                      </div>
                 </div>
                 <div class="nav-left d-flex align-items-center justify-content-between gap-2 mx-2">
                     <!--<div class="src-x-input"> -->
@@ -237,7 +474,7 @@
             <button
                 class="carousel-btn prev-btn-cpt rounded-circle bg-white mx-xxl-3 mb-5 carousel-btn-absolute ms-3 ms-xxl-0"><img
                     class="rotate-180" src="./assets/imgs/arrow-right 18.svg" alt=""></button>
-            <div class="d-flex carousel-body-cpt overflow-scroll row-cols-auto pb-4">
+            <div class="d-flex carousel-body-cpt overflow-scroll row-cols-auto pb-4 px-1">
                 <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
                     <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
@@ -915,7 +1152,7 @@
             <button
                 class="carousel-btn prev-btn rounded-circle bg-white mx-xxl-3 mb-5 carousel-btn-absolute ms-3 ms-xxl-0"><img
                     class="rotate-180" src="./assets/imgs/arrow-right 18.svg" alt=""></button>
-            <div class="d-flex carousel-body container-xxl overflow-scroll row-cols-auto pb-4">
+            <div class="d-flex carousel-body container-xxl overflow-scroll row-cols-auto pb-4 px-1">
                 <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
                     <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
                         <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
@@ -1528,7 +1765,7 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 
-    <!--<script src="./JS/carousels.mjs" type="module"></script>-->
+    <script src="./JS/carousels.mjs" type="module"></script>
     <script src="./JS/footer.mjs" type="module"></script>
 </body>
 
