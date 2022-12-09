@@ -2,6 +2,10 @@ body {
     overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .offcanvas-body {
     width: fit-content;
 }

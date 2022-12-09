@@ -3,6 +3,10 @@ body {
   overflow-x: hidden;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .offcanvas-body {
   width: fit-content;
 }
@@ -230,8 +234,12 @@ footer .accordion-button:not(.collapsed) {
   }
 }
 @media (max-width: 992px) {
-  footer .accordion > * {
+  footer .accordion > *, footer .row {
     width: 100vw;
+  }
+  footer .col-logo-lego, footer .social, footer .policy-links, footer .disclaimer {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
   }
   footer .container {
     margin-left: 0;

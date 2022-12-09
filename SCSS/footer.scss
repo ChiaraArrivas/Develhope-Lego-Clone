@@ -48,9 +48,13 @@ footer {
     }
 
     @media (max-width: 992px) {
-        .accordion > * {
+        .accordion > *, .row {
             width: 100vw;
         }
+        .col-logo-lego, .social, .policy-links, .disclaimer {
+            padding-right: calc(var(--bs-gutter-x) * .5);
+            padding-left: calc(var(--bs-gutter-x) * .5);
+        } 
         .container {
             margin-left: 0;
             margin-right: 0;
