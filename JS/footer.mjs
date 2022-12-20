@@ -5,17 +5,17 @@ const $panels = document.querySelectorAll(".accordion-collapse");
 let screenWithoutAccordions = window.matchMedia("(min-width: 992px)");
 
 function disableAccordions(screen) {
-    // Stato iniziale: bottoni abilitati e accordion-collapse senza show
+    // Stato iniziale: bottoni funzionanti e accordion-collapse senza show
     if (screen.matches) {
-        // Bottoni disabilitati + show
-        $accordion_buttons.forEach(button => button.disabled = true);
+        // Bottoni NON funzionanti + show
+        $accordion_buttons.forEach(button => button.removeAttribute("data-bs-toggle"));
         $panels.forEach(panel => {
             if (!panel.classList.contains("show")) panel.classList.add("show");
         });
     } else {
-        // Bottoni abilitati + collapsed per resettare le freccie + NO show
+        // Bottoni funzionanti + collapsed per resettare le freccie + NO show
         $accordion_buttons.forEach(button => {
-            button.disabled = false;
+            button.setAttribute("data-bs-toggle", "collapse");
             button.classList.add("collapsed");
         });
         $panels.forEach(panel => {
@@ -25,4 +25,4 @@ function disableAccordions(screen) {
 };
   
 disableAccordions(screenWithoutAccordions); // Call listener function at run time
-screenWithoutAccordions.addListener(disableAccordions) // Attach listener function on state changes
+screenWithoutAccordions.addEventListener("change", disableAccordions) // Attach listener function on state changes

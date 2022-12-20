@@ -28,6 +28,11 @@ footer {
         background-size: 16px 16px;
         filter: invert(87%) sepia(79%) saturate(0%) hue-rotate(95deg) brightness(109%) contrast(102%);
     }
+
+    .accordion-button:focus {
+        border: none;
+        box-shadow: none;
+    }
     
     .accordion-button::after {
         transform: rotate(90deg);
@@ -42,6 +47,10 @@ footer {
     }
 
     @media (min-width: 992px) {
+        .accordion-button {
+            cursor: auto !important;
+        }
+
         .accordion::after, .accordion-button:after, .accordion-button:not(.collapsed)::after {
             display: none;
         }
