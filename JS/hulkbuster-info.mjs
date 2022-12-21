@@ -16,7 +16,6 @@ const $descriptionAccordionItems = document.querySelector(".accordion").querySel
 
 const $collapses = document.querySelectorAll(".collapse-hulk");
 
-console.log($collapses);
 
 module.CarouselNoRestart(prevBtnCpt, nextBtnCpt, carouselBodyCpt);
 /* Animazione bottoni accordion */

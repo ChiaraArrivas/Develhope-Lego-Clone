@@ -21,7 +21,6 @@ const $topNavBtn = document.querySelector(".x900px")
 const $allCollapseChild = document.querySelectorAll(".collapse-child");
 const $allCollapseButtons = document.querySelectorAll(".collapse-button");
 
-console.log($allCollapse);
 /* Offcanvas navbar grande */
 
 const $offCanvasBtn = document.querySelector(".btn-close-large");
@@ -90,7 +89,6 @@ $bigCollapseButtons.forEach(el => {
         let thisMenu = document.querySelector(thisMenuId)
         if (thisMenu.clientWidth) {
             $offCanvasBtn.click();
-            console.log($offCanvasBtn);
         }
     })
 })
