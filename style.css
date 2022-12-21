@@ -3,16 +3,15 @@ body {
   overflow-x: hidden;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 .offcanvas-body {
   width: fit-content;
 }
 
 nav {
   transition: all 0.3s ease-in-out;
+}
+nav ::-webkit-scrollbar {
+  display: none;
 }
 nav .first-nav-cont {
   background-color: #f8f8f8;

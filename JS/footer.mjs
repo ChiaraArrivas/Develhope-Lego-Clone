@@ -1,6 +1,6 @@
 // JS per gestire gli accordions (come visibilità/funzioni in base alla viewport width)
 const $accordion_buttons = document.querySelectorAll(".accordion-button");
-const $panels = document.querySelectorAll(".accordion-collapse");
+const $panels = document.querySelectorAll(".accordion-footer");
 
 let screenWithoutAccordions = window.matchMedia("(min-width: 992px)");
 

@@ -14,6 +14,10 @@ const $carouselItemsSmall = document.querySelectorAll(".desc-carousel-item-small
 const $dotsSmall = document.querySelectorAll(".dot-small");
 const $descriptionAccordionItems = document.querySelector(".accordion").querySelectorAll(".accordion-body");
 
+const $collapses = document.querySelectorAll(".collapse-hulk");
+
+console.log($collapses);
+
 module.CarouselNoRestart(prevBtnCpt, nextBtnCpt, carouselBodyCpt);
 /* Animazione bottoni accordion */
 for (let i = 0; i < $accordionBtn.length; i++) {
@@ -22,22 +26,6 @@ for (let i = 0; i < $accordionBtn.length; i++) {
         $horizontalLine[i].classList.toggle("line2-anim");
     })
 }
-/* Fix Bottoni Accordion */
-window.addEventListener("resize", () => {
-    let isAccordionOpen = [];
-    $descriptionAccordionItems.forEach(element => {
-        isAccordionOpen.push(element.clientHeight);
-    });
-    for (let i = 0; i < $descriptionAccordionItems.length; i++) {
-        if (isAccordionOpen[i] == 0) {
-            $verticalLine[i].classList.remove("line1-anim");
-            $horizontalLine[i].classList.remove("line2-anim");
-        } else {
-            $verticalLine[i].classList.add("line1-anim");
-            $horizontalLine[i].classList.add("line2-anim");
-        }
-    }
-})
 
 module.CarouselInfiniteScoll($carouselSmallBtnPrev, $carouselSmallBtnNext, $descriptionCarouselSmall);
 module.ScrollControls($descriptionCarouselSmall, $dotsSmall, $carouselItemsSmall, "black");

@@ -2,14 +2,14 @@ body {
     overflow-x: hidden;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
-
 .offcanvas-body {
     width: fit-content;
 }
 nav {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    
     transition: all 0.3s ease-in-out;
 
     .first-nav-cont {
