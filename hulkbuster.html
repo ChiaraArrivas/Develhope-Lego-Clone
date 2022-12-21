@@ -505,7 +505,7 @@
         <div class="row">
             <div class="col py-4 border-bottom d-flex gap-3 custom-detail-link">
                 <!--product-detail-links-->
-                <a href="#">Home</a>
+                <a href="./index.html">Home</a>
                 <span> > </span>
                 <a href="#">Marvel</a>
                 <span> > </span>
@@ -558,9 +558,11 @@
                                 <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor">
                                 </path>
                             </svg>
-                        </button>                      
-                            <img id="big-img" class="img-fluid" src="./assets/imgs/hulk-1.webp" alt=""> 
-                            <button id="big-carousel-btn-right" class="d-none">
+                        </button>
+                        <picture class="big-img-container">
+                            <img id="big-img" src="./assets/imgs/hulk-1.webp" alt=""> 
+                        </picture>                     
+                        <button id="big-carousel-btn-right" class="d-none">
                                 <svg width="13" height="28" viewBox="4 0 18 28" aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor">
@@ -2134,9 +2136,8 @@
         crossorigin="anonymous"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="./JS/navbar.mjs" type="module"></script>
-    <script src="./JS/Hulkbuster.mjs" type="module"></script>
+    <script src="./JS/hulkbuster.mjs" type="module"></script>
     <script src="./JS/hulkbuster-info.mjs" type="module"></script>
     <script src="./JS/footer.mjs" type="module"></script>
 </body>
-
 </html>

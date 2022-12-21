@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import "./Design/design.css";
 body {
   overflow-x: hidden;
@@ -158,13 +159,13 @@ nav .cont-personal .nav-left .search-btn {
 
 .custom-big-img-container {
   flex: 2;
-  height: 100%;
+  height: 800px;
   width: auto;
   padding: 20px;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .custom-detail-link a:hover {
@@ -355,6 +356,28 @@ nav .cont-personal .nav-left .search-btn {
   color: rgb(65, 62, 62);
 }
 
+.big-img-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: url(/_next/static/images/zoom-in-d7fc194….svg) 15 15, zoom-in;
+  flex-basis: content;
+  object-fit: scale-down;
+}
+
+#big-img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+@media (max-width: 1600px) {
+  .custom-big-img-container {
+    height: 52vw;
+  }
+}
 @media (max-width: 1220px) {
   .product-carousel-and-img-container {
     display: flex;
@@ -386,6 +409,10 @@ nav .cont-personal .nav-left .search-btn {
   }
   #misures {
     font-size: 0.7rem !important;
+  }
+  .big-img-container {
+    writing-mode: vertical-lr;
+    -webkit-writing-mode: vertical-rl;
   }
 }
 @media (max-width: 991px) {
