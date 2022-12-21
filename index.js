@@ -55,9 +55,13 @@ slides.forEach((el) => {
   })
     el.classList.add("border-active")
       if(slidesContainer[0].clientHeight > slidesContainer[0].clientWidth){
-        slidesContainer[0].scrollTop -= (slidesContainer[0].scrollHeight / 2) - el.offsetTop 
+        let metaVisibile = slidesContainer[0].clientHeight / 2;
+        let posizionedeldiv = el.offsetTop - (el.clientHeight * 2.15);
+        slidesContainer[0].scrollTop = posizionedeldiv - metaVisibile;
     }else if(slidesContainer[0].clientWidth > slidesContainer[0].clientHeight){
-    
+      let metaVisibile = slidesContainer[0].clientWidth / 2;
+      let posizionedeldiv = el.offsetLeft - (el.clientWidth / 2);
+      slidesContainer[0].scrollLeft = posizionedeldiv - metaVisibile;
     } 
   })
 })
