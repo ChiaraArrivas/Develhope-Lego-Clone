@@ -44,11 +44,10 @@ nav {
                         line-height: 1.1875rem;
                     }
                 }
-
-                
-
             }
-
+            .x900px {
+                cursor: pointer;
+            }
         }
 
         .first-nav-right {
@@ -150,5 +149,32 @@ nav {
 @media (min-width:768px) {
     .bg-md-warning {
         background-color: #fecf03 !important;
+    }
+}
+
+@media (max-width: 578px) {
+    .show  {
+        .modal-dialog {
+            .modal-content {    
+                    margin-top: -0.49rem;
+                    margin-left: -0.49rem;           
+                    min-width: 100vw !important;
+                    min-height: 100vh !important;
+            }
+            }
+        }
+}
+
+@media (max-width:408px) {
+    .first-nav-cont {
+        display: none !important;
+    }
+}
+
+@media (max-width:368px) {
+    .nav-left {
+        .head2, .heart, .bag {
+            display: none;
+        }
     }
 }

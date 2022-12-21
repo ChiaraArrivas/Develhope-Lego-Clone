@@ -1,36 +1,7 @@
 /* Carosello navbar bianca */
-const prevBtn = document.querySelector(".prev")
-const nextBtn = document.querySelector(".next")
-const scrollableNav = document.querySelector(".mySlides")
-
-
-
-let lastScrollTop;
-let navbar = document.querySelector('nav');
-window.addEventListener('scroll',function(){
-let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-if(scrollTop > lastScrollTop){
-navbar.style.top='-140px';
-}
-else{
-navbar.style.top='0';
-}
-lastScrollTop = scrollTop;
-});
-
-/* Navbar Gialla */
-
-const $allCollapseChild = document.querySelectorAll(".collapse-child");
-const $allCollapseButtons = document.querySelectorAll(".collapse-button");
-
-$allCollapseButtons.forEach(el => {
-    el.addEventListener("click", () => {
-        $allCollapseChild.forEach(el => {
-            el.classList.remove("show");
-        })
-    })
-})
-
+const prevBtn = document.querySelector(".prev");
+const nextBtn = document.querySelector(".next");
+const scrollableNav = document.querySelector(".mySlides");
 const $allCollapse = document.querySelectorAll(".collapse");
 const $bigCollapseButtons = document.querySelectorAll(".big-collapse-button");
 const $btnAcquista = document.querySelector(".btn-acquista");
@@ -42,6 +13,52 @@ const $aiuto = document.getElementById("collapseWidth3");
 const $btnAcquista2 = document.querySelector(".btn-acquista-2");
 const $btnScopri2 = document.querySelector(".btn-scopri-2");
 const $btnAiuto2 = document.querySelector(".btn-aiuto-2");
+const $topNav = document.querySelector(".first-nav-cont")
+const $topNavBtn = document.querySelector(".x900px")
+
+/* Navbar Gialla */
+
+const $allCollapseChild = document.querySelectorAll(".collapse-child");
+const $allCollapseButtons = document.querySelectorAll(".collapse-button");
+
+/* Offcanvas navbar grande */
+
+const $offCanvasBtn = document.querySelector(".btn-close-large");
+const $offCanvas = document.querySelector(".offcanvas");
+
+/* Carosello navbar bianca */
+
+let lastScrollTop;
+let navbar = document.querySelector('nav');
+window.addEventListener('scroll',function(){
+    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    if(scrollTop > lastScrollTop){
+        navbar.style.top='-140px';
+    }
+    else{
+        navbar.style.top='0';
+    }
+    lastScrollTop = scrollTop;
+});
+
+/* Chiusura navbar bianca responsive*/
+
+$topNavBtn.addEventListener("click", () => {
+    $topNav.style.display = "none"
+})
+
+/* Navbar Gialla */
+
+/* Personalizzazioni sub menu offcanvas */
+
+$allCollapseButtons.forEach(el => {
+    el.addEventListener("click", () => {
+        $allCollapseChild.forEach(el => {
+            el.classList.remove("show");
+        })
+    })
+})
+
 
 function underlineButtons() {
     setTimeout(() => {
@@ -68,10 +85,16 @@ $bigCollapseButtons.forEach(el => {
         $allCollapse.forEach(el => {
             el.classList.remove("show"); 
         })
+        let thisMenuId = el.dataset.bsTarget;
+        let thisMenu = document.querySelector(thisMenuId)
+        if (thisMenu.clientWidth) {
+            $offCanvasBtn.click();
+            console.log($offCanvasBtn);
+        }
     })
 })
 
-function myFunction(btn, menu) {
+function toggleShow(btn, menu) {
     btn.addEventListener("click", () => {
         $allCollapse.forEach(el => {
             el.classList.remove("show");
@@ -79,17 +102,11 @@ function myFunction(btn, menu) {
         menu.classList.add("show");
     })
 }
-myFunction($btnAcquista, $acquista);
-myFunction($btnAiuto, $aiuto);
-myFunction($btnScopri, $scopri);
-
-let $offCanvasBody = document.querySelector(".offcanvas-body");
-let $offCanvasBtn = document.querySelector(".btn-close");
-
-window.addEventListener("click", () => {underlineButtons()
-    setTimeout(() => {
-        if ($offCanvasBody.clientHeight < 50) {
-            $offCanvasBtn.click();
-        }
-    }, 360)
+window.addEventListener("click", () => {
+    underlineButtons()
 })
+
+toggleShow($btnAcquista, $acquista);
+toggleShow($btnAiuto, $aiuto);
+toggleShow($btnScopri, $scopri);
+

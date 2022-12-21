@@ -44,6 +44,9 @@ nav .first-nav-cont .first-nav .slideshow-containerOne .mySlidesOne .numbertextO
   font-weight: 400;
   line-height: 1.1875rem;
 }
+nav .first-nav-cont .first-nav .x900px {
+  cursor: pointer;
+}
 nav .first-nav-cont .first-nav-right {
   white-space: nowrap;
   font-size: 0.75rem;
@@ -124,6 +127,24 @@ nav .cont-personal .nav-left .search-btn {
 @media (min-width: 768px) {
   .bg-md-warning {
     background-color: #fecf03 !important;
+  }
+}
+@media (max-width: 578px) {
+  .show .modal-dialog .modal-content {
+    margin-top: -0.49rem;
+    margin-left: -0.49rem;
+    min-width: 100vw !important;
+    min-height: 100vh !important;
+  }
+}
+@media (max-width: 408px) {
+  .first-nav-cont {
+    display: none !important;
+  }
+}
+@media (max-width: 368px) {
+  .nav-left .head2, .nav-left .heart, .nav-left .bag {
+    display: none;
   }
 }
 main {
@@ -278,15 +299,6 @@ footer .accordion-button:not(.collapsed) {
   }
 }
 
-@media (max-width: 578px) {
-  .show .modal-dialog .modal-content {
-    margin-top: -0.6rem;
-    margin-left: -0.6rem;
-    min-width: 100vw !important;
-    min-height: 100vh !important;
-  }
-}
-/* IMPORTARE GLI ALTRI SCSS PRIMA DI QUESTO */
 .cont-personal {
   width: 100vw;
   max-width: 1500px;
