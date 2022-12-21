@@ -54,6 +54,11 @@ slides.forEach((el) => {
     el.classList.remove("border-active")
   })
     el.classList.add("border-active")
+      if(slidesContainer[0].clientHeight > slidesContainer[0].clientWidth){
+        slidesContainer[0].scrollTop -= (slidesContainer[0].scrollHeight / 2) - el.offsetTop 
+    }else if(slidesContainer[0].clientWidth > slidesContainer[0].clientHeight){
+    
+    } 
   })
 })
 
@@ -67,13 +72,8 @@ bigImgContainer.addEventListener("mouseleave", () =>{
   bigBtnright.classList.add("d-none")
 })
 
-bigBtnright.addEventListener("click", () =>{
-  for (let i = 1; i < img.length; i++) {
-    bigimg.src = img[0 + i].src;
-  }
-})
 
-
+slides[0].click();
 
 
 
