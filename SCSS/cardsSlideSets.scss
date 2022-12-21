@@ -1,0 +1,96 @@
+.align {
+    margin: 0 auto;
+
+    .container {
+        max-width: 82.5rem;
+    }
+
+
+}
+
+.prova {
+    width: 250px;
+    height: 180px;
+
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.cards-wrapper {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-container-2 {
+    width: 250px;
+}
+
+.card-title {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.card-text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.compra-ora-svg {
+    color: rgb(0, 0, 0);
+    margin-left: 0.625rem;
+    margin-top: 0.5rem;
+    line-height: 0;
+    height: 12px;
+    width: 8px;
+    transition: transform 0.1s linear 0s;
+}
+
+.compra-ora {
+    justify-content: center;
+}
+
+.compra-ora-text {
+    font-weight: 600;
+}
+
+.imgs-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.logo-img {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    max-height: 30px;
+}
+
+.logo-img-2 {
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+    max-height: 30px;
+}
+
+.logo-img-3 {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    max-height: 30px;
+}
+
+.logo-img-4 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    max-height: 20px;
+}
+
