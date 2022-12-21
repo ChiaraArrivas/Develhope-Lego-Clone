@@ -2,7 +2,7 @@
 const prevBtn = document.querySelector(".prev");
 const nextBtn = document.querySelector(".next");
 const scrollableNav = document.querySelector(".mySlides");
-const $allCollapse = document.querySelectorAll(".collapse");
+const $allCollapse = document.querySelectorAll(".collapse-nav");
 const $bigCollapseButtons = document.querySelectorAll(".big-collapse-button");
 const $btnAcquista = document.querySelector(".btn-acquista");
 const $btnScopri = document.querySelector(".btn-scopri");
@@ -21,6 +21,7 @@ const $topNavBtn = document.querySelector(".x900px")
 const $allCollapseChild = document.querySelectorAll(".collapse-child");
 const $allCollapseButtons = document.querySelectorAll(".collapse-button");
 
+console.log($allCollapse);
 /* Offcanvas navbar grande */
 
 const $offCanvasBtn = document.querySelector(".btn-close-large");
