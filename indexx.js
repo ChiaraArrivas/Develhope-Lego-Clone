@@ -11,6 +11,7 @@ const bigImgContainer = document.getElementsByClassName("custom-big-img-containe
 const imgArray = document.getElementById("img")
 
 
+
 function sideCarousel(){
   if(slidesContainer[0].clientHeight > slidesContainer[0].clientWidth){
 nextButton.addEventListener("click", () => {
@@ -79,7 +80,23 @@ bigImgContainer.addEventListener("mouseleave", () =>{
 
 slides[0].click();
 
+bigBtnright.addEventListener("click", ()=>{
+  const active = document.querySelector(".border-active")
+  if(active.nextElementSibling){
+    active.nextElementSibling.click()
+  }else{
+    slides[0].click()
+  }
+})
 
+bigBtnleft.addEventListener("click", ()=>{
+  const active = document.querySelector(".border-active")
+  if(active.previousElementSibling){
+    active.previousElementSibling.click()
+  }else{
+    slides[slides.length - 1].click()
+  }
+})
 
 
 
