@@ -8,15 +8,12 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./hulkbuster.css">
 
-    <title>Lego</title>
+    <title>Lego Hulkbuster</title>
 </head>
 
-<body>
-
-    <!--NAVBAR-->
-
+<body class="hulkbuster">
     <nav class="navbar position-sticky z-index-2 pt-0">
         <div class="container-fluid first-nav-cont">
             <div class="first-nav container-1600 px-2 d-flex align-items-center justify-content-between">
@@ -32,7 +29,7 @@
                     <a class="prevOne rotate-180 bg-light ms-1 carousel-control-prev" href="#carouselExampleControls"
                         role="button" data-slide="prev">
                         <img src="./assets/imgs/arrow-right 18.svg" alt="arrow 18px">
-                        <span class="sr-only d-none" >Previous</span>
+                        <span class="sr-only d-none">Previous</span>
 
                     </a>
                     <!-- Items -->
@@ -100,17 +97,23 @@
         <!--yellow nav-->
 
 
-        <div class="yellow-nav custom-nav bg-light bg-md-warning navbar container-fluid d-flex align-items-center justify-content-between">
+        <div
+            class="yellow-nav custom-nav bg-light bg-md-warning navbar container-fluid d-flex align-items-center justify-content-between">
             <div class="cont-personal container-1600 px-2 d-flex align-items-center justify-content-between">
                 <div class="d-flex align-items-center justify-content-between custom-aa">
-                    <div class="icon-container d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <div class="icon-container d-md-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                        aria-controls="offcanvasExample">
                         <div class="hamburger border-2 border-bottom border-top border-dark"></div>
                         <span>MENU</span>
-                    </div> 
-                      <div class="offcanvas offcanvas-start  hamburger-menu" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                        <div class="d-flex align-items-center justify-content-between border-3 border-bottom border-warning">
-                          <h6 class="fw-bold p-0 m-0 ps-3" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">MENU</h6>
-                          <button type="button" class="btn-close p-3 border-1 border-start border-gray rounded-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas offcanvas-start  hamburger-menu" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div
+                            class="d-flex align-items-center justify-content-between border-3 border-bottom border-warning">
+                            <h6 class="fw-bold p-0 m-0 ps-3" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">MENU</h6>
+                            <button type="button" class="btn-close p-3 border-1 border-start border-gray rounded-0"
+                                data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body w-100 px-0">
                             <div class="hamburger-title">
@@ -123,30 +126,34 @@
                                 <li class="fs-8 fw-bold">BLACK FRIDAY</li>
                                 <li class="fs-8 fw-bold">HOME</li>
                                 <li class="fs-8 fw-bold justify-content-between">ACQUISTA
-                                    <img  class="arrow" height="14px" src="../assets/imgs/arrow-right.svg" alt="arrow 16px">
+                                    <img class="arrow" height="14px" src="../assets/imgs/arrow-right.svg"
+                                        alt="arrow 16px">
                                 </li>
                                 <li class="fs-8 fw-bold justify-content-between">SCOPRI
-                                    <img class="arrow" height="14px" src="../assets/imgs/arrow-right.svg" alt="arrow 16px">
+                                    <img class="arrow" height="14px" src="../assets/imgs/arrow-right.svg"
+                                        alt="arrow 16px">
                                 </li>
                                 <li class="fs-8 fw-bold justify-content-between">AIUTO
-                                    <img class="arrow" height="14px" src="../assets/imgs/arrow-right.svg" alt="arrow 16px">
+                                    <img class="arrow" height="14px" src="../assets/imgs/arrow-right.svg"
+                                        alt="arrow 16px">
                                 </li>
-                                <li class="fs-7 fw-bold gap-3" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
-                                <img src="../assets/imgs/testa.svg" alt="head">
-                                 Account
+                                <li class="fs-7 fw-bold gap-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="../assets/imgs/testa.svg" alt="head">
+                                    Account
                                 </li>
                                 <li class="fs-7 fw-bold gap-3">
                                     <img width="20px" src="../assets/imgs/vip.png" alt="vip">
                                     VIP
                                 </li>
                                 <li class="fs-7 fw-bold">La mia lista dei desideri</li>
-                                <li class="fs-7 fw-bold" >Il mio carrello (3)</li>
+                                <li class="fs-7 fw-bold">Il mio carrello (3)</li>
                                 <li class="fs-7 fw-bold gap-3">
                                     <img src="./assets/imgs/position-black.svg" alt="position">
-                                    Italia</li>
+                                    Italia
+                                </li>
                             </ul>
                         </div>
-                      </div>
+                    </div>
                     <div class="container-logo  mx-2">
                         <a href="https://www.lego.com/it-it" class="logo">
                             <img width="53px"
@@ -156,38 +163,78 @@
                     <div class="d-flex align-items-center justify-content-between gap-2 h-100">
 
 
-                        <div><a href="#" class="nav-links btn-acquista text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">ACQUISTA</a></div>
-                        <div><a href="#" class="nav-links btn-scopri text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">SCOPRI</a></div>
-                        <div><a href="#" class="nav-links btn-aiuto text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas">AIUTO</a></div>
+                        <div><a href="#"
+                                class="nav-links btn-acquista text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                                aria-controls="offcanvas">ACQUISTA</a></div>
+                        <div><a href="#"
+                                class="nav-links btn-scopri text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                                aria-controls="offcanvas">SCOPRI</a></div>
+                        <div><a href="#"
+                                class="nav-links btn-aiuto text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2"
+                                data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                                aria-controls="offcanvas">AIUTO</a></div>
 
                         <button class="f-s-vip d-none"><a href="https://www.lego.com/it-it/vip-weekend-deals"></a>
                             FINE SETTIMANA VIP
                         </button>
-                    </div>      
-                      <div class="offcanvas offcanvas-start ps-5 w-50-vw d-none d-md-block" tabindex="-1" id="offcanvas" aria-labelledby="staticBackdropLabel">
-                          <div class="offcanvas-header">
-                              <button type="button" class="btn-close btn-close-large ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                            </div>
-                            <div class="d-flex pt-4 my-1 px-4 mx-3 gap-2">
-                                <div><a href="#" class="nav-links big-collapse-button btn-acquista-2 text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidth1" aria-expanded="false" aria-controls="collapseWidth1">ACQUISTA</a></div>
-                                <div><a href="#" class="nav-links big-collapse-button btn-scopri-2 text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidth2" aria-expanded="false" aria-controls="collapseWidth2">SCOPRI</a></div>
-                                <div><a href="#" class="nav-links big-collapse-button btn-aiuto-2 text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2" data-bs-toggle="collapse" data-bs-target="#collapseWidth3" aria-expanded="false" aria-controls="collapseWidth3">AIUTO</a></div>
-                            </div>
-                            <div class="offcanvas-body">
-                          <div>
+                    </div>
+                    <div class="offcanvas offcanvas-start ps-5 w-50-vw d-none d-md-block" tabindex="-1" id="offcanvas"
+                        aria-labelledby="staticBackdropLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close btn-close-large ms-auto" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="d-flex pt-4 my-1 px-4 mx-3 gap-2">
+                            <div><a href="#"
+                                    class="nav-links big-collapse-button btn-acquista-2 text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseWidth1" aria-expanded="false"
+                                    aria-controls="collapseWidth1">ACQUISTA</a></div>
+                            <div><a href="#"
+                                    class="nav-links big-collapse-button btn-scopri-2 text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseWidth2" aria-expanded="false"
+                                    aria-controls="collapseWidth2">SCOPRI</a></div>
+                            <div><a href="#"
+                                    class="nav-links big-collapse-button btn-aiuto-2 text-decoration-none text-dark fw-bold  d-none d-md-block  mx-2"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseWidth3" aria-expanded="false"
+                                    aria-controls="collapseWidth3">AIUTO</a></div>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div>
                                 <div class="collapse collapse-nav collapse-horizontal" id="collapseWidth1">
                                     <div class="d-flex" style="min-width: 300px;">
                                         <ul>
-                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth4" aria-expanded="false" aria-controls="collapseWidth4">Set per tema <img height="12px" src="../assets/imgs/arrow-right.svg" alt="arrow 12px">
+                                            <li class="d-flex justify-content-between align-items-center collapse-button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseWidth4"
+                                                aria-expanded="false" aria-controls="collapseWidth4">Set per tema <img
+                                                    height="12px" src="../assets/imgs/arrow-right.svg" alt="arrow 12px">
                                             </li>
-                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth5" aria-expanded="false" aria-controls="collapseWidth5">Età <img src="../assets/imgs/arrow-right.svg" height="12px" alt="arrow 12px"></li>
-                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth6" aria-expanded="false" aria-controls="collapseWidth6">Prezzi <img src="../assets/imgs/arrow-right.svg" height="12px" alt="arrow 12px"></li>
-                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth7" aria-expanded="false" aria-controls="collapseWidth7">Merchandising LEGO <img src="../assets/imgs/arrow-right.svg" height="12px"
-                                                    alt="arrow 12px"></li>
-                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth8" aria-expanded="false" aria-controls="collapseWidth8">Interessi <img src="../assets/imgs/arrow-right.svg" height="12px" alt="arrow 12px">
+                                            <li class="d-flex justify-content-between align-items-center collapse-button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseWidth5"
+                                                aria-expanded="false" aria-controls="collapseWidth5">Età <img
+                                                    src="../assets/imgs/arrow-right.svg" height="12px" alt="arrow 12px">
                                             </li>
-                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth9" aria-expanded="false" aria-controls="collapseWidth9">Pick and Build <img src="../assets/imgs/arrow-right.svg" height="12px"
+                                            <li class="d-flex justify-content-between align-items-center collapse-button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseWidth6"
+                                                aria-expanded="false" aria-controls="collapseWidth6">Prezzi <img
+                                                    src="../assets/imgs/arrow-right.svg" height="12px" alt="arrow 12px">
+                                            </li>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseWidth7"
+                                                aria-expanded="false" aria-controls="collapseWidth7">Merchandising LEGO
+                                                <img src="../assets/imgs/arrow-right.svg" height="12px"
                                                     alt="arrow 12px"></li>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseWidth8"
+                                                aria-expanded="false" aria-controls="collapseWidth8">Interessi <img
+                                                    src="../assets/imgs/arrow-right.svg" height="12px" alt="arrow 12px">
+                                            </li>
+                                            <li class="d-flex justify-content-between align-items-center collapse-button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseWidth9"
+                                                aria-expanded="false" aria-controls="collapseWidth9">Pick and Build <img
+                                                    src="../assets/imgs/arrow-right.svg" height="12px" alt="arrow 12px">
+                                            </li>
                                             <li>Set Esclusivi</li>
                                             <li>Novità</li>
                                             <li>I più venduti</li>
@@ -196,11 +243,14 @@
                                             <li>Disponibile a breve</li>
                                             <li>Ultima occasione per <br> acquistarli</li>
                                         </ul>
-                                          <div style="min-height: 120px;">
-                                            <div class="collapse collapse-nav collapse-horizontal collapse-child" id="collapseWidth4">
-                                                <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                        <div style="min-height: 120px;">
+                                            <div class="collapse collapse-nav collapse-horizontal collapse-child"
+                                                id="collapseWidth4">
+                                                <div class="ms-5 ps-1 border-1 border-start border-gray fs-8"
+                                                    style="min-width: 300px;">
                                                     <h6>VISUALIZZA TUTTI I TEMI</h6>
-                                                    <div class="d-flex flex-column flex-xl-row max-vh-75 overflow-scroll">
+                                                    <div
+                                                        class="d-flex flex-column flex-xl-row max-vh-75 overflow-scroll">
                                                         <ul>
                                                             <li>Architecture</li>
                                                             <li>Batman™</li>
@@ -254,36 +304,42 @@
                                                             <li>Xtra</li>
                                                         </ul>
                                                     </div>
-                                              </div>
+                                                </div>
                                             </div>
-                                          </div>
-                                            <div class="collapse collapse-nav collapse-horizontal collapse-child" id="collapseWidth5">
-                                                <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
-                                                    <h6>VISUALIZZA TUTTE LE ETÀ</h6>
-                                                    <ul>
-                                                        <li>1.5+</li>
-                                                        <li>4+</li>
-                                                        <li>6+</li>
-                                                        <li>9+</li>
-                                                        <li>13+</li>
-                                                        <li>18+</li>
-                                                    </ul>
-                                                </div>
-                                          </div>
-                                            <div class="collapse collapse-nav collapse-horizontal collapse-child" id="collapseWidth6">
-                                                <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
-                                                    <h6>VISUALIZZA TUTTI PREZZI</h6>
-                                                    <ul>
-                                                        <li>Meno di 20 €</li>
-                                                        <li>20 € - 50 €</li>
-                                                        <li>50 € - 100 €</li>
-                                                        <li>100 € - 200 €</li>
-                                                        <li>Più di 200 €</li>
-                                                    </ul>
-                                                </div>
-                                      </div>
-                                        <div class="collapse collapse-nav collapse-horizontal collapse-child" id="collapseWidth7">
-                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                        </div>
+                                        <div class="collapse collapse-nav collapse-horizontal collapse-child"
+                                            id="collapseWidth5">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8"
+                                                style="min-width: 300px;">
+                                                <h6>VISUALIZZA TUTTE LE ETÀ</h6>
+                                                <ul>
+                                                    <li>1.5+</li>
+                                                    <li>4+</li>
+                                                    <li>6+</li>
+                                                    <li>9+</li>
+                                                    <li>13+</li>
+                                                    <li>18+</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="collapse collapse-nav collapse-horizontal collapse-child"
+                                            id="collapseWidth6">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8"
+                                                style="min-width: 300px;">
+                                                <h6>VISUALIZZA TUTTI PREZZI</h6>
+                                                <ul>
+                                                    <li>Meno di 20 €</li>
+                                                    <li>20 € - 50 €</li>
+                                                    <li>50 € - 100 €</li>
+                                                    <li>100 € - 200 €</li>
+                                                    <li>Più di 200 €</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="collapse collapse-nav collapse-horizontal collapse-child"
+                                            id="collapseWidth7">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8"
+                                                style="min-width: 300px;">
                                                 <h6>VISUALIZZA TUTTO IL MERCHANDISING LEGO</h6>
                                                 <ul>
                                                     <li>Accessori</li>
@@ -301,10 +357,12 @@
                                                     <li>Cancelleria</li>
                                                     <li>Contenitori</li>
                                                 </ul>
-                                    </div>
+                                            </div>
                                         </div>
-                                        <div class="collapse collapse-nav collapse-horizontal collapse-child" id="collapseWidth8">
-                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                        <div class="collapse collapse-nav collapse-horizontal collapse-child"
+                                            id="collapseWidth8">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8"
+                                                style="min-width: 300px;">
                                                 <h6>VISUALIZZA TUTTI GLI INTERESSI</h6>
                                                 <ul>
                                                     <li>Per gli adulti</li>
@@ -323,10 +381,12 @@
                                                     <li>Eroi della vita reale</li>
                                                     <li>Robot per i bambini</li>
                                                 </ul>
-                                      </div>
+                                            </div>
                                         </div>
-                                        <div class="collapse collapse-nav collapse-horizontal collapse-child" id="collapseWidth9">
-                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                        <div class="collapse collapse-nav collapse-horizontal collapse-child"
+                                            id="collapseWidth9">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8"
+                                                style="min-width: 300px;">
                                                 <h6>PICK AND BUILD</h6>
                                                 <ul>
                                                     <li>Pick a Brick</li>
@@ -334,20 +394,29 @@
                                                     <li>Build a Minifigure</li>
                                                 </ul>
                                             </div>
-                                      </div>
                                         </div>
-                                  </div>
-                              </div>
-                          <div>
-                              <div class="collapse collapse-nav collapse-horizontal" id="collapseWidth2">
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="collapse collapse-nav collapse-horizontal" id="collapseWidth2">
                                     <div class="sub-menu-scopri hidden d-flex" style="min-width: 300px;">
                                         <ul>
-                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth10" aria-expanded="false" aria-controls="collapseWidth10">I nostri valori <img height="12px" src="../assets/imgs/arrow-right.svg"
+                                            <li class="d-flex justify-content-between align-items-center collapse-button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseWidth10"
+                                                aria-expanded="false" aria-controls="collapseWidth10">I nostri valori
+                                                <img height="12px" src="../assets/imgs/arrow-right.svg"
                                                     alt="arrow 12px">
                                             </li>
-                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth11" aria-expanded="false" aria-controls="collapseWidth11">Le nostre app<img height="12px" src="../assets/imgs/arrow-right.svg" alt="arrow 12px">
+                                            <li class="d-flex justify-content-between align-items-center collapse-button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseWidth11"
+                                                aria-expanded="false" aria-controls="collapseWidth11">Le nostre app<img
+                                                    height="12px" src="../assets/imgs/arrow-right.svg" alt="arrow 12px">
                                             </li>
-                                            <li class="d-flex justify-content-between align-items-center collapse-button" data-bs-toggle="collapse" data-bs-target="#collapseWidth12" aria-expanded="false" aria-controls="collapseWidth12">Le nostre riviste<img height="12px" src="../assets/imgs/arrow-right.svg"
+                                            <li class="d-flex justify-content-between align-items-center collapse-button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseWidth12"
+                                                aria-expanded="false" aria-controls="collapseWidth12">Le nostre
+                                                riviste<img height="12px" src="../assets/imgs/arrow-right.svg"
                                                     alt="arrow 12px"></li>
                                             <li>Tutti i temi LEGO</li>
                                             <li>Tutti gli interessi LEGO</li>
@@ -356,25 +425,31 @@
                                             <li>Decorator 3D DOTS</li>
                                             <li>LEGO® Mosaic Maker</li>
                                         </ul>
-                                        <div class="collapse collapse-nav collapse-horizontal collapse-child" id="collapseWidth10">
-                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                        <div class="collapse collapse-nav collapse-horizontal collapse-child"
+                                            id="collapseWidth10">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8"
+                                                style="min-width: 300px;">
                                                 <ul>
                                                     <li>Informazioni su LEGO Group</li>
                                                     <li>Notizie LEGO</li>
                                                     <li>Sostenibilità</li>
                                                 </ul>
                                             </div>
-                                      </div>
-                                        <div class="collapse collapse-nav collapse-horizontal collapse-child" id="collapseWidth11">
-                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                        </div>
+                                        <div class="collapse collapse-nav collapse-horizontal collapse-child"
+                                            id="collapseWidth11">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8"
+                                                style="min-width: 300px;">
                                                 <ul>
                                                     <li>LEGO Builder</li>
                                                     <li>App LEGO Life</li>
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div class="collapse collapse-nav collapse-horizontal collapse-child" id="collapseWidth12">
-                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8" style="min-width: 300px;">
+                                        <div class="collapse collapse-nav collapse-horizontal collapse-child"
+                                            id="collapseWidth12">
+                                            <div class="ms-5 ps-1 border-1 border-start border-gray fs-8"
+                                                style="min-width: 300px;">
                                                 <ul>
                                                     <li>Cataloghi LEGO</li>
                                                     <li>LEGO Life Magazine GRATUITO</li>
@@ -382,27 +457,27 @@
                                             </div>
                                         </div>
                                     </div>
-                              </div>
-                        </div>
-                        <div>
-                              <div class="collapse collapse-nav collapse-horizontal" id="collapseWidth3">
-                                <div class="" style="width: 300px;">
-                                    <div class="sub-menu-aiuto hidden">
-                                        <ul>
-                                            <li>Verifica stato ordine</li>
-                                            <li>Consegne e resi</li>
-                                            <li>Trova uno Store</li>
-                                            <li>Istruzioni per la costruzione</li>
-                                            <li>Domande frequenti</li>
-                                            <li>Contattaci</li>
-                                            <li>Pezzi di ricambio</li>
-                                        </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="collapse collapse-nav collapse-horizontal" id="collapseWidth3">
+                                    <div class="" style="width: 300px;">
+                                        <div class="sub-menu-aiuto hidden">
+                                            <ul>
+                                                <li>Verifica stato ordine</li>
+                                                <li>Consegne e resi</li>
+                                                <li>Trova uno Store</li>
+                                                <li>Istruzioni per la costruzione</li>
+                                                <li>Domande frequenti</li>
+                                                <li>Contattaci</li>
+                                                <li>Pezzi di ricambio</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                              </div>
+                            </div>
                         </div>
-                        </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="nav-left d-flex align-items-center justify-content-between gap-2 mx-2">
                     <!--<div class="src-x-input"> -->
@@ -426,133 +501,919 @@
         </div>
     </nav>
 
-    <!--main-->
-    <main class="d-flex flex-column align-items-center justify-content-center text-light position-relative">
-        <img class="container-1600 w-100 p-0 position-absolute top-0 d-none d-sm-block"
-            src="./assets/imgs/1804-REVEAL-Home-202211-Hero1-Standard-Large.webp" alt="">
-        <img class="d-sm-none w-100 p-0" srcset="./assets/imgs/1804-REVEAL-Home-202211-Hero1-Standard-Small.webp">
-        <div class="main-container z-index-1 py-1 pt-md-4 py-sm-5 pb-0 pb-lg-4">
-            <div class="main-text">
-                <h1 class="text-center d-none d-xs-block d-md-block">VIP</h1>
-                <h2 class="text-center fw-normal mb-3 px-3">È arrivato il Fine settimana <br class="d-none d-lg-block">
-                    LEGO® VIP</h2>
-                <h3 class="text-center fw-normal px-3">Festeggia con 2 giorni di punti bonus, nuovi premi, offerte
-                    speciali <br class="d-none d-lg-block"> e altro ancora!</h3>
-            </div>
-            <div class="btn-container d-flex justify-content-center flex-wrap gap-3 mt-2 mt-lg-3 pb-4">
-                <button class="white-btn border-1">
-                    Scopri di più
-                    <svg height="16" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
-                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-                    </svg>
-                </button>
-                <button class="white-btn">
-                    Diventa un VIP
-                    <svg height="16" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
-                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-                    </svg>
-                </button>
+    <div class="container-xl px-4 customContainer">
+        <div class="row">
+            <div class="col py-4 border-bottom d-flex gap-3 custom-detail-link">
+                <!--product-detail-links-->
+                <a href="./index.html">Home</a>
+                <span> > </span>
+                <a href="#">Marvel</a>
+                <span> > </span>
+                <span>Hulkbuster</span>
             </div>
         </div>
-    </main>
-    <div class="sub-main-container vw-100 gap-2 gap-lg-5 d-flex justify-content-center flex-wrap px-2">
-        <div class="big-icons">
-            <a class="text-decoration-none" href="#">
-                <img class="w-100" src="./assets/imgs/novelty-2020-06-Quicklink.webp" alt="">
-                <span class="d-block text-center text-dark">Novità</span>
-            </a>
-        </div>
-        <div class="big-icons">
-            <a class="text-decoration-none" href="#">
-                <img class="w-100" src="./assets/imgs/Generic-Site-Wave-1-Exclusive-202208-Quicklink.webp" alt="">
-                <span class="d-block text-center text-dark">Set esclusivi</span>
-            </a>
-        </div>
-        <div class="big-icons">
-            <a class="text-decoration-none" href="#">
-                <img class="w-100" src="./assets/imgs/offers_Promos-Home-2021-Quicklink.webp" alt="">
-                <span class="d-block text-center text-dark">Offerte</span>
-            </a>
-        </div>
-        <div class="big-icons">
-            <a class="text-decoration-none" href="#">
-                <img class="w-100" src="./assets/imgs/1784-TEASER-BF-Home-202211-Quicklink.webp" alt="">
-                <span class="d-block text-center text-dark">Black Friday</span>
-            </a>
-        </div>
-        <div class="big-icons">
-            <a class="text-decoration-none" href="#">
-                <img class="w-100" src="./assets/imgs/Holiday2022-Home-202210-Quicklink-Holiday.webp" alt="">
-                <span class="d-block text-center text-dark">Natale 2022</span>
-            </a>
-        </div>
-        <div class="big-icons">
-            <a class="text-decoration-none" href="#">
-                <img class="w-100" src="./assets/imgs/Holiday-Home-GF-202211-Quicklink.webp" alt="">
-                <span class="d-block text-center text-dark">Trova regali</span>
-            </a>
-        </div>
-        <div class="big-icons">
-            <a class="text-decoration-none" href="#">
-                <img class="w-100" src="./assets/imgs/BestSeller-Home-202010-Quicklink.webp" alt="">
-                <span class="d-block text-center text-dark">I più venduti </span>
-            </a>
-        </div>
-        <div class="big-icons">
-            <a class="text-decoration-none" href="#">
-                <img class="w-100" src="./assets/imgs/VIPSoftLaunch-Quicklink.webp" alt="">
-                <span class="d-block text-center text-dark">VIP</span>
-            </a>
+        <!--fine product-detail-links-->
+
+        <div class="row product-detail-container">
+            <div class="col-8 border-end custom-carousel-img-content-container">
+
+                <!--product-carousel-and-img-container-->
+                <div class="row product-carousel-and-img-container">
+                    <div class="col-1 d-flex flex-column align-items-center side-carousel w-auto">
+                        <button class="btn-arrow" id="btn-arrow-up">
+                            <svg width="13" height="28" viewBox="4 0 18 28" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor">
+                                </path>
+                            </svg>
+                        </button>
+                        <ul class="flex-column d-flex product-detail-page-carousel-img-container side-carousel" id="img-array">
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-1.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-2.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-3.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-4.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-5.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-6.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-7.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-8.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-9.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-10.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-11.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-12.webp" alt=""></li>
+                            <li class="carousel-img-container"><img id="img" src="./assets/imgs/hulk-13.webp" alt=""></li>
+                        </ul>
+                        <button class="btn-arrow" id="btn-arrow-down">
+                            <svg width="13" height="28" viewBox="4 0 18 28" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor">
+                                </path>
+                            </svg>
+                        </button>
+                        
+                    </div>
+                    <div class="col-lg-11 ms-0 custom-big-img-container ">  
+                        <button id="big-carousel-btn-left" class="d-none">
+                            <svg width="13" height="28" viewBox="4 0 18 28" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor">
+                                </path>
+                            </svg>
+                        </button>
+                        <picture class="big-img-container">
+                            <img id="big-img" src="./assets/imgs/hulk-1.webp" alt=""> 
+                        </picture>                     
+                        <button id="big-carousel-btn-right" class="d-none">
+                                <svg width="13" height="28" viewBox="4 0 18 28" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor">
+                                    </path>
+                                </svg>
+                            </button>                       
+                    </div>
+                </div>
+                <div class="row d-flex align-items-end custom-display-content">
+                    <!--product-detail-container-->
+                    <div
+                        class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2">
+                        <svg class="svg-opacity" xmlns="http://www.w3.org/2000/svg" width="34" height="40"
+                            viewBox="0 0 34 40" aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                            <g fill="currentColor" style="mix-blend-mode: darken;">
+                                <path
+                                    d="M32.606 29.532c.319 0 .576.127.576.282v.585c0 .155-.257.281-.576.281H.895c-.32 0-.578-.126-.578-.281v-.585c0-.155.258-.282.578-.282h31.71zM15.737 14.597c.071 0 .129.126.129.281v.585c0 .155-.058.281-.13.281H8.63c-.072 0-.13-.126-.13-.281v-.585c0-.155.058-.281.13-.281h7.107zm9.713 0c.072 0 .13.126.13.281v.585c0 .155-.058.281-.13.281h-7.106c-.072 0-.13-.126-.13-.281v-.585c0-.155.058-.281.13-.281h7.107z" />
+                                <path
+                                    d="M1.821 21.572H32.18v16.606H1.82V21.572zM1.195 20A1.19 1.19 0 000 21.186v17.592a1.19 1.19 0 001.195 1.186h31.54a1.19 1.19 0 001.193-1.186V21.186A1.19 1.19 0 0032.734 20H1.195zM7.856 8.485c-.79.11-1.183.505-1.177 1.186v3.741c.342.047 1.524.09 1.524 1.559V9.885H25.9v3.874c.291-1.068.765-1.132 1.421-.193V9.671c0-.655-.527-1.186-1.177-1.186H7.856z" />
+                                <path
+                                    d="M7.34 18.919c-1.64 0-1.634-.814-1.634-1.042 0-1.052 1.071-3.36 1.614-3.48.593.12 1.665 2.428 1.666 3.48 0 .23-.005 1.042-1.646 1.042M7.3 12.12c-1.028.214-3.05 4.31-3.05 6.18 0 .403-.008 1.847 3.085 1.847 3.097 0 3.106-1.441 3.106-1.847-.004-1.869-2.025-5.968-3.142-6.178m9.66 6.797c-1.64 0-1.635-.814-1.635-1.042 0-1.052 1.072-3.36 1.615-3.48.593.12 1.664 2.428 1.666 3.48 0 .23-.005 1.042-1.646 1.042m-.042-6.798c-1.026.213-3.048 4.309-3.048 6.178 0 .403-.008 1.847 3.085 1.847 3.096 0 3.105-1.441 3.105-1.847-.004-1.869-2.025-5.968-3.142-6.178m9.729 6.798c-1.64 0-1.634-.814-1.634-1.042 0-1.052 1.072-3.36 1.614-3.48.593.12 1.665 2.428 1.667 3.48 0 .23-.005 1.042-1.647 1.042m-.041-6.798c-1.025.213-3.048 4.309-3.048 6.178 0 .403-.009 1.847 3.084 1.847 3.097 0 3.105-1.441 3.105-1.847-.002-1.869-2.024-5.968-3.141-6.178m-9.646-4.596c-1.64 0-1.635-.814-1.635-1.041 0-1.053 1.072-3.36 1.615-3.482.593.12 1.664 2.429 1.666 3.482 0 .228-.005 1.04-1.646 1.04M16.917.728C15.891.94 13.87 5.036 13.87 6.905c0 .404-.008 1.847 3.085 1.847 3.096 0 3.105-1.441 3.105-1.847-.004-1.869-2.025-5.968-3.142-6.178" />
+                            </g>
+                        </svg>
+                        <span class="fw-bolder fs-2">18+</span>
+                        <p class="fw-bold fs-08">Età</p>
+                    </div>
+                    <div
+                        class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2">
+                        <svg class="svg-opacity" xmlns="http://www.w3.org/2000/svg" width="33" height="40"
+                            viewBox="0 0 33 40" aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                            <g fill-rule="nonzero" stroke="currentColor" fill="none" style="mix-blend-mode: darken;">
+                                <path stroke-width="1.727" fill="#FFF"
+                                    d="M1.184 9.433l15.224-7.281 15.59 7.194V30.49L17.418 39 1.184 30.577z" />
+                                <path
+                                    d="M23.23 3.544C22.864 2.141 19.925 1 16.526 1c-3.675 0-6.798 1.228-6.89 2.895 0 0 .184 4.124.184 4.211 0 2.018 3.307 3.422 6.798 3.422 3.582 0 6.797-1.404 6.797-3.422v-3.07s.184-.965-.183-1.492z"
+                                    stroke-width="1.152" fill="#FFF" />
+                                <path
+                                    d="M10.094 4.334c.092-1.58 2.94-2.895 6.43-2.895 3.491 0 6.34 1.316 6.431 2.895.092 1.667-2.756 2.983-6.43 2.983-3.675 0-6.523-1.404-6.43-2.983h0z"
+                                    stroke-width="1.152" />
+                                <path stroke-width="1.727" d="M2 10l15 7.222V39M17 17l14.63-7.122" />
+                            </g>
+                        </svg>
+                        <span class="fw-bolder fs-2">4049</span>
+                        <p class="fw-bold fs-08">Pezzi</p>
+                    </div>
+                    <div
+                        class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2">
+                        <svg class="svg-opacity" xmlns="http://www.w3.org/2000/svg" width="37" height="25"
+                            viewBox="0 0 37 25" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX" aria-label="VIP">
+                            <path
+                                d="M26.333 8.837L20.338 1h-3.669l-5.995 7.837L4.608 3.95H1v18.128L2.877 24l31.25-.03L36 22.048V3.95h-3.627l-6.04 4.888z"
+                                stroke="currentColor" stroke-width="2" fill="none" />
+                        </svg>
+                        <div class="mt-2 d-flex align-items-center gap-1">
+                            <span class="fw-bolder fs-2 ">4125</span>
+                            <svg class="svg-opacity" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                            </svg>
+                        </div>
+                        <p class="fw-bold fs-08">Punti VIP</p>
+                    </div>
+                    <div
+                        class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2">
+                        <svg class="svg-opacity" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                            aria-hidden="true" viewBox="0 0 36 36" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                            <path
+                                d="M13.81 12.333l-2.833 11.334h11.216l2.834-11.334H13.81zm.945-3.777H25.97l1.53-6.124a1.89 1.89 0 013.668.914l-1.303 5.21h3.245c1.047 0 1.889.846 1.889 1.889a1.887 1.887 0 01-1.889 1.888h-4.19l-2.833 11.334h7.023c1.047 0 1.889.846 1.889 1.888a1.887 1.887 0 01-1.889 1.89h-7.967l-1.534 6.123a1.888 1.888 0 11-3.66-.914l1.299-5.21H10.033l-1.534 6.124a1.888 1.888 0 11-3.66-.914l1.299-5.21h-3.25a1.89 1.89 0 010-3.777h4.194l2.834-11.334H2.889a1.89 1.89 0 010-3.777h7.971l1.534-6.124a1.884 1.884 0 012.285-1.375 1.883 1.883 0 011.375 2.29l-1.3 5.209z"
+                                fill="currentColor" stroke="#FFF" fill-rule="evenodd" />
+                        </svg>
+                        <span class="fw-bolder fs-2">76210</span>
+                        <p class="fw-bold fs-08">Articolo</p>
+                    </div>
+                    <div
+                        class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="42" viewBox="0 0 28 42"
+                            aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                            <g stroke="#6F6F6F" fill="none" fill-rule="evenodd">
+                                <path
+                                    d="M24.568 23.822l-.719-3.617c-.16-.63-.245-1.226-.482-1.681-.862-1.655-3.313-4.703-3.938-4.869a1.687 1.687 0 00-.44-.052l1.91 10.85 3.669-.631z"
+                                    stroke-width="1.2" />
+                                <path
+                                    d="M26.512 27.17c-.085-1.173-1.116-2.075-2.35-2.049-1.285.035-2.341 1.068-2.308 2.338.026.937.634 1.7 1.471 1.997l-.093-.955a1.62 1.62 0 01-.49-1.016c-.06-.805.532-1.47 1.327-1.488.794-.018 1.496.622 1.547 1.436.017.263-.034.517-.144.727l.279.823a2.203 2.203 0 00.76-1.813z"
+                                    fill="#6F6F6F" stroke-width=".5" />
+                                <path
+                                    d="M2.295 23.822l.719-3.617c.16-.63.245-1.226.481-1.681.863-1.655 3.314-4.703 3.94-4.869.126-.035.278-.052.439-.052l-1.919 10.84-3.66-.621z"
+                                    stroke-width="1.2" />
+                                <path
+                                    d="M.42 27.17c.084-1.173 1.116-2.075 2.35-2.049 1.285.035 2.341 1.068 2.307 2.338-.025.937-.634 1.7-1.47 1.997L3.7 28.5a1.62 1.62 0 00.49-1.016c.059-.805-.533-1.47-1.327-1.488-.795-.018-1.496.622-1.556 1.436-.016.263.034.517.144.727l-.279.823A2.222 2.222 0 01.42 27.17z"
+                                    fill="#6F6F6F" stroke-width=".5" />
+                                <path stroke-width="1.436"
+                                    d="M12.047 27.456l-5.088-.014-.527 12.44h5.896V33.04l-.296-.56z" />
+                                <path stroke-width=".513" d="M12.81 37.318H6.04M6.25 32.289h6.265" />
+                                <g>
+                                    <path stroke-width="1.436"
+                                        d="M19.938 27.45l-5.081.014.008 5.024-.296.567v6.843h5.895z" />
+                                    <path stroke-width=".513" d="M14.383 32.298h6.263M20.866 37.36h-6.78" />
+                                </g>
+                                <path
+                                    d="M20.806 25.81l-1.31-7.876-.668-4.221c-.042-.294-.21-.54-.481-.54H8.533c-.262 0-.43.246-.482.54l-.667 4.221-1.31 7.875v1.07h14.724v-1.07h.008z"
+                                    stroke-width="1.436" />
+                                <g>
+                                    <path
+                                        d="M11.103 3.54c-.017 0 0-1.681 0-1.681a.29.29 0 01.287-.298h4.108a.29.29 0 01.288.298V3.54"
+                                        stroke-width=".851" />
+                                    <path
+                                        d="M16.411 11.965c1.057 0 1.91-.885 1.91-1.98V5.529c0-1.094-.853-1.979-1.91-1.979h-5.925c-1.057 0-1.91.885-1.91 1.98v4.457c0 1.094.853 1.979 1.91 1.979h5.925z"
+                                        stroke-width="1.436" />
+                                </g>
+                            </g>
+                        </svg>
+                        <span class="fw-bolder fs-2">1</span>
+                        <p class="fw-bold fs-08">Minifigure</p>
+                    </div>
+                    <div
+                        class="col d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="39" height="32" viewBox="0 0 39 32"
+                            aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                            <path
+                                d="M18.766 0l-2.77 2.96 1.106 1.022.91-.972v16.8L2.238 28.949l.387-1.269-1.447-.434L0 31.116 3.969 32l.334-1.463-1.305-.292 15.89-9.206h17.08l-.978.903 1.03 1.099L39 20.288l-2.98-2.752-1.03 1.1.979.902H19.522V3.011l.91.971 1.105-1.022z"
+                                fill="#6F6F6F" fill-rule="evenodd" />
+                        </svg>
+                        <span class="fs-6" id="misures">
+                            H: 21" (52cm) <br>
+                            L: 19" (47cm) <br>
+                            P: 10" (24cm) <br>
+                        </span>
+                        <p class="fw-bold fs-08">Dimensioni</p>
+                    </div>
+                </div>
+                <!--fine product-detail-container-->
+
+            </div>
+            <!--fine product-carousel-and-img-container-->
+
+            <div class="col-lg-4 px-3 py-3 d-flex flex-column gap-3">
+                <!--product-detail-page-cart-->
+                <div class="row">
+                    <div class="col-1 d-flex gap-1">
+                        <span class="bg-warning px-2 py-0 fs-08">Novità</span>
+                        <span class="bg-warning px-2 py-0 fs-08">Esclusivo</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-between align-items-center">
+                        <h1 class="fw-bold fs-1-5">Hulkbuster</h1>
+                        <img class="img-fluid" src="./assets/imgs/marvel_logo_pos_300w.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <span class="f-bolder fs-1-5">549,99 €</span>
+                    <span class="fs-08 text-success fw-bold">Disponibile ora</span>
+                </div>
+                <div class="d-flex align-items-center gap-3">
+                    <div class=" d-flex pe-0">
+                        <div class="minus-svg-container quantity-svg">
+                            <svg class="minus" width="14px" height="2px" viewBox="0 0 14 2" aria-hidden="true">
+                                <polygon fill="black" points="14 2 0 2 0 -6.03961325e-14 14 -6.03961325e-14" />
+                            </svg>
+                        </div>
+                        <div class="number-quantity-conteiner">
+                            <span>1</span>
+                        </div>
+                        <div class="plus-svg-container quantity-svg">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="add" width="14px" height="14px"
+                                viewBox="0 0 14 14" aria-hidden="true">
+                                <polygon fill="black" points="14 8 0 8 0 6 14 6" />
+                                <rect fill="black" fill-rule="nonzero" x="6" y="0" width="2" height="14" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="d-inline p-0">
+                        <span class="fs-08">Limite 3</span>
+                        <svg class="svg-opacity" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-between align-items-center gap-4 custom-add-cart-container">
+                        <button class="border-0 rounded-1 bg-add-cart w-100 h-200 fw-bolder">Aggiungi al
+                            carrello</button>
+                        <svg width="35" viewBox="0 0 40 40" alt=""
+                            class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                            <rect fill="#F8F8F8" width="40" height="40" rx="20" />
+                            <path
+                                d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                fill="#006DB7" />
+                            <path
+                                d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                fill="#006DB7" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-between custom-allert-container">
+                        <p class="fs-08">
+                            Avvertenza! <br>
+                            Rischio di soffocamento. <br>
+                            Piccole parti e piccola palle. <br>
+                            questo prodotto contiene una batteria a bottone.
+                        </p>
+                        <img src="./assets/imgs/safety-08ff1b3398344608cf1508144b3c2d0f.svg" alt="" width="15%">
+                    </div>
+                </div>
+                <div
+                    class="row d-flex align-items-center border-top border-bottom p-4 custom-container-info product-detail-instruction">
+                    <div class="col d-flex gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="26" viewBox="0 0 35 26"
+                            aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 fsHtFa">
+                            <g transform="translate(.112 1.705)" fill="none" fill-rule="evenodd">
+                                <path stroke="#006DB7" stroke-width="1.5"
+                                    d="M14 4.457L23.317 0l9.542 4.403v12.94l-8.925 5.208L14 17.397z"></path>
+                                <path stroke="#006DB7" stroke-width="1.5"
+                                    d="M14.5 4.803l9.18 4.42v13.328m0-13.464l8.953-4.359"></path>
+                                <rect fill="#006DB7" x=".388" y="5.295" width="10.5" height="1.5" rx=".75"></rect>
+                                <rect fill="#006DB7" x="3.388" y="14.295" width="7.5" height="1.5" rx=".75"></rect>
+                                <rect fill="#006DB7" x="1.888" y="9.795" width="9" height="1.5" rx=".75"></rect>
+                            </g>
+                        </svg>
+                        <span class="fs-08 fw-bold">Consegne e resi</span>
+                    </div>
+                    <div class="col-1">
+                        <svg class="svg-opacity" width="13" height="28" viewBox="4 0 18 28" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </div>
+                <div
+                    class="row justify-content-between align-items-center py-3 px-4 custom-container-info product-detail-instruction">
+                    <div class="col d-flex gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="30" aria-hidden="true"
+                            viewBox="0 0 25 28" class="Icon__StyledSVG-sc-lm07h6-0 yPbCN">
+                            <g fill="none">
+                                <path
+                                    d="M2.975 1.14c-.943 0-1.716.777-1.716 1.726v22.44c0 .949.773 1.726 1.716 1.726H22.71c.944 0 1.716-.777 1.716-1.726V2.866c0-.95-.772-1.726-1.716-1.726H2.975z"
+                                    stroke="#006DB7" stroke-width="2.055" fill="#FFF" />
+                                <path
+                                    d="M18.276 7.904V6.296a.121.121 0 00-.121-.122h-3.39a.121.121 0 00-.122.122v1.608h0H11.4V6.296a.121.121 0 00-.121-.122H7.91a.121.121 0 00-.12.122v1.608h0-1.342a.121.121 0 00-.121.122v7.377c0 .067.054.121.121.121H19.96a.121.121 0 00.121-.121V8.026a.121.121 0 00-.121-.122h-1.684 0z"
+                                    stroke="#006DB7" stroke-width="1.37" fill="#FFF" />
+                                <path fill="#006DB7"
+                                    d="M6.407 20.09H19.62v-1.363H6.407zM6.407 23.36H19.62v-1.363H6.407z" />
+                            </g>
+                        </svg>
+                        <span class="fs-08 fw-bold">Istruzioni per la costruzione</span>
+                    </div>
+                    <div class="col-1">
+                        <svg class="svg-opacity" width="13" height="28" viewBox="4 0 18 28" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <!--fine product-detail-page-cart-->
+            <!--inizio copia detail-content-->
+            <div class="row d-flex align-items-end custom-display-content2 m-auto">
+                <div
+                    class="col-md-2 col-4 d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2">
+                    <svg class="svg-opacity" xmlns="http://www.w3.org/2000/svg" width="34" height="40"
+                        viewBox="0 0 34 40" aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                        <g fill="currentColor" style="mix-blend-mode: darken;">
+                            <path
+                                d="M32.606 29.532c.319 0 .576.127.576.282v.585c0 .155-.257.281-.576.281H.895c-.32 0-.578-.126-.578-.281v-.585c0-.155.258-.282.578-.282h31.71zM15.737 14.597c.071 0 .129.126.129.281v.585c0 .155-.058.281-.13.281H8.63c-.072 0-.13-.126-.13-.281v-.585c0-.155.058-.281.13-.281h7.107zm9.713 0c.072 0 .13.126.13.281v.585c0 .155-.058.281-.13.281h-7.106c-.072 0-.13-.126-.13-.281v-.585c0-.155.058-.281.13-.281h7.107z" />
+                            <path
+                                d="M1.821 21.572H32.18v16.606H1.82V21.572zM1.195 20A1.19 1.19 0 000 21.186v17.592a1.19 1.19 0 001.195 1.186h31.54a1.19 1.19 0 001.193-1.186V21.186A1.19 1.19 0 0032.734 20H1.195zM7.856 8.485c-.79.11-1.183.505-1.177 1.186v3.741c.342.047 1.524.09 1.524 1.559V9.885H25.9v3.874c.291-1.068.765-1.132 1.421-.193V9.671c0-.655-.527-1.186-1.177-1.186H7.856z" />
+                            <path
+                                d="M7.34 18.919c-1.64 0-1.634-.814-1.634-1.042 0-1.052 1.071-3.36 1.614-3.48.593.12 1.665 2.428 1.666 3.48 0 .23-.005 1.042-1.646 1.042M7.3 12.12c-1.028.214-3.05 4.31-3.05 6.18 0 .403-.008 1.847 3.085 1.847 3.097 0 3.106-1.441 3.106-1.847-.004-1.869-2.025-5.968-3.142-6.178m9.66 6.797c-1.64 0-1.635-.814-1.635-1.042 0-1.052 1.072-3.36 1.615-3.48.593.12 1.664 2.428 1.666 3.48 0 .23-.005 1.042-1.646 1.042m-.042-6.798c-1.026.213-3.048 4.309-3.048 6.178 0 .403-.008 1.847 3.085 1.847 3.096 0 3.105-1.441 3.105-1.847-.004-1.869-2.025-5.968-3.142-6.178m9.729 6.798c-1.64 0-1.634-.814-1.634-1.042 0-1.052 1.072-3.36 1.614-3.48.593.12 1.665 2.428 1.667 3.48 0 .23-.005 1.042-1.647 1.042m-.041-6.798c-1.025.213-3.048 4.309-3.048 6.178 0 .403-.009 1.847 3.084 1.847 3.097 0 3.105-1.441 3.105-1.847-.002-1.869-2.024-5.968-3.141-6.178m-9.646-4.596c-1.64 0-1.635-.814-1.635-1.041 0-1.053 1.072-3.36 1.615-3.482.593.12 1.664 2.429 1.666 3.482 0 .228-.005 1.04-1.646 1.04M16.917.728C15.891.94 13.87 5.036 13.87 6.905c0 .404-.008 1.847 3.085 1.847 3.096 0 3.105-1.441 3.105-1.847-.004-1.869-2.025-5.968-3.142-6.178" />
+                        </g>
+                    </svg>
+                    <span class="fw-bolder fs-2">18+</span>
+                    <p class="fw-bold fs-08">Età</p>
+                </div>
+                <div
+                    class="col-md-2 col-4 d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2">
+                    <svg class="svg-opacity" xmlns="http://www.w3.org/2000/svg" width="33" height="40"
+                        viewBox="0 0 33 40" aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                        <g fill-rule="nonzero" stroke="currentColor" fill="none" style="mix-blend-mode: darken;">
+                            <path stroke-width="1.727" fill="#FFF"
+                                d="M1.184 9.433l15.224-7.281 15.59 7.194V30.49L17.418 39 1.184 30.577z" />
+                            <path
+                                d="M23.23 3.544C22.864 2.141 19.925 1 16.526 1c-3.675 0-6.798 1.228-6.89 2.895 0 0 .184 4.124.184 4.211 0 2.018 3.307 3.422 6.798 3.422 3.582 0 6.797-1.404 6.797-3.422v-3.07s.184-.965-.183-1.492z"
+                                stroke-width="1.152" fill="#FFF" />
+                            <path
+                                d="M10.094 4.334c.092-1.58 2.94-2.895 6.43-2.895 3.491 0 6.34 1.316 6.431 2.895.092 1.667-2.756 2.983-6.43 2.983-3.675 0-6.523-1.404-6.43-2.983h0z"
+                                stroke-width="1.152" />
+                            <path stroke-width="1.727" d="M2 10l15 7.222V39M17 17l14.63-7.122" />
+                        </g>
+                    </svg>
+                    <span class="fw-bolder fs-2">4049</span>
+                    <p class="fw-bold fs-08">Pezzi</p>
+                </div>
+                <div
+                    class="col-md-2 col-4 d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2 ">
+                    <svg class="svg-opacity" xmlns="http://www.w3.org/2000/svg" width="37" height="25"
+                        viewBox="0 0 37 25" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX" aria-label="VIP">
+                        <path
+                            d="M26.333 8.837L20.338 1h-3.669l-5.995 7.837L4.608 3.95H1v18.128L2.877 24l31.25-.03L36 22.048V3.95h-3.627l-6.04 4.888z"
+                            stroke="currentColor" stroke-width="2" fill="none" />
+                    </svg>
+                    <div class="mt-2 d-flex align-items-center gap-1">
+                        <span class="fw-bolder fs-2 ">4125</span>
+                        <svg class="svg-opacity" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                        </svg>
+                    </div>
+                    <p class="fw-bold fs-08">Punti VIP</p>
+                </div>
+                <div
+                    class="col-md-2 col-4 d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2">
+                    <svg class="svg-opacity" xmlns="http://www.w3.org/2000/svg" width="36" height="36"
+                        aria-hidden="true" viewBox="0 0 36 36" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                        <path
+                            d="M13.81 12.333l-2.833 11.334h11.216l2.834-11.334H13.81zm.945-3.777H25.97l1.53-6.124a1.89 1.89 0 013.668.914l-1.303 5.21h3.245c1.047 0 1.889.846 1.889 1.889a1.887 1.887 0 01-1.889 1.888h-4.19l-2.833 11.334h7.023c1.047 0 1.889.846 1.889 1.888a1.887 1.887 0 01-1.889 1.89h-7.967l-1.534 6.123a1.888 1.888 0 11-3.66-.914l1.299-5.21H10.033l-1.534 6.124a1.888 1.888 0 11-3.66-.914l1.299-5.21h-3.25a1.89 1.89 0 010-3.777h4.194l2.834-11.334H2.889a1.89 1.89 0 010-3.777h7.971l1.534-6.124a1.884 1.884 0 012.285-1.375 1.883 1.883 0 011.375 2.29l-1.3 5.209z"
+                            fill="currentColor" stroke="#FFF" fill-rule="evenodd" />
+                    </svg>
+                    <span class="fw-bolder fs-2">76210</span>
+                    <p class="fw-bold fs-08">Articolo</p>
+                </div>
+                <div
+                    class="col-md-2 col-4 d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="42" viewBox="0 0 28 42"
+                        aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                        <g stroke="#6F6F6F" fill="none" fill-rule="evenodd">
+                            <path
+                                d="M24.568 23.822l-.719-3.617c-.16-.63-.245-1.226-.482-1.681-.862-1.655-3.313-4.703-3.938-4.869a1.687 1.687 0 00-.44-.052l1.91 10.85 3.669-.631z"
+                                stroke-width="1.2" />
+                            <path
+                                d="M26.512 27.17c-.085-1.173-1.116-2.075-2.35-2.049-1.285.035-2.341 1.068-2.308 2.338.026.937.634 1.7 1.471 1.997l-.093-.955a1.62 1.62 0 01-.49-1.016c-.06-.805.532-1.47 1.327-1.488.794-.018 1.496.622 1.547 1.436.017.263-.034.517-.144.727l.279.823a2.203 2.203 0 00.76-1.813z"
+                                fill="#6F6F6F" stroke-width=".5" />
+                            <path
+                                d="M2.295 23.822l.719-3.617c.16-.63.245-1.226.481-1.681.863-1.655 3.314-4.703 3.94-4.869.126-.035.278-.052.439-.052l-1.919 10.84-3.66-.621z"
+                                stroke-width="1.2" />
+                            <path
+                                d="M.42 27.17c.084-1.173 1.116-2.075 2.35-2.049 1.285.035 2.341 1.068 2.307 2.338-.025.937-.634 1.7-1.47 1.997L3.7 28.5a1.62 1.62 0 00.49-1.016c.059-.805-.533-1.47-1.327-1.488-.795-.018-1.496.622-1.556 1.436-.016.263.034.517.144.727l-.279.823A2.222 2.222 0 01.42 27.17z"
+                                fill="#6F6F6F" stroke-width=".5" />
+                            <path stroke-width="1.436"
+                                d="M12.047 27.456l-5.088-.014-.527 12.44h5.896V33.04l-.296-.56z" />
+                            <path stroke-width=".513" d="M12.81 37.318H6.04M6.25 32.289h6.265" />
+                            <g>
+                                <path stroke-width="1.436"
+                                    d="M19.938 27.45l-5.081.014.008 5.024-.296.567v6.843h5.895z" />
+                                <path stroke-width=".513" d="M14.383 32.298h6.263M20.866 37.36h-6.78" />
+                            </g>
+                            <path
+                                d="M20.806 25.81l-1.31-7.876-.668-4.221c-.042-.294-.21-.54-.481-.54H8.533c-.262 0-.43.246-.482.54l-.667 4.221-1.31 7.875v1.07h14.724v-1.07h.008z"
+                                stroke-width="1.436" />
+                            <g>
+                                <path
+                                    d="M11.103 3.54c-.017 0 0-1.681 0-1.681a.29.29 0 01.287-.298h4.108a.29.29 0 01.288.298V3.54"
+                                    stroke-width=".851" />
+                                <path
+                                    d="M16.411 11.965c1.057 0 1.91-.885 1.91-1.98V5.529c0-1.094-.853-1.979-1.91-1.979h-5.925c-1.057 0-1.91.885-1.91 1.98v4.457c0 1.094.853 1.979 1.91 1.979h5.925z"
+                                    stroke-width="1.436" />
+                            </g>
+                        </g>
+                    </svg>
+                    <span class="fw-bolder fs-2">1</span>
+                    <p class="fw-bold fs-08">Minifigure</p>
+                </div>
+                <div
+                    class="col-md-2 col-4 d-flex flex-column  align-items-center justify-content-center custom-product-detail-content gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="39" height="32" viewBox="0 0 39 32"
+                        aria-hidden="true" class="Icon__StyledSVG-sc-lm07h6-0 cPtlUX">
+                        <path
+                            d="M18.766 0l-2.77 2.96 1.106 1.022.91-.972v16.8L2.238 28.949l.387-1.269-1.447-.434L0 31.116 3.969 32l.334-1.463-1.305-.292 15.89-9.206h17.08l-.978.903 1.03 1.099L39 20.288l-2.98-2.752-1.03 1.1.979.902H19.522V3.011l.91.971 1.105-1.022z"
+                            fill="#6F6F6F" fill-rule="evenodd" />
+                    </svg>
+                    <span class="fs-6" id="misures2">
+                        H: 21" (52cm) <br>
+                        L: 19" (47cm) <br>
+                        P: 10" (24cm) <br>
+                    </span>
+                    <p class="fw-bold fs-08">Dimensioni</p>
+                </div>
+            </div>
         </div>
     </div>
+
+    </div>
+    </div>
+    </div>
+    <section>
+        <div class="accordion mt-4 container-fluid px-0 pb-0" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item border-0 rounded-0">
+                <div class="bg-light border-bottom border-top border-gray container-fluid">
+                    <div class="container-1600 d-flex py-4 px-1 px-sm-2 px-md-3 px-xl-4 px-xxl-5 justify-content-between align-items-center accordion-header"
+                        id="panelsStayOpen-headingFive">
+                        <h2 class="fw-bold fs-4 my-2">Caratteristiche</h2>
+                        <div class="circle me-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFive">
+                            <div class="line1 line1-anim"></div>
+                            <div class="line2 line2-anim"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse-hulk collapse show"
+                    aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body px-0 pb-0 container-1600 bg-black text-white"
+                        id="accordionPanelsStayOpenExample">
+                        <div class="video-gallery-large d-none d-sm-block">
+                            <video class="w-100" autoplay muted loop>
+                                <source src="./assets/imgs/Hulkbuster/main-top-large.mp4" type="video/mp4">
+                            </video>
+                            <video class="w-100" autoplay muted loop>
+                                <source src="./assets/imgs/Hulkbuster/Main-center-large.mp4" type="video/mp4">
+                            </video>
+                            <video class="w-100" autoplay muted loop>
+                                <source src="./assets/imgs/Hulkbuster/main-bottom-large.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="d-sm-none">
+                            <video class="w-100" autoplay muted loop>
+                                <source src="./assets/imgs/Hulkbuster/main-top-small.mp4" type="video/mp4">
+                            </video>
+                            <video class="w-100" autoplay muted loop>
+                                <source src="./assets/imgs/Hulkbuster/main-center-small.mp4" type="video/mp4">
+                            </video>
+                            <video class="w-100" autoplay muted loop>
+                                <source src="./assets/imgs/Hulkbuster/main-bottom-small.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <section class="container-xxl py-4">
+                            <h2 class="fs-2 pb-3">Ricostruisci una delle meraviglie della serie Avengers</h2>
+                            <div class="accordion-card-container d-flex gap-3 mb-3 overflow-scroll lego-scroll-dark">
+                                <div class="card bg-transparent border-0">
+                                    <img class="card-header border-0 rounded-0 p-0 w-100"
+                                        src="./assets/imgs/Hulkbuster/76210-202211-PDP-Block-Standard-1.webp"
+                                        alt="hulkbuster">
+                                    <div class="card-body text-light px-0 text-center">
+                                        <h3 class="fs-3">Equipaggiati</h3>
+                                        <p>Con la caratteristica armatura rosso scuro e oro</p>
+                                    </div>
+                                </div>
+                                <div class="card bg-transparent border-0">
+                                    <img class="card-header border-0 rounded-0 p-0 w-100"
+                                        src="../assets/imgs/Hulkbuster/76210-202211-PDP-Block-Standard-2.webp"
+                                        alt="hulkbuster">
+                                    <div class="card-body text-light px-0 text-center">
+                                        <h3 class="fs-3">Il più grande mech LEGO® mai realizzato</h3>
+                                        <p>Oltre 52 cm di altezza, più di 4.000 pezzi.</p>
+                                    </div>
+                                </div>
+                                <div class="card bg-transparent border-0 ">
+                                    <img class="card-header border-0 rounded-0 p-0 w-100"
+                                        src="./assets/imgs/Hulkbuster/76210-202211-PDP-Block-Standard-3.webp"
+                                        alt="hulkbuster">
+                                    <div class="card-body text-light px-0 text-center">
+                                        <h3 class="fs-3">Mettilo in posa</h3>
+                                        <p>La parte superiore dell'armatura è completamente articolata per
+                                            illimitate
+                                            possibilità di
+                                            esposizione.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-card-container d-flex gap-3 mb-3 overflow-scroll lego-scroll-dark">
+                                <div class="card bg-transparent border-0">
+                                    <img class="card-header border-0 rounded-0 p-0 w-100"
+                                        src="./assets/imgs/Hulkbuster/76210-202211-PDP-Block-Standard-4.webp"
+                                        alt="hulkbuster">
+                                    <div class="card-body text-light px-0 text-center">
+                                        <h3 class="fs-3">Illuminalo</h3>
+                                        <p>Con la caratteristica armatura rosso scuro e oro</p>
+                                    </div>
+                                </div>
+                                <div class="card bg-transparent border-0">
+                                    <img class="card-header border-0 rounded-0 p-0 w-100"
+                                        src="./assets/imgs/Hulkbuster/76210-202211-PDP-Block-Standard-5.webp"
+                                        alt="hulkbuster">
+                                    <div class="card-body text-light px-0 text-center">
+                                        <h3 class="fs-3">Nuovi pezzi LEGO®</h3>
+                                        <p>Include nuovi elementi, come i mattoncini dorati e fluorescenti.</p>
+                                    </div>
+                                </div>
+                                <div class="card bg-transparent border-0">
+                                    <img class="card-header border-0 rounded-0 p-0 w-100"
+                                        src="./assets/imgs/Hulkbuster/76210-202211-PDP-Block-Standard-6.webp"
+                                        alt="hulkbuster">
+                                    <div class="card-body text-light px-0 text-center">
+                                        <h3 class="fs-3">Un pezzo da esposizione</h3>
+                                        <p>Il supporto include una minifigure di Tony Stark con l'armatura Mark 43.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="d-none d-sm-block position-relative">
+                            <video class="w-100" autoplay muted loop>
+                                <source src="./assets/imgs/Hulkbuster/description-single-large.mp4" type="video/mp4">
+                            </video>
+                            <h2 class="position-absolute custom-position-1 text-end fw-normal fs-1 lh-base">"Signori,
+                                per favore <br> state indietro!" <br> - Iron Man</h2>
+                        </div>
+                        <div class="d-sm-none">
+                            <video class="w-100" autoplay loop muted>
+                                <source src="./assets/imgs/Hulkbuster/Other-video-small.mp4" type="video/mp4">
+                            </video>
+                            <h2 class="text-center fs-4 lh-base">"Signori, per favore state indietro!" <br> - Iron Man
+                            </h2>
+                        </div>
+                        <div id="carouselExampleIndicators" class="carousel slide d-none d-sm-block"
+                            data-bs-ride="true">
+                            <div class="carousel-indicators mb-0">
+                                <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active dot w-auto" aria-current="true" aria-label="Slide 1"></div>
+                                <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    class="dot w-auto" aria-label="Slide 2"></div>
+                                <div type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    class="dot w-auto" aria-label="Slide 3"></div>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active position-relative">
+                                    <img class="w-100 d-none d-sm-block d-lg-none"
+                                        src="./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Medium-2.webp"
+                                        alt="">
+                                    <img class="w-100 d-none d-lg-block"
+                                        src="./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Large-2.webp"
+                                        alt="">
+                                    <div class="position-absolute z-index-1 start-0 top-0 custom-position-2">
+                                        <h2 class="fs-1 fw-normal lh-base">Potenza interna</h2>
+                                        <p class="fs-5 lh-base">Sotto le placche dorate del petto si trova uno
+                                            spazioso abitacolo, in cui posizionare il personaggio
+                                            di Iron Man LEGO® Marvel (76206). In vendita separatamente.</p>
+                                        <button class="white-btn">
+                                            Scopri di più
+                                            <svg height="16" viewBox="0 0 18 28" aria-hidden="true"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
+                                                <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z"
+                                                    fill="currentColor">
+                                                </path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="big-carousel-item-2 position-relative">
+                                        <img class="w-100 d-none d-sm-block d-lg-none"
+                                            src="./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Medium-3.webp"
+                                            alt="">
+                                        <img class="w-100 d-none d-lg-block"
+                                            src="./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Large-3.webp"
+                                            alt="">
+                                        <div class="position-absolute z-index-1 end-0 top-0 custom-position-3">
+                                            <h2 class="fs-1 fw-normal">"Chiamo Veronica"</h2>
+                                            <p class="fs-5 lh-base">Protagonista di Avengers: Age of Ultron di Marvel
+                                                Studios, l'MK44 viene evocato
+                                                da Iron Man e
+                                                schierato da un satellite soprannominato "Veronica".</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="big-carousel-item-3 d-flex position-relative">
+                                        <img class="w-100 d-none d-sm-block d-lg-none"
+                                            src="./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Medium-4.webp"
+                                            alt="">
+                                        <img class="w-100 h-75 d-none d-lg-block"
+                                            src="./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Carousel-Large-4.webp"
+                                            alt="">
+                                        <div class="position-absolute z-index-1 start-0 top-0 custom-position-2">
+                                            <h2 class="fs-1 fw-normal lh-base">Il sole sta calando</h2>
+                                            <p class="fs-5 lh-base">Calma la tua mente e fai viaggiare l'immaginazione
+                                                verso galassie lontane mentre
+                                                costruisci
+                                                il
+                                                mech LEGO® Hulkbuster più alto e complesso mai realizzato.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="desc-carousel-btn carousel-control-prev rotate-180 my-auto ms-3"
+                                type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <svg height="18" viewBox="0 0 18 28" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
+                                    <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor">
+                                    </path>
+                                </svg>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="desc-carousel-btn carousel-control-next my-auto me-3" type="button"
+                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <svg height="18" viewBox="0 0 18 28" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
+                                    <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor">
+                                    </path>
+                                </svg>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="description-carousel-small d-flex overflow-scroll d-sm-none overflow-scroll">
+                            <div class="desc-carousel-item-small min-vw-100">
+                                <img class="w-100"
+                                    src="./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Standard-Small-2.webp"
+                                    alt="Hulkbuster">
+                                <div class="d-flex flex-column justify-content-center p-3 text-center">
+                                    <h3 class="pb-3 fs-4">Potenza interna</h3>
+                                    <p class="fs-8">Sotto le placche dorate del petto si trova uno
+                                        spazioso abitacolo, in cui posizionare il personaggio
+                                        di Iron Man LEGO® Marvel (76206). In vendita separatamente.</p>
+                                    <button class="white-btn my-3 mx-auto">
+                                        Scopri di più
+                                        <svg height="16" viewBox="0 0 18 28" aria-hidden="true"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
+                                            <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z"
+                                                fill="currentColor">
+                                            </path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="desc-carousel-item-small min-vw-100">
+                                <img class="w-100"
+                                    src="./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Standard-Small-3.webp"
+                                    alt="Hulkbuster">
+                                <div
+                                    class="d-flex flex-column justify-content-center my-5 align-items-center p-3 text-center">
+                                    <h3 class="pb-3 fs-4">"Chiamo Veronica"</h3>
+                                    <p class="fs-8">Protagonista di Avengers: Age of Ultron di Marvel Studios, l'MK44
+                                        viene evocato
+                                        da Iron Man e
+                                        schierato da un satellite soprannominato "Veronica".</p>
+                                </div>
+                            </div>
+                            <div class="desc-carousel-item-small min-vw-100">
+                                <img class="w-100"
+                                    src="./assets/imgs/Hulkbuster/76210-202211-PDP-Hero-Standard-Small-4.webp"
+                                    alt="Hulkbuster">
+                                <div class="d-flex flex-column justify-content-center my-5 p-3 text-center">
+                                    <h3 class="pb-3 fs-4">Il sole sta calando</h3>
+                                    <p class="fs-8">Calma la tua mente e fai viaggiare l'immaginazione verso galassie
+                                        lontane mentre
+                                        costruisci
+                                        il
+                                        mech LEGO® Hulkbuster più alto e complesso mai realizzato.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex d-sm-none justify-content-between p-3 bg-white align-items-center">
+                            <button class="desc-carousel-btn-small rotate-180 desc-btn-small-prev">
+                                <svg height="18" viewBox="0 0 18 28" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
+                                    <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor">
+                                    </path>
+                                </svg>
+                            </button>
+                            <div class="dots-small">
+                                <a><span class="dot-small"></span></a>
+                                <a><span class="dot-small"></span></a>
+                                <a><span class="dot-small"></span></a>
+                            </div>
+                            <button class="desc-carousel-btn-small desc-btn-small-next">
+                                <svg height="18" viewBox="0 0 18 28" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="Icon__StyledSVG-sc-lm07h6-0 rBpBu Chevronstyles__ChevronIcon-sc-1qql32m-0 cEWHhy GlobalBannerstyles__ControlIcon-sc-adnc4-6 llnoGO">
+                                    <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item border-0 rounded-0">
+                <div class="bg-light border-bottom border-gray container-fluid">
+                    <div class="container-1600 d-flex py-4 px-1 px-sm-2 px-md-3 px-xl-4 px-xxl-5 justify-content-between align-items-center accordion-header"
+                        id="panelsStayOpen-headingSix">
+                        <h2 class="fw-bold fs-4 my-2">Dettagli del Prodotto</h2>
+                        <div class="circle me-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseSix">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse-hulk collapse"
+                    aria-labelledby="panelsStayOpen-headingSix">
+                    <div class="accordion-body px-3 py-3 container-1600 row d-flex flex-column flex-md-row-reverse">
+                        <div class="col-md-5 d-flex justify-content-center align-items-start">
+                            <img class="w-75" src="./assets/imgs/Hulkbuster/76210_alt1.webp" alt="Hulkbuster Box">
+                        </div>
+                        <div class="col-md-7 py-3">
+                            <p>Hulkbuster LEGO® Marvel (76210) riproduce la grandezza e la potenza dell’Hulkbuster
+                                MK44 del film
+                                Avengers: Age of Ultron Marvel Studios. Alto 52 cm e costituito da 4.049 pezzi,
+                                questo progetto di
+                                costruzione impegnativo e gratificante è progettato per gli appassionati adulti.</p>
+
+                            <p>Un’autentica opera di ingegneria <br>
+                                Il modello è caratterizzato da una moltitudine di caratteristiche fedeli al film.
+                                All'interno
+                                dell'armatura rosso scuro con placche dorate posizionate strategicamente si trova
+                                uno spazioso
+                                abitacolo, dal quale il personaggio di Iron Man LEGO® Marvel (76206), venduto
+                                separatamente,
+                                controlla i
+                                movimenti del possente mech. Il set include anche una targa informativa e una
+                                minifigure di Stark.
+                            </p>
+
+                            <p>Kit in mattoncino LEGO per adulti
+                                Questo modello fa parte di un’ampia gamma di set LEGO Marvel pensati per gli adulti.
+                            </p>
+                            <ul class="d-flex flex-column gap-4">
+                                <li>Colosso cinematografico collezionabile: questo Hulkbuster LEGO® Marvel (76210)
+                                    di 4.049
+                                    riproduce la
+                                    grandezza e la potenza dell’Hulkbuster MK44 del film Avengers: Age of Ultron
+                                    Marvel Studios</li>
+                                <li>Dettagli autentici: il modello presenta 3 reattori ad arco luminosi (1 nel petto
+                                    e 1 in ogni
+                                    mano),
+                                    una parte superiore del corpo completamente snodata e un abitacolo spazioso
+                                    apribile</li>
+                                <li>In combinazione con un pilota Iron Man: l’abitacolo è progettato per contener il
+                                    personaggio di
+                                    Iron
+                                    Man LEGO® Marvel (76206), venduto separatamente</li>
+                                <li>Un modello che fa parlare di sé: questo pezzo da esposizione è dotato anche di
+                                    una targa
+                                    informativa
+                                    corredata da una minifigure di Tony Stark con in mano degli attrezzi</li>
+                                <li>Regalo per adulti: modellisti e appassionati della Marvel scopriranno che con
+                                    questo progetto da
+                                    realizzare ed esporre il piacere e la soddisfazione dureranno ben oltre il
+                                    completamento della
+                                    costruzione</li>
+                                <li>Ricordo cinematografico: questo modello celebrativo dei film della Marvel misura
+                                    52 cm di
+                                    altezza,
+                                    47 cm di larghezza e 24 cm di profondità ed è un magnifico pezzo da esporre a
+                                    casa o al lavoro
+                                </li>
+                                <li>Istruzioni stampate di alta qualità: fatti coinvolgere da questo progetto di
+                                    costruzione non
+                                    appena
+                                    apri la scatola</li>
+                                <li>Rilassati e ricaricati: la gamma di set LEGO® premium per adulti offre
+                                    un’esperienza di
+                                    costruzione
+                                    ed esposizione gratificante che perdura ben oltre il completamento dell’opera
+                                </li>
+                                <li>Garanzia di qualità: i componenti LEGO® soddisfano i più rigorosi standard di
+                                    qualità del
+                                    settore,
+                                    sono sempre di qualità uniforme e perfettamente compatibili e si montano
+                                    facilmente</li>
+                                <li>Garanzia di sicurezza: i componenti LEGO® vengono sottoposti a diversi test, tra
+                                    cui caduta,
+                                    riscaldamento, schiacciamento, torsione, e vengono analizzati per assicurare che
+                                    soddisfino
+                                    rigorosi
+                                    standard di sicurezza globali</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item border-0 rounded-0">
+                <div class="bg-light border-bottom border-gray container-fluid">
+                    <div class="container-1600 d-flex py-4 px-1 px-sm-2 px-md-3 px-xl-4 px-xxl-5 justify-content-between align-items-center accordion-header"
+                        id="panelsStayOpen-headingSeven">
+                        <h2 class="fw-bold fs-4 my-2">Recensioni di Prodotti</h2>
+                        <div class="circle me-3" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseSeven">
+                            <div class="line1"></div>
+                            <div class="line2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse-hulk collapse"
+                aria-labelledby="panelsStayOpen-headingSeven">
+                <div class="accordion-body px-0 container-1600">
+                    <div class="container-1600 p-3 d-flex justify-content-end align-items-center gap-3">
+                        <span>Scrivi per primo</span>
+                        <button class="review-btn">
+                            Invia recensione
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="d-flex  flex-column flex-md-row align-items-center gap-3 container-xxl px-4 py-5 border-1 border-bottom border-grey">
+            <p class="m-0">Trova altri prodotti simili:</p>
+            <button class="hulk-btn">Per gli adulti</button>
+            <button class="hulk-btn">Marvel</button>
+        </div>
+        </div>
+    </section>
     <!-- Consigliati per te -->
     <div class="container-1600 lego-scroll my-4 py-5">
         <h2 class="mb-4 ps-3 ps-xxl-5 container-1600">Consigliati per te</h2>
         <div class="d-flex align-items-center position-relative">
             <button
-                class="carousel-btn prev-btn-cpt rounded-circle bg-white mx-xxl-3 mb-5 carousel-btn-absolute ms-3 ms-xxl-0"><img
+                class="carousel-btn prev-btn-cpt d-none d-sm-block rounded-circle bg-white mx-xxl-3 mb-5 carousel-btn-absolute ms-3 ms-xxl-0"><img
                     class="rotate-180" src="./assets/imgs/arrow-right 18.svg" alt=""></button>
             <div class="d-flex carousel-body-cpt overflow-scroll row-cols-auto pb-4">
                 <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                    <a class="text-decoration-none text-black" href="./hulkbuster.html">
-                        <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
-                            <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                                <svg width="30" height="30" viewBox="0 0 40 40" alt=""
-                                    class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                                    <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                                    <path
-                                        d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                        fill="white"></path>
-                                    <path
-                                        d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                        fill="#006DB7"></path>
-                                </svg>
-                                <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
-                            </div>
-                            <div class="w-75 m-auto">
-                                <img class="w-100 radius-0" src="./assets/imgs/76210.webp" alt="">
-                            </div>
-                            <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
-                                Esclusivo
-                            </button>
+                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
+                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
+                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
+                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
+                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
+                                <path
+                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="white"></path>
+                                <path
+                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
+                                    fill="#006DB7"></path>
+                            </svg>
+                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
                         </div>
-                        <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                            <h6 class="lh-2 fw-bold">Hulkbuster®</h6>
-                            <div class="score pb-1">
-                                <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                                <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                                <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                                <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                                <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            </div>
-                            <h5 class="fw-bolder">549,99€</h5>
-                            <button class="add-cart-btn w-100">
-                                Aggiungi al Carrello
-                            </button>
+                        <div class="w-75 m-auto">
+                            <img class="w-100 radius-0" src="./assets/imgs/10294.webp" alt="">
                         </div>
-                    </a>
+                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
+                            Esclusivo
+                        </button>
+                    </div>
+                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
+                        <h6 class="lh-2 fw-bold">Titanic LEGO®</h6>
+                        <div class="score pb-1">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
+                        </div>
+                        <h5 class="fw-bolder">679,99€</h5>
+                        <button class="add-cart-btn w-100">
+                            Aggiungi al Carrello
+                        </button>
+                    </div>
                 </div>
                 <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
                     <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
@@ -1037,734 +1898,10 @@
                 </div>
             </div>
             <button
-                class="carousel-btn next-btn-cpt rounded-circle bg-white mb-5 mx-xxl-3 carousel-btn-absolute end-0 me-3 me-xxl-0"><img
+                class="carousel-btn next-btn-cpt d-none d-sm-block rounded-circle bg-white mb-5 mx-xxl-3 carousel-btn-absolute end-0 me-3 me-xxl-0"><img
                     src="./assets/imgs/arrow-right 18.svg" alt=""></button>
         </div>
     </div>
-    <!--cards-->
-    <div class="container-xxxl lego-scroll my-4 py-5">
-        <h2 class="mb-4 ms-3 ms-xxl-4 ps-xxl-5 container-xxl">Set preferiti dai fan</h2>
-        <div class="d-flex align-items-center position-relative">
-            <button
-                class="carousel-btn prev-btn-spdf rounded-circle bg-white mx-xxl-3 mb-5 carousel-btn-absolute ms-3 ms-xxl-0"><img
-                    class="rotate-180" src="./assets/imgs/arrow-right 18.svg" alt=""></button>
-            <div class="d-flex carousel-body-spdf mx-3 overflow-scroll row-cols-auto pb-4">
-
-                <div class="card border-0 w-25 bg-transparent rounded-0 px-2">
-                    <a class=" text-decoration-none text-black" href="#">
-                        <div>
-                            <img class="card-header border-0 rounded-0 p-0 w-100"
-                                src="./assets/imgs/faro motorizzato.webp" alt="Razor Crest™ LEGO® Star Wars™">
-                            <img src="./assets/imgs/ideas.png" alt="IDEAS" class="d-none">
-                        </div>
-                    </a>
-                    <div class="card-body .text-dark px-0 text-center"><a class=" text-decoration-none text-black"
-                            href="#">
-                            <h3 class="fs-5">Faro motorizzato LEGO® Ideas</h3>
-                            <p class="fs-7">Costruisci un esempio di solidità e sicurezza con questo set ispirato dai
-                                fan.</p>
-                        </a><a href="#" class="text-body text-decoration-none fw-bold">Compra ora <img
-                                src="../assets/imgs/arrow-right.svg" alt="arrow 16px"></a>
-                    </div>
-                </div>
-                <div class="card border-0 w-25 bg-transparent rounded-0 px-2">
-                    <a class=" text-decoration-none text-black" href="#">
-                        <img class="card-header border-0 rounded-0 p-0 w-100" src="./assets/imgs/titanic.webp"
-                            alt="Titanic LEGO®">
-                    </a>
-                    <div class="card-body .text-dark px-0 text-center"><a class=" text-decoration-none text-black"
-                            href="#">
-                            <h3 class="fs-5">Titanic LEGO®</h3>
-                            <p class="fs-7">Dai vita alla meraviglia del XX secolo con un modello colossale pieno di
-                                dettagli.</p>
-                        </a>
-                        <a href="#" class="text-body text-decoration-none fw-bold">Compra ora <img
-                                src="../assets/imgs/arrow-right.svg" alt="arrow 16px"></a>
-                    </div>
-                </div>
-
-                <div class="card border-0 w-25 bg-transparent rounded-0 px-2">
-                    <a class=" text-decoration-none text-black" href="#">
-                        <img class="card-header border-0 rounded-0 p-0 w-100" src="./assets/imgs/dunder mifflin.webp"
-                            alt="Torna alla Dunder Mifflin">
-                    </a>
-                    <div class="card-body .text-dark px-0 text-center"><a class=" text-decoration-none text-black"
-                            href="#">
-                            <h3 class="fs-5">Torna alla Dunder Mifflin</h3>
-                            <p class="fs-7">Ricrea i tuoi episodi preferiti con il nuovo set The Office LEGO® Ideas.</p>
-                        </a><a href="#" class="text-body text-decoration-none fw-bold">Compra ora <img
-                                src="../assets/imgs/arrow-right.svg" alt="arrow 16px"></a>
-                    </div>
-                </div>
-                <div class="card border-0 w-25 bg-transparent rounded-0 px-2">
-                    <a class=" text-decoration-none text-black" href="#">
-                        <img class="card-header border-0 rounded-0 p-0 w-100" src="./assets/imgs/harry potter.webp"
-                            alt="Hogwarts Express™ LEGO® Harry Potter™">
-                    </a>
-                    <div class="card-body .text-dark px-0 text-center"><a class=" text-decoration-none text-black"
-                            href="#">
-                            <h3 class="fs-5">Hogwarts Express™ LEGO® Harry Potter™</h3>
-                            <p class="fs-7">Salta a bordo e parti all'avventura con questo set Edizione del
-                                collezionista.
-                            </p>
-                        </a><a href="#" class="text-body text-decoration-none fw-bold">Compra ora <img
-                                src="../assets/imgs/arrow-right.svg" alt="arrow 16px"></a>
-                    </div>
-                </div>
-                <div class="card border-0 w-25 bg-transparent rounded-0 px-2">
-                    <a class=" text-decoration-none text-black" href="#">
-                        <img class="card-header border-0 rounded-0 p-0 w-100" src="./assets/imgs/strange.webp"
-                            alt="Ricrea la magica casa del Dr. Strange">
-                    </a>
-                    <div class="card-body .text-dark px-0 text-center"><a class=" text-decoration-none text-black"
-                            href="#">
-                            <h3 class="fs-5">Ricrea la magica casa del Dr. Strange</h3>
-                            <p class="fs-7">Fai il check-in nel set di edifici modulari più glamour mai realizzato.</p>
-                        </a><a href="#" class="text-body text-decoration-none fw-bold">Compra ora <img
-                                src="../assets/imgs/arrow-right.svg" alt="arrow 16px"></a>
-                    </div>
-                </div>
-                <div class="card border-0 w-25 bg-transparent rounded-0 px-2">
-                    <a class=" text-decoration-none text-black" href="#">
-                        <img class="card-header border-0 rounded-0 p-0 w-100" src="./assets/imgs/esploratore.webp"
-                            alt="Un viaggio nel passato">
-                    </a>
-                    <div class="card-body .text-dark px-0 text-center"><a class=" text-decoration-none text-black"
-                            href="#">
-                            <h3 class="fs-5">Un viaggio nel passato</h3>
-                            <p class="fs-7">&gt;Il set Esploratore galattico LEGO® rivisita la classica astronave.</p>
-                        </a><a href="#" class="text-body text-decoration-none fw-bold">Compra ora <img
-                                src="../assets/imgs/arrow-right.svg" alt="arrow 16px"></a>
-                    </div>
-                </div>
-                <div class="card border-0 w-25 bg-transparent rounded-0 px-2">
-                    <a class=" text-decoration-none text-black" href="#">
-                        <img class="card-header border-0 rounded-0 p-0 w-100" src="./assets/imgs/at-at.webp"
-                            alt="Nuovo AT-AT™ LEGO®">
-                    </a>
-                    <div class="card-body .text-dark px-0 text-center"><a class=" text-decoration-none text-black"
-                            href="#">
-                            <h3 class="fs-5">Nuovo AT-AT™ LEGO®</h3>
-                            <p class="fs-7">Un nuovo epico set si unisce alla Ultimate Collector Series LEGO®</p>
-                        </a><a href="#" class="text-body text-decoration-none fw-bold">Compra ora <img
-                                src="../assets/imgs/arrow-right.svg" alt="arrow 16px"></a>
-                    </div>
-                </div>
-                <div class="card border-0 w-25 bg-transparent rounded-0 px-2">
-                    <a class=" text-decoration-none text-black" href="#">
-                        <img class="card-header border-0 rounded-0 p-0 w-100" src="./assets/imgs/camper.webp"
-                            alt="Camper van Volkswagen T2 LEGO®">
-                    </a>
-                    <div class="card-body .text-dark px-0 text-center"><a class=" text-decoration-none text-black"
-                            href="#">
-                            <h3 class="fs-5">Camper van Volkswagen T2 LEGO®</h3>
-                            <p class="fs-7">Prova buone vibrazioni con una versione riprogettata di una leggenda molto
-                                amata.</p>
-                        </a><a href="#" class="text-body text-decoration-none fw-bold">Compra ora <img
-                                src="../assets/imgs/arrow-right.svg" alt="arrow 16px"></a>
-                    </div>
-                </div>
-                <div class="card border-0 w-25 bg-transparent rounded-0 px-2">
-                    <a class=" text-decoration-none text-black" href="#">
-                        <img class="card-header border-0 rounded-0 p-0 w-100" src="./assets/imgs/diagon.webp"
-                            alt="Benvenuto a Diagon Alley™">
-                    </a>
-                    <div class="card-body .text-dark px-0 text-center"><a class=" text-decoration-none text-black"
-                            href="#">
-                            <h3 class="fs-5">Benvenuto a Diagon Alley™</h3>
-                            <p class="fs-7">Dai vita alla magica via dello shopping con una fantastica aggiunta
-                                all'universo
-                                LEGO® Harry Potter™.</p>
-                        </a><a href="#" class="text-body text-decoration-none fw-bold">Compra ora <img
-                                src="../assets/imgs/arrow-right.svg" alt="arrow 16px"></a>
-                    </div>
-                </div>
-            </div>
-
-            <button
-                class="carousel-btn next-btn-spdf rounded-circle bg-white mb-5 mx-xxl-3 carousel-btn-absolute end-0 me-3 me-xxl-0"><img
-                    src="./assets/imgs/arrow-right 18.svg" alt=""></button>
-        </div>
-    </div>
-
-    <!-- Set in evidenza -->
-    <div class="container-xxxl lego-scroll my-4 py-5">
-        <h2 class="mb-4 ms-3 ms-xxl-4 ps-xxl-5 container-xxl">Set in evidenza</h2>
-        <div class="d-flex align-items-center position-relative">
-            <button
-                class="carousel-btn prev-btn rounded-circle bg-white mx-xxl-3 mb-5 carousel-btn-absolute ms-3 ms-xxl-0"><img
-                    class="rotate-180" src="./assets/imgs/arrow-right 18.svg" alt=""></button>
-            <div class="d-flex carousel-body container-xxl overflow-scroll row-cols-auto pb-4 px-1">
-                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
-                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
-                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                                <path
-                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="white"></path>
-                                <path
-                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="#006DB7"></path>
-                            </svg>
-                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
-                        </div>
-                        <div class="w-75 m-auto">
-                            <img class="w-100 radius-0" src="./assets/imgs/75308.webp" alt="">
-                        </div>
-                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
-                            Difficile da trovare
-                        </button>
-                    </div>
-                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                        <h6 class="lh-2 fw-bold">R2-D2™</h6>
-                        <div class="score pb-1">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        </div>
-                        <h5 class="fw-bolder">239,99€</h5>
-                        <button class="add-cart-btn w-100">
-                            Aggiungi al Carrello
-                        </button>
-                    </div>
-                </div>
-                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
-                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
-                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                                <path
-                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="white"></path>
-                                <path
-                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="#006DB7"></path>
-                            </svg>
-                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
-                        </div>
-                        <div class="w-75 m-auto">
-                            <img class="w-100 radius-0 " src="./assets/imgs/10266.webp" alt="">
-                        </div>
-                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
-                            Novità
-                        </button>
-                    </div>
-                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                        <h6 class="lh-2 fw-bold">Nasa Apollo 11 Lunar Lander</h6>
-                        <div class="score pb-1">
-                            <img class="p-0" src="/assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        </div>
-                        <h5 class="fw-bolder">99,99€</h5>
-                        <button class="add-cart-btn w-100">
-                            Aggiungi al Carrello
-                        </button>
-                    </div>
-                </div>
-                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
-                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
-                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                                <path
-                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="white"></path>
-                                <path
-                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="#006DB7"></path>
-                            </svg>
-                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
-                        </div>
-                        <div class="w-75 m-auto">
-                            <img class="w-100 radius-0 " src="./assets/imgs/10283.webp" alt="">
-                        </div>
-                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
-                            Difficile da trovare
-                        </button>
-                    </div>
-                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                        <h6 class="lh-2 fw-bold">NASA Space Shuttle Discovery</h6>
-                        <div class="score pb-1">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        </div>
-                        <h5 class="fw-bolder">199,99€</h5>
-                        <button class="add-cart-btn w-100">
-                            Aggiungi al Carrello
-                        </button>
-                    </div>
-                </div>
-                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
-                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
-                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                                <path
-                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="white"></path>
-                                <path
-                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="#006DB7"></path>
-                            </svg>
-                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
-                        </div>
-                        <div class="w-75 m-auto">
-                            <img class="w-100 radius-0 " src="./assets/imgs/10306.webp" alt="">
-                        </div>
-                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
-                            Difficile da trovare
-                        </button>
-                    </div>
-                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                        <h6 class="lh-2 fw-bold">Atari® 2600</h6>
-                        <div class="score pb-1">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        </div>
-                        <h5 class="fw-bolder">239,99€</h5>
-                        <button class="add-cart-btn w-100">
-                            Aggiungi al Carrello
-                        </button>
-                    </div>
-                </div>
-                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
-                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
-                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                                <path
-                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="white"></path>
-                                <path
-                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="#006DB7"></path>
-                            </svg>
-                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
-                        </div>
-                        <div class="w-75 m-auto">
-                            <img class="w-100 radius-0 " src="./assets/imgs/21327.webp" alt="">
-                        </div>
-                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
-                            Esclusivo
-                        </button>
-                    </div>
-                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                        <h6 class="lh-2 fw-bold"> Macchina da scrivere</h6>
-                        <div class="score pb-1">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        </div>
-                        <h5 class="fw-bolder">249,99€</h5>
-                        <button class="add-cart-btn w-100">
-                            Aggiungi al Carrello
-                        </button>
-                    </div>
-                </div>
-                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
-                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
-                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                                <path
-                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="white"></path>
-                                <path
-                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="#006DB7"></path>
-                            </svg>
-                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
-                        </div>
-                        <div class="w-75 m-auto">
-                            <img class="w-100 radius-0 " src="./assets/imgs/31203.webp" alt="">
-                        </div>
-                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
-                            Difficile da trovare
-                        </button>
-                    </div>
-                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                        <h6 class="lh-2 fw-bold">Mappa del mondo</h6>
-                        <div class="score pb-1">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        </div>
-                        <h5 class="fw-bolder">249,99€</h5>
-                        <button class="add-cart-btn w-100">
-                            Aggiungi al Carrello
-                        </button>
-                    </div>
-                </div>
-                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
-                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
-                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                                <path
-                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="white"></path>
-                                <path
-                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="#006DB7"></path>
-                            </svg>
-                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
-                        </div>
-                        <div class="w-75 m-auto">
-                            <img class="w-100 radius-0 " src="./assets/imgs/40426.webp" alt="">
-                        </div>
-                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
-                            Difficile da trovare
-                        </button>
-                    </div>
-                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                        <h6 class="lh-2 fw-bold">Ghirlanda natalizia 2 in 1</h6>
-                        <div class="score pb-1">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        </div>
-                        <h5 class="fw-bolder">39,99€</h5>
-                        <button class="add-cart-btn w-100">
-                            Aggiungi al Carrello
-                        </button>
-                    </div>
-                </div>
-                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                    <div class="position-relative border radius-w-100 my-ratio d-flex align-items-center">
-                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
-                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                                <path
-                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="white"></path>
-                                <path
-                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="#006DB7"></path>
-                            </svg>
-                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
-                        </div>
-                        <div class="w-75 m-auto">
-                            <img class="w-100 radius-0 " src="./assets/imgs/40573_Prod.webp" alt="">
-                        </div>
-                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
-                            Esclusivo
-                        </button>
-                    </div>
-                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                        <h6 class="lh-2 fw-bold">Albero di Natale</h6>
-                        <div class="score pb-1">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        </div>
-                        <h5 class="fw-bolder">44,99€</h5>
-                        <button class="add-cart-btn w-100">
-                            Aggiungi al Carrello
-                        </button>
-                    </div>
-                </div>
-                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
-                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
-                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                                <path
-                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="white"></path>
-                                <path
-                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="#006DB7"></path>
-                            </svg>
-                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
-                        </div>
-                        <div class="w-75 m-auto">
-                            <img class="w-100 radius-0 " src="./assets/imgs/71043.webp" alt="">
-                        </div>
-                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
-                            Esclusivo
-                        </button>
-                    </div>
-                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                        <h6 class="lh-2 fw-bold">Castello di Hogwarts™</h6>
-                        <div class="score pb-1">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                        </div>
-                        <h5 class="fw-bolder">469,99€</h5>
-                        <button class="add-cart-btn w-100">
-                            Aggiungi al Carrello
-                        </button>
-                    </div>
-                </div>
-                <div class="custom-card-1 bg-transparent card border-0 radius-0 w-25 px-3">
-                    <div class="position-relative border radius-0 w-100 my-ratio d-flex align-items-center">
-                        <div class="position-absolute d-flex pt-2 ps-2 w-100 top-0 z-index-1">
-                            <svg width="30" height="30" viewBox="0 0 40 40" alt=""
-                                class="WishlistButtonstyles__StyledWishlistIcon-sc-1iowmvt-1 biMOpX">
-                                <rect fill="#F8F8F8" width="40" height="40" rx="20"></rect>
-                                <path
-                                    d="M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="white"></path>
-                                <path
-                                    d="M26.84 20.417L20 27.204l-6.84-6.787A3.67 3.67 0 0 1 12 17.739C12 15.677 13.71 14 15.815 14a3.82 3.82 0 0 1 2.754 1.159l1.43 1.467 1.433-1.467A3.818 3.818 0 0 1 24.186 14C26.289 14 28 15.677 28 17.739a3.673 3.673 0 0 1-1.16 2.678M19.986 30l.014-.014.014.014 8.223-8.116-.018-.019a5.678 5.678 0 0 0 1.78-4.126C30 14.569 27.398 12 24.187 12A5.829 5.829 0 0 0 20 13.762 5.827 5.827 0 0 0 15.815 12C12.604 12 10 14.569 10 17.739a5.68 5.68 0 0 0 1.782 4.126"
-                                    fill="#006DB7"></path>
-                            </svg>
-                            <p class="fs-7 fw-bold ps-2 mt-1">Aggiungi alla lista dei desideri</p>
-                        </div>
-                        <div class="w-75 m-auto">
-                            <img class="w-100 radius-0 " src="./assets/imgs/71411.webp" alt="">
-                        </div>
-                        <button class="yellow-btn position-absolute bottom-0 mb-2 ms-2">
-                            Novità
-                        </button>
-                    </div>
-                    <div class="card-body px-0 pb-0 d-flex justify-content-between flex-column border-0 radius-0">
-                        <h6 class="lh-2 fw-bold">Il potente Bowser</h6>
-                        <div class="score pb-1">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/fullstar.svg" alt="full star">
-                            <img class="p-0" src="./assets/imgs/emptystar.svg" alt="empty star">
-                        </div>
-                        <h5 class="fw-bolder">269,99€</h5>
-                        <button class="add-cart-btn w-100">
-                            Aggiungi al Carrello
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <button
-                class="carousel-btn next-btn rounded-circle bg-white mb-5 mx-xxl-3 carousel-btn-absolute end-0 me-3 me-xxl-0"><img
-                    src="./assets/imgs/arrow-right 18.svg" alt=""></button>
-        </div>
-    </div>
-        <!-- SET PIU' VENDUTI -->
-    <div class="slide-align">
-        <div class="container d-flex flex-column py-4 my-5">
-          <h2>Set più venduti</h2>
-          <div id="carouselControls" class="carousel carousel-dark slide sizing" data-interval="false">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="cards-wrapper d-flex">
-                  <div class="card-container-2 d-flex flex-column">
-                    <div class="imgs-wrapper">
-                      <img class="prova"
-                        src="https://www.lego.com/cdn/cs/set/assets/blt73c4e40e07c1fc0d/75331-Exclusive-202210-SL-Block-Standard.jpg?fit=crop&format=jpg&quality=80&width=635&height=440&dpr=1"
-                        alt="">
-                        <div class="logo-container">
-                          <img src="https://www.lego.com/cdn/cs/set/assets/bltc55693f0b8cc3375/starWars_logo_pos_300w.png?format=png&height=60&dpr=1" alt="" class="logo-img">
-                        </div>
-                    </div>
-                    <span class="card-title">Razor Crest™ LEGO® <i>Star Wars</i></span>
-                    <p class="card-text">L'iconica astronave di The Mandalorian™ è parte della Ultimate Collector Series.
-                    </p>
-                    <div class="compra-ora d-flex">
-                      <p>Compra ora</p>
-                      <svg width="18" height="28" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        class="compra-ora-svg">
-                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-                      </svg>
-                    </div>
-                  </div>
-    
-                  <div class="card-container-2 d-flex flex-column">
-                    <div class="imgs-wrapper">
-                      <img class="prova"
-                      src="https://www.lego.com/cdn/cs/set/assets/blt3d4818077a39a6fb/21333-Starry-Night-Exclusive-202205-Homepage-SL-Block-Standard.jpg?fit=crop&format=jpg&quality=80&width=635&height=440&dpr=1"
-                      alt="">
-                      <div class="logo-container">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt9da665db81435d99/starryNight-logo-600w.png?format=png&height=60&dpr=1" alt="" class="logo-img-2">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt872d704302ba55d0/MOMA-logo-neg-600w.png?format=png&height=60&dpr=1" alt="" class="logo-img">
-                      </div>
-                    </div>
-                    <span class="card-title">Notte stellata LEGO® Ideas</span>
-                    <p class="card-text">L'iconica astronave di The Mandalorian™ è parte della Ultimate Collector Series.
-                    </p>
-                    <div class="compra-ora d-flex">
-                      <p>Compra ora</p>
-                      <svg width="18" height="28" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        class="compra-ora-svg">
-                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-                      </svg>
-                    </div>
-                  </div>
-    
-                  <div class="card-container-2 d-flex flex-column">
-                    <div class="imgs-wrapper">
-                      <img class="prova"
-                      src="https://www.lego.com/cdn/cs/set/assets/blt41ad331e6114e7b0/21330-Home-Alone-202111-Homepage-Block-Standard-2.jpg?fit=crop&format=jpg&quality=80&width=635&height=440&dpr=1"
-                      alt="">
-                      <div class="logo-container">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt59a6a41c6890bb97/ideas_logo_neg_100h.png?format=png&height=60&dpr=1" alt="" class="logo-img-3">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt909e26698f60470f/HomeAlone-logo-pos-600w.png?format=png&height=60&dpr=1" alt="" class="logo-img">
-                      </div>
-                    </div>
-                    <span class="card-title">Regala il dono della risata</span>
-                    <p class="card-text">Ricrea le tue scene preferite del film Mamma ho perso l'aereo con questo set LEGO®
-                      Ideas.
-                    </p>
-                    <div class="compra-ora d-flex">
-                      <p>Compra ora</p>
-                      <svg width="18" height="28" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        class="compra-ora-svg">
-                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-                      </svg>
-                    </div>
-                  </div>
-    
-                  <div class="card-container-2 d-flex flex-column">
-                      <img class="prova"
-                      src="https://www.lego.com/cdn/cs/set/assets/bltf7791df9ed87db9d/40573-T2-202209-SL-Block-Standard.jpg?fit=crop&format=jpg&quality=80&width=635&height=440&dpr=1"
-                      alt="">
-                    <span class="card-title">Nuovo set Albero di Natale LEGO®</span>
-                    <p class="card-text">Costruiscilo ed esponilo come preferisci: 1 albero grande o 2 alberi più piccoli.
-                    </p>
-                    <div class="compra-ora d-flex">
-                      <p>Compra ora</p>
-                      <svg width="18" height="28" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        class="compra-ora-svg">
-                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-                      </svg>
-                    </div>
-                  </div>
-    
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="cards-wrapper d-flex">
-                  <div class="card-container-2 d-flex flex-column">
-                    <div class="imgs-wrapper">
-                      <a href=""></a><img class="prova"
-                      src="https://www.lego.com/cdn/cs/set/assets/bltfcdacf7776d69781/75337-HS-202208-SL-Block-Standard.jpg?fit=crop&format=jpg&quality=80&width=635&height=440&dpr=1"
-                      alt="">
-                      <div class="logo-container">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt3ef553a3a4357545/starWars_logo_neg_300w.png?format=png&height=60&dpr=1" alt="" class="logo-img">
-                      </div>
-                    </div>
-                    <span class="card-title">Fantastico gioco di combattimento</span>
-                    <p class="card-text">Entra in battaglia contro l'esercito di droidi separatista con i set LEGO® <i>Star Wars</i>
-                    </p>
-                    <div class="compra-ora d-flex">
-                      <p class="compra-ora-text">Compra ora</p>
-                      <svg width="18" height="28" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        class="compra-ora-svg">
-                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-                      </svg>
-                    </div>
-                  </div>
-    
-                  <div class="card-container-2 d-flex flex-column">
-                    <div class="imgs-wrapper">
-                      <img class="prova"
-                      src="https://www.lego.com/cdn/cs/set/assets/bltce106a6df8cb17e8/21335-Exclusive-202209-SL-Block-Standard.jpg?fit=crop&format=jpg&quality=80&width=635&height=440&dpr=1"
-                      alt="">
-                      <div class="logo-container">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/bltb9fbb1403dea3939/ideas_logo_neg_300w.png?format=png&height=60&dpr=1" alt="" class="logo-img">
-                      </div>
-                    </div>
-                    <span class="card-title">Faro motorizzato LEGO® Ideas</span>
-                    <p class="card-text">Costruisci un esempio di solidità e sicurezza con questo set ispirato dai fan.
-                    </p>
-                    <div class="compra-ora d-flex">
-                      <p>Compra ora</p>
-                      <svg width="18" height="28" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        class="compra-ora-svg">
-                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-                      </svg>
-                    </div>
-                  </div>
-    
-                  <div class="card-container-2 d-flex flex-column">
-                    <div class="imgs-wrapper">
-                      <img class="prova"
-                      src="https://www.lego.com/cdn/cs/set/assets/bltf21a4956f0bdf9a0/21058-T1-202206-SL-Block-Standard.jpg?fit=crop&format=jpg&quality=80&width=635&height=440&dpr=1"
-                      alt="">
-                      <div class="logo-container">
-                        <img src="https://www.lego.com/cdn/cs/set/assets/blt992351b75afd9b29/architecture_logo_neg_300w.png?format=png&height=60&dpr=1" alt="" class="logo-img-4">
-                      </div>
-                    </div>
-                    <span class="card-title">Una meraviglia del mondo antico</span>
-                    <p class="card-text">Viaggia indietro nel tempo con il set La Grande Piramide di Giza LEGO® Architecture.
-                    </p>
-                    <div class="compra-ora d-flex">
-                      <p>Compra ora</p>
-                      <svg width="18" height="28" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        class="compra-ora-svg">
-                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-                      </svg>
-                    </div>
-                  </div>
-    
-                  <div class="card-container-2 d-flex flex-column">
-                    <img class="prova"
-                      src="https://www.lego.com/cdn/cs/set/assets/blt3c362d3c113957a3/10305-Exclusive-202208-SL-Block-Standard.jpg?fit=crop&format=jpg&quality=80&width=635&height=440&dpr=1"
-                      alt="">
-                    <span class="card-title">Castello dei Cavalieri del Leone LEGO®</span>
-                    <p class="card-text">Celebra 90 anni di storia LEGO® con una versione aggiornata di un grande classico.
-                    </p>
-                    <div class="compra-ora d-flex">
-                      <p>Compra ora</p>
-                      <svg width="18" height="28" viewBox="0 0 18 28" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                        class="compra-ora-svg">
-                        <path d="M1.825 28L18 14 1.825 0 0 1.715 14.196 14 0 26.285z" fill="currentColor"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true">
-              </span>
-              <span class="visually-hidden">Next</span>
-            </button>
-    
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselControls"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-    
-          </div>
-        </div>
-      </div>
-
-
     <!--FOOTER-->
     <footer class="w-100 pt-5 pb-3 text-white">
         <div class="container">
@@ -1793,8 +1930,8 @@
 
                         <div class="col-xl-3 col-lg-6 col-12 accordion-item bg-transparent border-0">
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button collapsed bg-transparent text-white shadow-none"
-                                    type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                <button class="accordion-button bg-transparent text-white shadow-none" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
                                     aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                                     <span class="fw-bold">CHI SIAMO</span>
                                 </button>
@@ -1825,7 +1962,7 @@
 
                         <div class="col-xl-3 col-lg-6 accordion-item bg-transparent border-0">
                             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed bg-transparent text-white" type="button"
+                                <button class="accordion-button bg-transparent text-white" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
                                     aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                                     <span class="fw-bold">SUPPORTO</span>
@@ -1983,8 +2120,6 @@
             </div>
         </div>
     </div>
-    </div>
-
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
@@ -1995,12 +2130,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    <script src="./JS/navbar.mjs" type="module"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-        <script src="./JS/navbar.mjs" type="module"></script>
-        <script src="./JS/carousels.mjs" type="module"></script>
-        <script src="./JS/footer.mjs" type="module"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="./JS/navbar.mjs" type="module"></script>
+    <script src="./JS/hulkbuster.mjs" type="module"></script>
+    <script src="./JS/hulkbuster-info.mjs" type="module"></script>
+    <script src="./JS/footer.mjs" type="module"></script>
 </body>
-
 </html>

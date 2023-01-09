@@ -1,0 +1,130 @@
+.cont-personal {
+    width: 100vw;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.rotate-180 {
+    rotate: 180deg;
+}
+
+.container-xxxl {
+    max-width: 1420px;
+    width: 100vw;
+    margin: auto;
+}
+
+.my-ratio {
+    aspect-ratio: 1/1;
+}
+
+.z-index-1 {
+    z-index: 1;
+}
+
+.fs-7 {
+    font-size: 0.75rem;
+}
+
+.fs-8 {
+    font-size: 0.875rem;
+}
+
+.container-1600 {
+    max-width: 1610px;
+    width: 100vw;
+    margin: auto;
+}
+.z-index-2 {
+    z-index: 2;
+}
+
+.carousel-btn {
+    padding: .5rem;
+    border: 1px solid lightgrey;
+    z-index: 1;
+    transition: all 0.20s;
+    img {
+        margin: 0 7px;
+    }
+    &:hover {
+        background-color: #e0e0e0 !important;
+    }
+}
+
+@media (max-width:1400px) {
+    .carousel-btn-absolute {
+        position: absolute;
+    }
+}
+
+.lego-scroll ::-webkit-scrollbar {
+    width: 0;
+    height: 5px;
+    transition: all 0.2s;
+    display: block;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.lego-scroll ::-webkit-scrollbar-track {
+    background-color: #d9d9d9;
+    border-radius: 0;
+    margin: 0 10vw;
+}
+
+.lego-scroll ::-webkit-scrollbar-thumb {
+    background-color: #717171;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+@media (max-width:1200px) {
+    .lego-scroll ::-webkit-scrollbar-track {
+        margin: 0 20px;
+    }
+}
+
+.lego-scroll-dark::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width:900px) {
+    .lego-scroll-dark::-webkit-scrollbar {
+        width: 0;
+        height: 5px;
+        transition: all 0.2s;
+        display: block;
+    }
+    
+    .lego-scroll-dark::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 20px #272727;
+        border-radius: 0;
+    }
+    
+    .lego-scroll-dark::-webkit-scrollbar-thumb {
+        background: #9d9d9d;
+        border-radius: 0;
+        cursor: pointer;
+    }
+    
+    .lego-scroll-dark:-webkit-scrollbar-thumb:hover,
+    .lego-scroll-dark::-webkit-scrollbar-thumb:active {
+        background-color: white;
+        cursor: pointer;
+    }
+}
+
+.w-50-vw {
+    min-width: 50vw;
+    width: fit-content !important;
+}
+
+.max-vh-75 {
+    max-height: 72.5vh;
+}
+
+.rotate-0 {
+    rotate: 0deg !important;
+}

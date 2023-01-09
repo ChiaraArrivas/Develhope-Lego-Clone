@@ -1,0 +1,346 @@
+.customContainer{
+    max-width: 100rem !important;
+}
+
+.custom-detail-link a{
+    color: #006db7;
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+
+
+.custom-big-img-container{
+    flex: 2;
+    height: 800px;
+    width: auto;
+    padding: 20px; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-detail-link a:hover{
+    text-decoration: underline;
+}
+
+.custom-detail-link span{
+    font-size: 0.875rem;
+    color: rgb(43, 42, 42);
+}
+
+.custom-product-detail-content:not(:last-child){
+    border-right: 1px solid rgb(206, 202, 202);
+}
+
+
+
+.btn-arrow {
+    width: 69px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(34, 34, 34);
+    opacity: 0.75;
+    border: none;
+    padding: 0.3125rem;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#btn-arrow-up svg {
+    rotate: -90deg;
+
+}
+
+#btn-arrow-down svg {
+    rotate: 90deg;
+
+}
+
+.product-detail-page-carousel-img-container img{
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 40px;
+    
+    
+}
+
+.carousel-img-container{
+    width: 65px;
+    height: 45px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(224, 224, 224);
+    cursor: pointer;
+}
+
+.product-detail-page-carousel-img-container{
+    max-height: 390px;
+    overflow:scroll;
+    gap: 12px;
+    padding: 0 ;
+    margin-bottom: 0;
+    scroll-behavior: smooth;
+}
+
+.product-detail-page-carousel-img-container::-webkit-scrollbar {
+    display: none;
+  }
+
+.fs-08{
+    font-size: 0.875rem !important;
+}
+
+.fs-1-5{
+    font-size: 1.5rem !important;
+}
+
+.f-bolder{
+    font-weight: 700;
+}
+
+.number-quantity-conteiner {
+    width: 69px;
+    height: 43px;
+    border-top: 1px solid rgb(206, 202, 202);
+    border-bottom: 1px solid rgb(206, 202, 202);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity-svg {
+    border: 1px solid rgb(206, 202, 202);
+    width: 45px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minus-svg-container {
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    cursor: pointer;
+}
+
+.plus-svg-container {
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    cursor: pointer;
+}
+
+.bg-add-cart{
+    background-color: rgb(253, 128, 36);
+    border-color: rgb(253, 128, 36);
+}
+
+.h-200{
+    height: 60px;
+}
+
+.custom-container-info{
+    width: 98%;
+    margin: 0 auto;
+}
+
+.product-detail-instruction:hover {
+    color: rgb(0, 109, 183);
+    cursor: pointer;
+}
+
+.svg-opacity{
+    opacity: 60%;
+}
+
+.fs-6{
+    font-size: 0.7250rem !important;
+}
+
+.custom-display-content2{
+    display: none !important;
+}
+
+.border-active{
+    border: 2px solid #2588cf;
+}
+
+#big-carousel-btn-left{
+    position: absolute;
+    left: 5%;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(179, 173, 173);
+    width: 30px;
+    height: 30px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+
+
+#big-carousel-btn-right{
+    position: absolute;
+    right: 5%;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(179, 173, 173);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    transition: all 0.2s ease-in-out 0s;
+    
+}
+
+#big-carousel-btn-left svg{
+    rotate: 180deg;
+    color: white;
+    display: flex;
+}
+
+#big-carousel-btn-right svg{
+    color: white;
+    
+}
+
+#big-carousel-btn-right:hover{
+    background-color: rgb(207, 202, 202);
+    color: rgb(61, 59, 59);
+}
+
+#big-carousel-btn-left:hover{
+    background-color: rgb(207, 202, 202);
+    #big-carousel-btn-right svg{
+        color: rgb(65, 62, 62);
+    }
+}
+
+.big-img-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: url(/_next/static/images/zoom-in-d7fc194….svg) 15 15, zoom-in;
+    flex-basis:content;
+    object-fit: scale-down;
+    
+}
+
+#big-img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+
+@media (max-width: 1600px){
+    .custom-big-img-container{
+        height: 52vw;
+    }
+}
+
+@media (max-width: 1220px){
+    .product-carousel-and-img-container{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-bottom: 1.75rem;
+        
+    }
+    .side-carousel{
+        display: flex;
+        flex-direction: row !important;
+        width: 610px;
+    }
+    .carousel-img-container{
+        height: 45px;
+        min-width: 65px;
+    }
+    #btn-arrow-up svg {
+        rotate: 180deg;
+    
+    }
+    
+    #btn-arrow-down svg {
+        rotate: none;
+    
+    }
+    .btn-arrow{
+        width: 28px;
+        height:69px ;
+    }
+    .custom-product-detail-content span{
+        font-size: 1.5rem !important;
+    }
+    #misures{
+        font-size: 0.7rem !important;
+    }
+    .big-img-container{
+        writing-mode: vertical-lr;
+        -webkit-writing-mode: vertical-rl
+    }
+    
+}
+
+@media (max-width: 991px){
+    .side-carousel{
+        display:none !important;
+    }
+    .custom-carousel-img-content-container{
+        border-right: none !important;
+        border-bottom: 2px solid rgb(225, 221, 221);
+        width: 98% !important;
+    }
+    .custom-display-content{
+        display: none !important;
+    }
+    .custom-display-content2{
+        display: flex !important;
+        padding-top: 1.75rem;
+    }
+    .bg-add-cart{
+        width: 20rem !important;
+    }
+    .custom-add-cart-container{
+        justify-content: flex-start !important;
+    }
+    .custom-allert-container{
+        justify-content: flex-start !important;
+        gap: 20px;
+    }
+    .custom-allert-container img{
+        width: 80px !important;
+    }
+    .custom-container-info{
+        flex-direction: row !important;
+    }
+    #misures2{
+        font-size: 0.7rem !important;
+    }
+}
+
+@media (max-width: 600px){
+    .bg-add-cart{
+        width: 100% !important;
+    }
+
+    .custom-detail-link a:first-of-type{
+        display: none !important;
+    }
+
+    .custom-detail-link span:first-of-type{
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px){
+    .custom-product-detail-content:nth-child(3){
+        border-right: none;
+    }
+}
+
